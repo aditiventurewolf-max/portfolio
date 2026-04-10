@@ -1,0 +1,19 @@
+node_modules/
+dist/
+.DS_Store
+*.local
+
+# Old scratch files
+Understanding_html.html
+divtag.html
+helloworld.html
+run_server.py
+start-dev.sh
+js/
+sourcery/
+
+# Separate projects
+job-apply-bot/
+
+# Claude internal
+.claude/
