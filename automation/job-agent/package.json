@@ -1,0 +1,16 @@
+{
+  "name": "job-agent",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Cloud-run job discovery, application drafting and follow-up agent.",
+  "scripts": {
+    "discover": "node src/run.mjs discover",
+    "followup": "node src/run.mjs followup",
+    "all": "node src/run.mjs all",
+    "probe": "node src/probe.mjs"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.120.0"
+  }
+}

@@ -1,0 +1,103 @@
+name: Job agent
+
+# Runs the whole job search in the cloud: discovers postings, scores them,
+# drafts applications, and keeps the follow-up cadence going. No laptop involved.
+#
+# Note: GitHub only fires `schedule` for workflows that exist on the default
+# branch, so the daily cron starts once this file is merged into main.
+
+on:
+  schedule:
+    # 08:17 IST every day. Off the hour on purpose, the runner queue at :00 is busy.
+    - cron: '47 2 * * *'
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'What to run'
+        type: choice
+        default: all
+        options: [all, discover, followup]
+      url:
+        description: 'Optional job URL to add to the inbox before running'
+        type: string
+        required: false
+      commands:
+        description: 'Optional state commands, one per line (e.g. "applied a1b2c3d4e5")'
+        type: string
+        required: false
+      min_score:
+        description: 'Override the match threshold for this run'
+        type: string
+        required: false
+      max_scored:
+        description: 'Override how many postings get scored this run (default 30)'
+        type: string
+        required: false
+
+permissions:
+  contents: write
+  issues: write
+
+# Two overlapping runs would race on the same commit.
+concurrency:
+  group: job-agent
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    if: github.repository == 'aditiventurewolf-max/portfolio'
+    defaults:
+      run:
+        working-directory: automation/job-agent
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+          cache-dependency-path: automation/job-agent/package-lock.json
+
+      - run: npm ci
+
+      - name: Queue the URL from the dispatch input
+        if: inputs.url != ''
+        run: |
+          printf '\n- %s\n' "${URL}" >> data/inbox.md
+        env:
+          URL: ${{ inputs.url }}
+
+      - name: Run the agent
+        run: npm run ${{ inputs.mode || 'all' }}
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          AGENT_COMMANDS: ${{ inputs.commands }}
+          MIN_SCORE: ${{ inputs.min_score }}
+          MAX_SCORED: ${{ inputs.max_scored }}
+
+      - name: Commit what changed
+        run: |
+          cd "${GITHUB_WORKSPACE}"
+          git config user.name  'job-agent[bot]'
+          git config user.email 'job-agent@users.noreply.github.com'
+          git add automation/job-agent/data
+          if git diff --cached --quiet; then
+            echo 'nothing changed'
+            exit 0
+          fi
+          git commit -m "job agent: $(date -u '+%Y-%m-%d %H:%M') run"
+          for attempt in 1 2 3 4; do
+            if git push origin "HEAD:${GITHUB_REF_NAME}"; then
+              exit 0
+            fi
+            echo "push failed, refreshing and retrying in $((2 ** attempt))s"
+            sleep $((2 ** attempt))
+            git pull --rebase origin "${GITHUB_REF_NAME}" || true
+          done
+          echo 'could not push run output' >&2
+          exit 1

@@ -1,0 +1,183 @@
+{
+  "profile": {
+    "name": "Aditi Agarwal",
+    "email": "aditi.agarwal@bounceshare.com",
+    "location": "Bangalore, India",
+    "portfolio": "https://github.com/aditiventurewolf-max/portfolio",
+    "github": "https://github.com/aditiventurewolf-max",
+    "linkedin": "",
+    "openTo": [
+      "Bangalore",
+      "Remote",
+      "Hybrid"
+    ],
+    "workAuth": "India"
+  },
+  "targets": {
+    "roles": [
+      "AI / automation engineer",
+      "Founder's office / chief of staff",
+      "Product manager (0-1, AI products)",
+      "Growth / content strategy",
+      "Business analyst"
+    ],
+    "interestedIn": [
+      "AI agents and applied LLM products",
+      "pet care",
+      "education / edtech",
+      "mobility and Indian consumer startups",
+      "early stage (seed to Series B)"
+    ],
+    "niceToHave": [
+      "Bangalore based",
+      "small team",
+      "writes in public"
+    ],
+    "dealBreakers": [
+      "requires 5+ years experience",
+      "pure sales quota role",
+      "unpaid or equity-only",
+      "night shift / US hours only"
+    ],
+    "includeTitleKeywords": [
+      "product",
+      "growth",
+      "content",
+      "brand",
+      "marketing",
+      "communications",
+      "strategy",
+      "strategist",
+      "writer",
+      "editorial",
+      "community",
+      "social",
+      "ai",
+      "ml",
+      "llm",
+      "agent",
+      "agents",
+      "automation",
+      "prompt",
+      "applied ai",
+      "analyst",
+      "analytics",
+      "research",
+      "insights",
+      "operations",
+      "ops",
+      "program",
+      "project",
+      "partnerships",
+      "business",
+      "founder",
+      "chief of staff",
+      "associate",
+      "generalist",
+      "solutions",
+      "graduate",
+      "trainee",
+      "apprentice",
+      "intern",
+      "junior",
+      "entry level"
+    ],
+    "excludeTitleKeywords": [
+      "senior",
+      "staff",
+      "principal",
+      "director",
+      "vp",
+      "head of",
+      "lead",
+      "engineering manager",
+      "sales manager",
+      "account manager",
+      "account development",
+      "campaign manager",
+      "partner sales",
+      "supply manager",
+      "cluster manager",
+      "counsel",
+      "recruiter",
+      "sales",
+      "account executive",
+      "bdr",
+      "sdr",
+      "customer success",
+      "support engineer",
+      "solutions architect",
+      "architect",
+      "silicon",
+      "data center",
+      "warehouse",
+      "driver",
+      "solutions engineer",
+      "solutions consultant",
+      "enablement"
+    ],
+    "minScore": 68,
+    "maxScoredPerRun": 30,
+    "maxDraftedPerRun": 6
+  },
+  "sources": {
+    "companies": [
+      "anthropic",
+      "postman",
+      "groww",
+      "razorpaysoftwareprivatelimited",
+      "sarvam",
+      "atlan",
+      "cred",
+      "meesho",
+      "swiggy",
+      "unacademy",
+      "emversity"
+    ],
+    "feeds": {
+      "remotive": {
+        "enabled": true,
+        "searches": [
+          "product manager",
+          "content strategist",
+          "ai automation"
+        ],
+        "limit": 40
+      },
+      "hnHiring": {
+        "enabled": true,
+        "keywords": [
+          "india",
+          "remote",
+          "bangalore",
+          "ai",
+          "agent"
+        ],
+        "maxComments": 300
+      }
+    },
+    "inbox": {
+      "enabled": true
+    }
+  },
+  "followup": {
+    "cadenceDays": [
+      4,
+      11,
+      21
+    ],
+    "maxTouches": 3,
+    "stopOnStatus": [
+      "replied",
+      "interviewing",
+      "offer",
+      "rejected",
+      "closed"
+    ]
+  },
+  "model": {
+    "id": "claude-opus-5",
+    "effort": "high",
+    "scoringEffort": "medium"
+  }
+}
