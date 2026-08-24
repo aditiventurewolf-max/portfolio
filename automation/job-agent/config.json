@@ -26,11 +26,11 @@
       "pet care",
       "education / edtech",
       "mobility and Indian consumer startups",
-      "early stage (seed to Series B)"
+      "early stage (pre-seed to Series A)"
     ],
     "niceToHave": [
       "Bangalore based",
-      "small team",
+      "team under 30",
       "writes in public"
     ],
     "dealBreakers": [
@@ -74,7 +74,6 @@
       "chief of staff",
       "associate",
       "generalist",
-      "solutions",
       "graduate",
       "trainee",
       "apprentice",
@@ -108,17 +107,19 @@
       "support engineer",
       "solutions architect",
       "architect",
+      "solutions engineer",
+      "solutions consultant",
+      "enablement",
       "silicon",
       "data center",
       "warehouse",
       "driver",
-      "solutions engineer",
-      "solutions consultant",
-      "enablement"
+      "vice president",
+      "content reviewer"
     ],
-    "minScore": 68,
-    "maxScoredPerRun": 30,
-    "maxDraftedPerRun": 6
+    "postingsPerRun": 8,
+    "companiesPerRun": 4,
+    "minScore": 68
   },
   "sources": {
     "companies": [
@@ -156,17 +157,137 @@
         "maxComments": 300
       }
     },
+    "signals": {
+      "launchHn": {
+        "enabled": true,
+        "maxStories": 60
+      },
+      "ycBatches": {
+        "enabled": true,
+        "batches": [
+          "S26",
+          "W26"
+        ],
+        "maxTeamSize": 30
+      }
+    },
     "inbox": {
       "enabled": true
+    },
+    "socialSearch": {
+      "enabled": true,
+      "maxQueries": 14,
+      "phrases": [
+        "we're hiring",
+        "hiring our first",
+        "looking for our first",
+        "join us as"
+      ],
+      "modifiers": [
+        "AI agents startup India",
+        "product Bangalore",
+        "chief of staff startup"
+      ],
+      "platforms": {
+        "linkedin": {
+          "enabled": true,
+          "scope": "site:linkedin.com/posts",
+          "lookingFor": "a person posting that they are hiring, not a LinkedIn Jobs listing. The poster is the contact.",
+          "phrases": [
+            "we're hiring",
+            "hiring our first",
+            "looking for our first",
+            "join us as",
+            "DM me if you"
+          ],
+          "modifiers": [
+            "AI startup Bangalore",
+            "founder's office India",
+            "product manager early stage India",
+            "content strategist startup India"
+          ]
+        },
+        "x": {
+          "enabled": true,
+          "scope": "site:x.com OR site:twitter.com",
+          "lookingFor": "a founder's tweet or thread about hiring, or about a problem she could solve for them",
+          "phrases": [
+            "hiring our first",
+            "we're hiring",
+            "looking for someone to own"
+          ],
+          "modifiers": [
+            "AI agents",
+            "startup India",
+            "chief of staff",
+            "growth early stage"
+          ]
+        },
+        "instagram": {
+          "enabled": true,
+          "scope": "site:instagram.com",
+          "lookingFor": "hiring posts from consumer brands, especially pet care and education, where the founder runs the account. Low yield, worth one or two queries.",
+          "phrases": [
+            "we're hiring",
+            "join our team"
+          ],
+          "modifiers": [
+            "pet care startup India",
+            "edtech Bangalore",
+            "D2C brand Bangalore hiring"
+          ]
+        },
+        "yc": {
+          "enabled": true,
+          "scope": "site:workatastartup.com",
+          "lookingFor": "YC company job pages. The YC API has no jobs endpoint, but these pages are indexed, so search is the only way in.",
+          "phrases": [
+            "product",
+            "growth",
+            "content",
+            "chief of staff",
+            "operations"
+          ],
+          "modifiers": [
+            "India remote",
+            "new grad"
+          ]
+        },
+        "web": {
+          "enabled": true,
+          "scope": "",
+          "lookingFor": "founder blogs, newsletters and Substack posts announcing a first hire",
+          "phrases": [
+            "our first product hire",
+            "hiring a generalist",
+            "first business hire"
+          ],
+          "modifiers": [
+            "startup 2026",
+            "seed stage India"
+          ]
+        }
+      }
     }
   },
-  "followup": {
-    "cadenceDays": [
-      4,
-      11,
-      21
-    ],
-    "maxTouches": 3,
+  "cadence": {
+    "application": {
+      "days": [
+        4,
+        11,
+        21
+      ],
+      "maxTouches": 3
+    },
+    "outreach": {
+      "days": [
+        3,
+        6,
+        10,
+        14
+      ],
+      "maxTouches": 4
+    },
     "stopOnStatus": [
       "replied",
       "interviewing",
@@ -174,10 +295,5 @@
       "rejected",
       "closed"
     ]
-  },
-  "model": {
-    "id": "claude-opus-5",
-    "effort": "high",
-    "scoringEffort": "medium"
   }
 }

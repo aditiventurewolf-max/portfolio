@@ -1,16 +1,13 @@
 {
   "name": "job-agent",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "private": true,
   "type": "module",
-  "description": "Cloud-run job discovery, application drafting and follow-up agent.",
+  "description": "Zero-dependency job search agent. The thinking runs inside a scheduled Claude Code session, not a metered API.",
   "scripts": {
-    "discover": "node src/run.mjs discover",
-    "followup": "node src/run.mjs followup",
-    "all": "node src/run.mjs all",
-    "probe": "node src/probe.mjs"
-  },
-  "dependencies": {
-    "@anthropic-ai/sdk": "^0.120.0"
+    "prep": "node src/prep.mjs",
+    "apply": "node src/apply.mjs",
+    "probe": "node src/probe.mjs",
+    "status": "node src/status.mjs"
   }
 }

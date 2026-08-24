@@ -1,133 +1,93 @@
 import fs from 'node:fs';
 import { DIGEST_FILE } from '../lib/paths.mjs';
-import { info, warn } from '../lib/log.mjs';
-
-const ISSUE_TITLE = 'Job agent — control panel';
+import { info } from '../lib/log.mjs';
 
 function section(title, lines) {
   if (!lines.length) return '';
   return `\n### ${title}\n\n${lines.join('\n')}\n`;
 }
 
-export function buildDigest({ state, report, usage }) {
+export function buildDigest({ state, report }) {
   const stamp = new Date().toISOString().slice(0, 16).replace('T', ' ');
-  const counts = Object.values(state.jobs).reduce((acc, job) => {
-    acc[job.status] = (acc[job.status] ?? 0) + 1;
+
+  const counts = Object.values(state.tracked).reduce((acc, item) => {
+    acc[item.status] = (acc[item.status] ?? 0) + 1;
     return acc;
   }, {});
-  const dismissedCount = Object.keys(state.dismissed ?? {}).length;
 
-  const matched = report.matched.map(
-    (job) =>
-      `- **${job.score.value}** · [${job.title} — ${job.company}](${job.url}) · ${
-        job.location || 'location not stated'
-      }\n  - ${job.score.hook}\n  - draft: \`${job.drafts?.dir ?? 'not drafted this run'}\`\n  - mark applied with: \`applied ${job.id}\``,
-  );
-
-  const nearMisses = report.nearMisses.map(
-    (job) =>
-      `- ${job.score.value} · [${job.title} — ${job.company}](${job.url}) · ${
-        (job.score.redFlags ?? []).join('; ') || 'below threshold'
+  const ready = report.drafted.map((item) => {
+    const files = (item.draft?.files ?? []).map((f) => `\`${f}\``).join(', ');
+    return [
+      `- **${item.score?.value ?? '?'}** · ${item.company}${
+        item.track === 'outreach' ? ' *(no posted role, cold approach)*' : ` — ${item.title}`
       }`,
+      `  - ${item.score?.hook ?? ''}`,
+      `  - angle: ${item.draft?.angle ?? ''}`,
+      item.draft?.hasWorkSample ? '  - includes a work sample' : '',
+      item.contacts?.length
+        ? `  - write to: ${item.contacts.map((c) => `${c.name || '?'}${c.email ? ` <${c.email}>` : ''}`).join(', ')}`
+        : '',
+      `  - \`data/drafts/${item.draft?.dir}/\` → ${files}`,
+      `  - once you send it: \`sent ${item.id}\``,
+    ]
+      .filter(Boolean)
+      .join('\n');
+  });
+
+  const followups = report.touches.map(
+    (t) =>
+      `- **${t.item.company}** · touch ${t.touchNumber}${t.channel ? ` by ${t.channel}` : ''}\n  - \`data/drafts/${t.item.draft?.dir}/followup-${t.touchNumber}.md\`\n  - ${t.subject || t.body.slice(0, 80)}`,
   );
 
-  const followups = report.followups.map(
+  const fromPosts = (report.discovered ?? []).map(
     (item) =>
-      `- **${item.job.title} — ${item.job.company}** · touch ${item.touchNumber}, day ${item.daysSinceApplied}\n  - \`${item.file}\`\n  - subject: ${item.subject}`,
+      `- **${item.company}** · ${item.score?.value ?? '?'} · found in ${item.source.replace('search:', '')}\n  - signal: ${item.signal || 'not recorded'}\n  - ${item.url}`,
   );
 
-  const problems = report.problems.map((line) => `- ${line}`);
+  const waiting = Object.values(state.tracked)
+    .filter((item) => item.status === 'drafted')
+    .slice(0, 15)
+    .map((item) => `- ${item.company}${item.title ? ` — ${item.title}` : ''} · \`sent ${item.id}\``);
 
-  const body = [
-    `## Job agent run — ${stamp} UTC`,
+  return [
+    `## Job agent — ${stamp} UTC`,
     '',
-    `Scanned **${report.scanned}** postings, **${report.newJobs}** new, scored **${report.scored}**, drafted **${report.drafted}**, follow-ups **${report.followups.length}**.`,
+    `${report.drafted.length} new drafts, ${report.touches.length} follow-ups, ${report.matched.length} newly tracked (${(report.discovered ?? []).length} found in posts), ${report.dismissed} ruled out.`,
     '',
-    `Pipeline: ${Object.entries(counts)
-      .map(([status, n]) => `${status} ${n}`)
-      .join(' · ') || 'nothing tracked yet'} · ${dismissedCount} ruled out`,
-    section('Worth applying', matched),
-    section('Follow-ups due', followups),
-    section('Near misses, for a second opinion', nearMisses),
-    section('Problems', problems),
+    `Pipeline: ${
+      Object.entries(counts)
+        .map(([status, n]) => `${status} ${n}`)
+        .join(' · ') || 'nothing tracked yet'
+    } · ${Object.keys(state.dismissed ?? {}).length} ruled out all-time`,
+    section('Found in posts, not on any job board', fromPosts),
+    section('Ready to send', ready),
+    section('Follow-ups drafted', followups),
+    section('Drafted earlier, still not sent', waiting),
+    section('Problems', report.problems.map((p) => `- ${p}`)),
     '',
     '---',
     '',
-    'To update state, add lines to `automation/job-agent/data/commands.md` (or run the',
-    'workflow manually and paste them into the `commands` input):',
+    'Tell it what happened by adding lines under `## Pending` in',
+    '`automation/job-agent/data/commands.md`:',
     '',
     '```',
-    'applied <job-id>',
-    'replied <job-id>',
-    'rejected <job-id>',
-    'note <job-id> anything worth remembering',
+    'sent <id>          you sent it, starts the follow-up clock',
+    'replied <id>       they answered, stops follow-ups',
+    'rejected <id>',
+    'skip <id>          changed your mind',
+    'note <id> anything worth remembering',
     '```',
     '',
-    'To add a job by hand, paste the URL into `automation/job-agent/data/inbox.md`.',
+    'To add a job or company by hand, paste the URL under `## Pending` in',
+    '`automation/job-agent/data/inbox.md`.',
     '',
-    usage.calls
-      ? `_${usage.calls} Claude calls, ${usage.inputTokens} in / ${usage.outputTokens} out._`
-      : '_No Claude calls this run._',
+    'Everything the agent has learned about companies, people and which pitches',
+    'get answered is in `automation/job-agent/data/knowledge.md`.',
     '',
   ].join('\n');
-
-  return body;
 }
 
 export function writeDigest(body) {
   fs.writeFileSync(DIGEST_FILE, body);
   info(`digest written to ${DIGEST_FILE}`);
-}
-
-async function gh(path, options = {}) {
-  const token = process.env.GITHUB_TOKEN;
-  const res = await fetch(`https://api.github.com${path}`, {
-    ...options,
-    headers: {
-      authorization: `Bearer ${token}`,
-      accept: 'application/vnd.github+json',
-      'x-github-api-version': '2022-11-28',
-      'content-type': 'application/json',
-      ...(options.headers ?? {}),
-    },
-  });
-  if (!res.ok) {
-    warn(`github ${path} -> ${res.status} ${await res.text()}`);
-    return null;
-  }
-  return res.json();
-}
-
-/**
- * Post the digest as a comment on a single long-lived issue, so the run shows up
- * as a phone notification instead of something to remember to go and read.
- */
-export async function postDigestIssue(body) {
-  const repo = process.env.GITHUB_REPOSITORY;
-  if (!process.env.GITHUB_TOKEN || !repo || process.env.DIGEST_ISSUE === 'false') {
-    return;
-  }
-
-  const open = await gh(`/repos/${repo}/issues?state=open&per_page=100`);
-  let issue = (open ?? []).find((item) => item.title === ISSUE_TITLE && !item.pull_request);
-
-  if (!issue) {
-    issue = await gh(`/repos/${repo}/issues`, {
-      method: 'POST',
-      body: JSON.stringify({
-        title: ISSUE_TITLE,
-        body:
-          'Every run of the job agent comments here. Reply on this issue is not read ' +
-          'by the agent, use `automation/job-agent/data/commands.md` for state changes.',
-      }),
-    });
-    if (!issue) return;
-    info(`opened control panel issue #${issue.number}`);
-  }
-
-  const posted = await gh(`/repos/${repo}/issues/${issue.number}/comments`, {
-    method: 'POST',
-    body: JSON.stringify({ body }),
-  });
-  if (posted) info(`digest posted to issue #${issue.number}`);
 }

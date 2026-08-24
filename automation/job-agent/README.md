@@ -1,148 +1,120 @@
 # Job agent
 
-Finds roles, scores them against your actual profile, drafts the application in
-your voice, and runs the follow-up cadence. Runs on GitHub Actions once a day,
-so nothing depends on a laptop being awake.
+Finds roles and companies, works out which are worth your time, drafts the
+approach, and keeps the follow-up cadence going. Runs on a schedule in the
+cloud. No laptop, no API key, no per-token cost.
 
-The old version lived in `job-apply-bot/`, which was in `.gitignore` and never
-pushed. It died with the laptop. This one lives in the repo and runs in the cloud.
+Two things it does that a job board cannot:
 
-## How a day works
+- **Writes to people at companies that have not posted anything.** A company
+  that launched this week is hiring before it posts, and nobody else is emailing
+  them about a job.
+- **Arrives with work already done.** Every cold pitch carries a work sample
+  built for that specific company: their next ten posts, a spec for the feature
+  they are missing, a teardown of their onboarding.
+
+It never sends anything. It drafts, you read, you send.
+
+## How a run works
 
 ```
-cron 08:17 IST
-  │
-  ├─ read commands.md          you said "applied a1b2c3d4e5" from your phone
-  ├─ read inbox.md             you pasted a LinkedIn link from your phone
-  │
-  ├─ discover      ATS APIs + Remotive + HN "who is hiring" + your inbox
-  ├─ local filter  title gates, free, cuts ~900 postings to ~250
-  ├─ score         Claude reads each posting against resume.md, 0-100
-  ├─ draft         cover letter, resume bullets, LinkedIn note, form answers
-  ├─ follow up     anything applied and gone quiet gets the next touch drafted
-  │
-  └─ commit the state back, comment the digest on the control-panel issue
+prep      fetch every source, dedupe, filter, work out what follow-ups are due
+          → data/work/brief.md                                          free
+judge     the scheduled Claude session reads the brief, runs the post searches,
+          researches companies, finds people, writes the drafts
+          → data/work/results.json                    on your subscription
+apply     validate, write the draft files, update state and the knowledge base
+          → data/drafts/, data/digest.md                                free
 ```
 
-You get a GitHub notification with the digest. You open the drafts, edit what you
-want, and send them. The agent does not submit applications for you. That is
-deliberate, see "What it will not do".
+The thinking happens inside a Claude Code session rather than an API call, which
+is why there is nothing to pay per run and no key to manage. `RUNBOOK.md` is
+what the session follows. `CONTEXT.md` explains why it is built this way.
 
 ## Setup
 
-1. **Add the API key.** Repo → Settings → Secrets and variables → Actions → New
-   repository secret, named `ANTHROPIC_API_KEY`.
-2. **Merge this to `main`.** GitHub only fires `schedule` for workflows on the
-   default branch, so the daily cron does not start until the workflow file is on
-   `main`. Until then, run it by hand from the Actions tab.
-3. **Fill in `profile/resume.md`.** The bracketed parts are placeholders. Every
-   cover letter is built only from what is in that file, so a thin resume means
-   thin letters. This is the highest-leverage thing you can spend twenty minutes on.
-4. **Check `config.json`.** Especially `targets.roles`, `dealBreakers`, and
-   `minScore`.
-
-Then: Actions → Job agent → Run workflow. First run has a backlog, so set
-`max_scored` to `250` once to clear it, then leave it at the default.
+1. **Fill in `profile/resume.md`.** The bracketed parts are placeholders. Every
+   draft is built only from what is in that file, so a thin resume means thin
+   drafts. Twenty minutes here is worth more than any other change.
+2. **Check `config.json`** — `targets.roles`, `dealBreakers`, `minScore`, and the
+   `socialSearch` queries.
+3. **Set up the schedule.** A Routine fires a fresh session every morning and
+   points it at `RUNBOOK.md`. Ask Claude to set it up, or run it by hand any time
+   by opening a session and saying "run the job agent runbook".
 
 ## Operating it from your phone
 
 Everything is a file edit on github.com, which works fine in a mobile browser.
 
-**Add a job you found anywhere** (LinkedIn, a WhatsApp forward, a tweet): paste
-the URL under `## Pending` in `data/inbox.md`. Next run fetches the page, pulls
-the posting out of it, scores it, and drafts the application. Or use the `url`
-input on a manual run.
+**Add a job or company you found anywhere** — LinkedIn, a WhatsApp forward, a
+tweet: paste the URL under `## Pending` in `data/inbox.md`. The next run fetches
+the page, works out what it is, scores it, and drafts the approach.
 
-**Tell it what happened**: add a line under `## Pending` in `data/commands.md`.
+**Tell it what happened**: add lines under `## Pending` in `data/commands.md`.
 
 ```
-applied a1b2c3d4e5          starts the follow-up clock
-replied a1b2c3d4e5          they answered, stops follow-ups
+sent a1b2c3d4e5          you sent it, starts the follow-up clock
+replied a1b2c3d4e5       they answered, stops follow-ups
 interviewing a1b2c3d4e5
 rejected a1b2c3d4e5
-skip a1b2c3d4e5             changed your mind
-note a1b2c3d4e5 recruiter said they reopen this in September
+skip a1b2c3d4e5          changed your mind
+note a1b2c3d4e5 the founder replied from a different address
 ```
 
-Job ids are in the digest. The agent moves executed lines into `## Applied` so
-the file stays clean.
+Ids come from the digest. Executed lines move themselves into `## Applied`.
+
+## Where to look
+
+| File | What it is |
+|---|---|
+| `data/digest.md` | The last run. What to send, who to write to, what is due. |
+| `data/knowledge.md` | Every company and person found, and which pitch angles get answered. |
+| `data/drafts/<company>/` | The actual drafts. `pitch.md`, `work-sample.md`, `cover-letter.md`, `who-to-contact.md`, `followup-N.md`. |
+| `data/applications.json` | Machine state. Rarely needs reading. |
 
 ## What it reads
 
-| Source | Coverage | Notes |
-|---|---|---|
-| Greenhouse, Lever, Ashby, Workable, Recruitee, SmartRecruiters | Whatever the companies in `config.json` post | Public JSON endpoints, no auth, no scraping |
-| Remotive | Remote roles matching `feeds.remotive.searches` | Their terms want attribution and few calls a day, hence one daily run |
-| HN "Ask HN: Who is hiring?" | The current month's thread | Filtered by keyword on word boundaries |
-| Your inbox | Anything you paste | Claude extracts the posting from the page text |
+| Source | What it gives |
+|---|---|
+| Greenhouse, Lever, Ashby, Workable, Recruitee, SmartRecruiters | Posted roles at the companies in `config.json` |
+| YC company API | Current-batch companies under 30 people, where the founder does the hiring |
+| Launch HN | Companies that launched this week |
+| HN "Who is hiring" | The current month's thread |
+| Remotive | Remote roles |
+| Web search for **posts** | LinkedIn, X, Instagram and YC job pages, via search rather than scraping |
+| `data/inbox.md` | Anything you paste |
 
-Adding a company: you need its ATS slug, not its website. Find it with
+LinkedIn, X and Instagram have no usable API and block scraping, so the agent
+does not pretend to fetch them. It searches for their publicly indexed *posts*
+instead, aiming at hiring intent rather than job listings. Nothing ever logs in
+as you.
+
+Adding a company needs its ATS slug, not its website:
 
 ```bash
 npm run probe -- supertails zepto wakefit
 ```
 
-It tries every provider, prints what it finds, and caches the answer in
-`data/ats-map.json`. Many Indian startups use Keka, Darwinbox or Zoho Recruit,
-which have no public read API, so they come back empty. Those go through the
-inbox instead. That is not a gap in the code, it is what those vendors expose.
+It tries every provider and caches the answer. Many Indian startups use Keka,
+Darwinbox or Zoho Recruit, which expose no public API, so they come back empty
+and go through the inbox instead.
 
-**On LinkedIn specifically:** LinkedIn does not allow automated scraping of job
-pages, and signed-out fetches get an inconsistent partial page at best. So
-LinkedIn is used the way it actually works: you paste a job link into the inbox,
-and the agent handles everything after that. Outreach notes are drafted for you
-to send from your own account. Nothing logs into LinkedIn as you.
+## Running it by hand
+
+```bash
+npm run prep      # build the work order. free, no model.
+npm run status    # what is in flight, what is due, reply rate.
+npm run apply     # after results.json exists
+```
+
+Zero dependencies, so there is nothing to install. Node 20 or newer.
 
 ## What it will not do
 
-It does not press submit. Not because it can't, but because auto-submitting
-applications means sending things in your name that you have not read, to people
-who will remember it, and most employers' terms prohibit it anyway. The agent
-takes the application from "nothing" to "one read and a paste away". That is
-where the hours actually go.
+It does not press submit and it does not send email. Auto-applying means sending
+things in your name that you have not read, to people who remember it, and most
+employers' terms prohibit it. It takes each approach from nothing to one read
+away, which is where the hours actually went.
 
-It also never invents experience. If a posting wants something not in
-`resume.md`, the prompt tells Claude to write around the gap using the closest
-real thing, not to claim it.
-
-## Cost
-
-One Claude call per posting scored, one per application drafted, one per
-follow-up. Scoring runs at `medium` effort, drafting at `high`. At the default 30
-scored per day, expect roughly $15 to $25 a month on `claude-opus-5`.
-
-Turn it down by lowering `targets.maxScoredPerRun`, setting
-`model.scoringEffort` to `low`, or tightening `includeTitleKeywords` so fewer
-postings reach the model at all. The local title gate is free and does most of
-the work: last test run it cut 915 postings to 246 before any API call.
-
-## Files
-
-```
-config.json              who you are, what you want, where to look
-profile/resume.md        every fact the agent is allowed to use
-profile/voice.md         how anything sent as you must sound
-data/applications.json   tracked pipeline + a compact record of what was ruled out
-data/ats-map.json        which board each company slug lives on, cached
-data/inbox.md            paste job URLs here
-data/commands.md         tell it what happened
-data/digest.md           last run's report
-data/drafts/<job>/       cover-letter.md, resume-bullets.md, outreach.md, followup-N.md
-```
-
-## Running it locally
-
-```bash
-npm install
-ANTHROPIC_API_KEY=sk-... npm run all
-```
-
-Without a key it runs in dry-run: discovery and the local filters work, nothing
-is scored or drafted, and nothing is written to state. Useful for checking a new
-company slug or keyword list before spending anything.
-
-```bash
-npm run discover     # find, score, draft
-npm run followup     # only the follow-up cadence
-npm run all          # both
-```
+It never invents experience. If a posting wants something not in `resume.md`, the
+drafts write around the gap rather than claiming it.

@@ -13,3 +13,7 @@ export const ATS_MAP_FILE = path.join(DATA, 'ats-map.json');
 export const INBOX_FILE = path.join(DATA, 'inbox.md');
 export const COMMANDS_FILE = path.join(DATA, 'commands.md');
 export const DIGEST_FILE = path.join(DATA, 'digest.md');
+export const WORK = path.join(DATA, 'work');
+export const ORDER_FILE = path.join(WORK, 'order.json');
+export const BRIEF_FILE = path.join(WORK, 'brief.md');
+export const RESULTS_FILE = path.join(WORK, 'results.json');
