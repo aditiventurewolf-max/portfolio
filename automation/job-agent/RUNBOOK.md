@@ -31,7 +31,9 @@ Then read, in this order:
 
 1. `profile/resume.md` — the only facts you are allowed to use
 2. `profile/voice.md` — how anything sent as her must sound
-3. `data/work/brief.md` — today's work, the searches to run, what is already
+3. `profile/work-samples.md` — which artifact to build for which kind of role and
+   company, and what each one is anchored to in her actual history
+4. `data/work/brief.md` — today's work, the searches to run, what is already
    known, and which pitch angles have been getting replies
 
 If the brief says nothing to judge and no follow-ups due, skip to step 6.
@@ -114,17 +116,23 @@ The structure that works, in order:
 3. A single ask for a conversation, and an explicit invitation to say no.
 
 That second part is the whole thing. Do not offer to help. Do the work, small,
-and attach it. Pick the form from the role:
+and attach it.
 
-- content or growth → the next ten posts for them, written, not described
-- product → a spec for the feature their product is visibly missing, or a
-  teardown of their onboarding with the three fixes
-- AI or automation → the agent or eval they would obviously want, sketched
-  concretely enough to build from
+**Which artifact to build is decided by `profile/work-samples.md`. Read it before
+writing anything.** It has eight segments, each anchored to something she has
+actually done, plus modifiers for company stage and vertical. The short version:
+diagnose what the company visibly needs from public signals first, then pick the
+one artifact that matches. A content calendar sent to a company whose problem is
+unit economics reads as a template, however good it is.
 
-Keep the sample tight, roughly 200 to 400 words. It is proof of taste, not a
-consulting deliverable. It has to be about *their* product specifically. A
-generic sample is worse than none, because it reads as a template.
+Her strongest ground, because it is her current job and it is rare in a
+candidate: the **unowned-problem memo** for founder's office and EIR roles, and
+the **sizing memo with a defensible capture rate** for strategy and market-entry
+roles. Reach for those when the role allows it.
+
+Keep the sample to 200 to 400 words of substance. Name one number she will
+defend, and state the assumption that would break it. Being specifically wrong
+reads as competence; being vague reads as nothing.
 
 Also write `followupAngles`: one specific new thing for each later touch, so
 touch two and three add something instead of nudging.

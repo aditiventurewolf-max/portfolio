@@ -15,29 +15,35 @@
   },
   "targets": {
     "roles": [
-      "AI / automation engineer",
-      "Founder's office / chief of staff",
+      "Founder's office / EIR / chief of staff",
+      "Strategy, market entry, business operations",
+      "GTM, growth, partnerships",
       "Product manager (0-1, AI products)",
-      "Growth / content strategy",
-      "Business analyst"
+      "Operations / programme management",
+      "Business analyst / analytics",
+      "Content and brand strategy"
     ],
     "interestedIn": [
       "AI agents and applied LLM products",
+      "mobility, logistics and gig platforms",
       "pet care",
       "education / edtech",
-      "mobility and Indian consumer startups",
-      "early stage (pre-seed to Series A)"
+      "Indian consumer and D2C",
+      "early stage (pre-seed to Series B)"
     ],
     "niceToHave": [
-      "Bangalore based",
-      "team under 30",
-      "writes in public"
+      "founder-led, team under 60",
+      "Bengaluru or fully remote",
+      "writing in public counts as part of the job"
     ],
     "dealBreakers": [
-      "requires 5+ years experience",
+      "requires 3+ years experience",
+      "6-day week",
+      "night shift or US-hours-only overlap",
+      "routinely working past 9pm IST",
       "pure sales quota role",
       "unpaid or equity-only",
-      "night shift / US hours only"
+      "below 12 LPA"
     ],
     "includeTitleKeywords": [
       "product",
@@ -79,7 +85,18 @@
       "apprentice",
       "intern",
       "junior",
-      "entry level"
+      "entry level",
+      "founder's office",
+      "eir",
+      "entrepreneur in residence",
+      "bizops",
+      "business operations",
+      "market entry",
+      "expansion",
+      "category",
+      "revenue",
+      "gtm",
+      "consultant"
     ],
     "excludeTitleKeywords": [
       "senior",
@@ -115,7 +132,11 @@
       "warehouse",
       "driver",
       "vice president",
-      "content reviewer"
+      "content reviewer",
+      "business development representative",
+      "talent researcher",
+      "talent acquisition",
+      "sourcer"
     ],
     "postingsPerRun": 8,
     "companiesPerRun": 4,

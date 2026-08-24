@@ -149,14 +149,53 @@ Not yet verified: a real end-to-end run where a live session does the judging.
 Everything downstream of that is tested, but the quality of the actual pitches
 and work samples is unproven until it runs once for real.
 
+## The profile files
+
+Three files, and the split matters.
+
+`profile/resume.md` is the only source of facts about her. Transcribed from her
+real CV on 2026-08-24, which replaced the placeholder skeleton the first version
+shipped with. It is deliberately a superset of the CV: the formal document is
+positioned for founder's office and EIR roles, and the public work that is not
+on it (the agent projects, the Zerodha writing, the brand teardowns) is kept in a
+clearly separate section so a draft never presents it as employment.
+
+`profile/voice.md` is how anything sent as her must read.
+
+`profile/work-samples.md` decides which artifact a cold pitch carries. The first
+version had three crude buckets: content gets ten posts, product gets a spec, AI
+gets an agent sketch. That was wrong in a specific way. Those are the artifacts a
+generic AI tool produces, not the ones she is uniquely credible producing. Her
+real ground is founder's-office work with defensible numbers, so the playbook now
+has eight segments, each anchored to something on the CV:
+
+| Segment | Artifact | Anchored to |
+|---|---|---|
+| Founder's office, EIR | unowned-problem memo, first 30 days | eight workstreams at Bounce, no team, no budget |
+| Strategy, market entry | sizing memo with a capture rate she defends | Rs 49 Cr/month TAM, 16% capture from live data |
+| GTM, growth, partnerships | channel teardown plus one pilot design | accessories line from zero, fleet-as-media ad line |
+| Ops, programme | bottleneck map plus the AI-assisted rework | ~30% manual time cut at Scaler, 15+ vendors |
+| Product, 0-1, AI | spec for the missing feature, plus instrumentation | three shipped agent projects |
+| Partnerships, vendor | negotiated-terms sketch | four-insurer evaluation down to commercials |
+| Content, brand | ten posts written, or a rebrand rationale | Zerodha piece, 318,842-post research, Bounce rebrand |
+| Data, analytics | metric tree plus the missing dashboard, SQL sketched | SQL, Metabase, Tableau, financial modelling |
+
+Plus stage modifiers (seed founders read it themselves today, so one page and be
+concrete about week one; Series A and B already have a plan, so aim at one gap
+and admit you are guessing from outside) and vertical modifiers.
+
+The rule that carries the most weight: diagnose what the company visibly needs
+from public signals before choosing, because a content calendar sent to a company
+whose problem is unit economics reads as a template however well written.
+
 ## Open items
 
-- `profile/resume.md` still has bracketed placeholders for her Bounce role,
-  dates and numbers. Every draft is built only from that file, so this is the
-  highest-leverage thing left and it needs her.
 - Reply detection is manual (`replied <id>` in `commands.md`). The Gmail
-  connector could close this loop automatically, and the runbook is the place to
-  put it.
+  connector would close this loop, and the runbook already has the step, but the
+  Routine could not be created with connectors attached: the API rejects the
+  parameter for this org. Fix is to recreate the Routine from the claude.ai
+  Routines UI, which can attach Gmail. Same reason the digest lands as a
+  committed file rather than a GitHub issue comment.
 - The 701 postings that pass the free filter drain at 8 a day, newest first, so
   older survivors may never be reached. Deliberate: freshness matters more than
   completeness in a job hunt.
