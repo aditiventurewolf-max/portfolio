@@ -11,6 +11,51 @@ Edit this file freely. It is the thing I read before proposing any piece of work
 
 ---
 
+## The actual job, in her words
+
+> "Alignment is my major work along with thinking and followups."
+
+This is the headline and everything below is downstream of it. Her core skill is
+not any single function. It is getting people who report to different bosses,
+with different incentives, pointed the same way, and then keeping them there.
+Plus the thinking that decides where "there" is, and the follow-up that means it
+actually happens.
+
+Three consequences for how I work with her:
+
+- **Do not pitch her as a specialist.** The accessories line, the insurance
+  programme and the rebrand are not three skills, they are the same skill applied
+  three times: align a set of people who did not have to say yes, then chase it
+  to live.
+- **Follow-up is a stated strength, so treat it as one.** Drafts should not
+  apologise for chasing. The job agent's follow-up cadence is her territory, not
+  an imposition on it.
+- **When I hand her work, hand her the thinking too**, not just the output. That
+  is the part she is checking.
+
+---
+
+## Confirmed by her directly, 2026-08-24
+
+These she named herself, so they carry more weight than anything I inferred.
+
+| Skill | Note |
+|---|---|
+| **Alignment across stakeholders** | Her words: her major work. The through-line of every project on the CV. |
+| **Thinking** | The upstream half. Deciding what the problem actually is before anyone briefs it. |
+| **Follow-ups** | Named as core, not admin. She is the reason things land. |
+| **Stakeholder communication** | Distinct from alignment: the writing and talking that carries it. |
+| **Vendor management** | 15+ vendors at Scaler, four-insurer negotiation at Bounce. |
+| **Brand management** | Company-wide rebrand end to end, agency selection to print. |
+| **BTL marketing** | On-ground, hub-level, in-person. Not ATL, not paid. This is a real differentiator and was missing from my first draft. |
+| **Ops redesign processes** | ~30% manual time cut at Scaler. |
+| **Creating new revenue streams** | Accessories from zero, then fleet-as-media advertising. |
+| **Customer relations** | Rider-facing, and the counterparty side of partnerships. |
+| **Heavy AI agent building** | Her emphasis. Three public repos plus this system. Treat as a primary skill, not a hobby. |
+| **Python: intermediate, not in day-to-day use** | Correction to my earlier guess. She can read and modify, she is not shipping scripts weekly. Do not assign her Python work by default, and do not claim it as a strength in drafts. |
+
+---
+
 ## Operating and commercial
 
 | Skill | Level | Evidence |
@@ -45,8 +90,8 @@ Edit this file freely. It is the thing I read before proposing any piece of work
 | SQL | CONFIRMED | On the CV, plus SQL for Data Science certification |
 | Metabase, Tableau, Power BI | CONFIRMED | On the CV. Depth unknown |
 | Advanced Excel, financial modelling | CONFIRMED | On the CV |
-| Python (Pandas, NumPy) | CONFIRMED, level unclear | On the CV. Is this "I can clean and analyse a dataset" or "I can ship a script"? |
-| Building LLM agents | CONFIRMED | Three public repos: vector-embedding content discovery, multi-agent market research, a recursive skill learner |
+| Python (Pandas, NumPy) | CONFIRMED, intermediate, not daily | Her words: intermediate level, not in day-to-day use. Can read and modify, not shipping scripts weekly. Do not lead with it. |
+| Building LLM agents | CONFIRMED, primary skill | Her emphasis: "heavy AI agent building". Three public repos plus this system. Lead with this. |
 | Working with Claude Code / agentic tooling | CONFIRMED, strong | This system. She specified the architecture, caught the cost problem, and directed the pivot to session-based execution |
 | Front-end | ASSUMED, light | Portfolio v2 is React + Vite, but likely AI-assisted rather than hand-written |
 | Notion as an operating system | CONFIRMED, strong | Projects and Flagged Items databases, a personal network CRM, running trackers |
@@ -83,11 +128,18 @@ And these are things I should stop offering:
 
 ---
 
-## Blind spots I need her to fill
+## Blind spots I still need her to fill
 
-1. **Python depth.** Analyse a CSV, or ship a script that runs unattended?
-2. **Finished personal essays.** Has she published any, and where?
-3. **Languages.** Hindi is clearly fluent. Others? Does she write in Hindi?
-4. **What she wants to get better at**, as opposed to what she is already good
-   at. This changes what I should push her towards versus do for her.
-5. **What she does not want to do**, even though she can. Just as important.
+Answered on 2026-08-24: Python depth (intermediate, not daily), and agent
+building (heavy, primary). Still open:
+
+1. **Finished personal essays.** The Notion topic bank is long. Has she published
+   any of them, and where?
+2. **Languages.** Hindi is clearly fluent. Others? Does she write in Hindi, or
+   only speak it?
+3. **What she wants to get better at**, as opposed to what she is already good
+   at. This decides what I push her towards versus quietly do for her.
+4. **What she does not want to do**, even though she can. Just as important.
+5. **Whether alignment work is what she wants more of**, or whether she is good
+   at it and would rather be doing something else. Those lead to very different
+   target roles.

@@ -9,7 +9,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { loadConfig } from './lib/config.mjs';
-import { DRAFTS, ORDER_FILE, RESULTS_FILE, WORK } from './lib/paths.mjs';
+import { DRAFTS, ORDER_FILE, RESULTS_FILE, WORK, ROOT } from './lib/paths.mjs';
 import { loadState, saveState, dismiss, opportunityId, isKnown } from './lib/store.mjs';
 import {
   loadKnowledge,
@@ -36,6 +36,49 @@ const order = fs.existsSync(ORDER_FILE) ? JSON.parse(fs.readFileSync(ORDER_FILE,
 const ordered = new Map((order.judge ?? []).map((entry) => [entry.id, entry]));
 
 const kb = loadKnowledge();
+
+/**
+ * The approval gate, enforced here rather than trusted.
+ *
+ * A run says which sample it wants to attach. This checks that claim against
+ * samples/index.json, because "only approved samples go out" has to be a
+ * property of the code, not a promise in a prompt.
+ */
+const sampleIndex = (() => {
+  try {
+    const raw = JSON.parse(fs.readFileSync(path.join(ROOT, 'samples', 'index.json'), 'utf8'));
+    return new Map((raw.samples ?? []).map((entry) => [entry.id, entry]));
+  } catch {
+    warn('no samples/index.json found, so no sample can be treated as approved');
+    return new Map();
+  }
+})();
+
+function verifySample(sample = {}, label) {
+  if (!sample.sourceId && !sample.body) return { status: 'none' };
+
+  const known = sample.sourceId ? sampleIndex.get(sample.sourceId) : null;
+
+  if (sample.sourceId && !known) {
+    report.problems.push(
+      `${label}: sample "${sample.sourceId}" is not in samples/index.json, not attaching it`,
+    );
+    return { status: 'none' };
+  }
+
+  if (sample.status === 'approved') {
+    if (known?.status !== 'approved') {
+      report.problems.push(
+        `${label}: sample "${sample.sourceId}" was marked approved by the run, but index.json says "${known?.status ?? 'unknown'}". Held back.`,
+      );
+      // Downgrade rather than drop: if there is a body it becomes a draft.
+      return sample.body ? { ...sample, status: 'draft' } : { status: 'none' };
+    }
+    return { ...sample, status: 'approved' };
+  }
+
+  return { ...sample, status: sample.body ? 'draft' : 'none' };
+}
 const report = {
   matched: [],
   dismissed: 0,
@@ -268,14 +311,43 @@ function writeDraftPack(item, draft) {
     written.push('resume-bullets.md');
   }
 
-  // The thing that makes an approach land: something already done for them,
-  // attached, before anyone asked for it.
-  if (draft.workSample?.body) {
+  /**
+   * Work samples are attached from the approved library, never invented here.
+   * Three states, and only one of them can go out as-is.
+   */
+  const sample = verifySample(draft.workSample, `${item.company} draft`);
+  if (sample.status === 'approved' && sample.sourceId) {
     fs.writeFileSync(
-      path.join(dir, 'work-sample.md'),
-      `${header}## ${draft.workSample.title || 'Work sample'}\n\n${draft.workSample.body}\n`,
+      path.join(dir, 'work-sample-ATTACH.md'),
+      [
+        header,
+        `## Attach: ${sample.title || sample.sourceId}`,
+        '',
+        `Approved sample \`${sample.sourceId}\`. Attach the file from \`samples/\` as-is, do not rewrite it.`,
+        '',
+        sample.framing ? `### What to say when attaching\n\n${sample.framing}\n` : '',
+      ]
+        .filter(Boolean)
+        .join('\n'),
     );
-    written.push('work-sample.md');
+    written.push('work-sample-ATTACH.md');
+  } else if (sample.body) {
+    // A filled template. Approved structure, unapproved contents.
+    fs.writeFileSync(
+      path.join(dir, 'work-sample-DRAFT.md'),
+      [
+        header,
+        `## ${sample.title || 'Work sample'} — DRAFT, needs approval`,
+        '',
+        '> Do not send this until Adi has read it. It was filled from the template',
+        `> \`${sample.sourceId || 'unknown'}\`, so the structure is approved but this`,
+        '> content is not.',
+        '',
+        sample.body,
+        '',
+      ].join('\n'),
+    );
+    written.push('work-sample-DRAFT.md');
   }
 
   if (draft.screeningAnswers?.length || draft.followupAngles?.length) {
@@ -298,7 +370,7 @@ function writeDraftPack(item, draft) {
     written.push('notes.md');
   }
 
-  return { dir: path.relative(DRAFTS, dir), files: written };
+  return { dir: path.relative(DRAFTS, dir), files: written, verifiedSample: sample };
 }
 
 for (const draft of results.drafts ?? []) {
@@ -321,7 +393,7 @@ for (const draft of results.drafts ?? []) {
     continue;
   }
 
-  const { dir, files } = writeDraftPack(item, draft);
+  const { dir, files, verifiedSample: verified } = writeDraftPack(item, draft);
   item.status = 'drafted';
   item.contacts = draft.contacts ?? [];
   item.draft = {
@@ -329,7 +401,12 @@ for (const draft of results.drafts ?? []) {
     files,
     angle: draft.angle,
     followupAngles: draft.followupAngles ?? [],
-    hasWorkSample: Boolean(draft.workSample?.body),
+    sample: {
+      sourceId: verified.sourceId ?? null,
+      status: verified.status,
+    },
+    // Blocks "ready to send" until she has read the filled template.
+    needsSampleApproval: verified.status === 'draft',
     generatedAt: new Date().toISOString(),
   };
   report.drafted.push(item);

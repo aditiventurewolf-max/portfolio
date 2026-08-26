@@ -3,6 +3,11 @@
 The work sample is the whole pitch. Everything else in a cold email is a claim.
 The sample is the only part that is evidence.
 
+> **Nothing is attached unless Adi approved it.** This file explains which kind of
+> artifact fits which situation. The actual artifacts live in `samples/`, with an
+> approval state each. The agent matches and attaches from there, it does not
+> invent one and send it. See `samples/README.md`.
+
 Read this with `resume.md` open. Every artifact below is one she can actually
 produce, and each is anchored to something she has already done. Do not invent a
 new format that has no anchor.

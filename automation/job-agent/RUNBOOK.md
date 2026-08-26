@@ -112,27 +112,53 @@ Use WebSearch and WebFetch:
 The structure that works, in order:
 
 1. Three very short bullets, maximum, about her and what she has built.
-2. One sentence showing **something she already did for them**.
+2. One sentence pointing at the relevant proof: an approved sample if one fits,
+   otherwise the single most relevant number from her resume.
 3. A single ask for a conversation, and an explicit invitation to say no.
 
-That second part is the whole thing. Do not offer to help. Do the work, small,
-and attach it.
+That second part is the whole thing. But you do **not** invent it.
 
-**Which artifact to build is decided by `profile/work-samples.md`. Read it before
-writing anything.** It has eight segments, each anchored to something she has
-actually done, plus modifiers for company stage and vertical. The short version:
-diagnose what the company visibly needs from public signals first, then pick the
-one artifact that matches. A content calendar sent to a company whose problem is
-unit economics reads as a template, however good it is.
+### The rule: never attach an unapproved sample
 
-Her strongest ground, because it is her current job and it is rare in a
-candidate: the **unowned-problem memo** for founder's office and EIR roles, and
-the **sizing memo with a defensible capture rate** for strategy and market-entry
-roles. Reach for those when the role allows it.
+Work samples come from the library in `samples/`, and only ones she has approved
+can be attached. Read `samples/README.md` and `samples/index.json`.
 
-Keep the sample to 200 to 400 words of substance. Name one number she will
-defend, and state the assumption that would break it. Being specifically wrong
-reads as competence; being vague reads as nothing.
+```
+samples/approved/   she has signed these off. These, and only these, attach.
+samples/drafts/     written but not yet approved. Never attach.
+samples/templates/  approved structures with company-specific slots. Filling one
+                    produces a DRAFT for her, never an attachment.
+samples/proposed/   your suggestions for new samples. Never attach.
+```
+
+You may write into `samples/proposed/` and into a draft folder. You must never
+write into `samples/approved/` or change a `status` field in `index.json`.
+
+### How to pick
+
+1. Diagnose what the company visibly needs, using the method in
+   `profile/work-samples.md`: their last few changelog entries or posts, the
+   posting's own repeated language, complaints in their launch thread, reviews.
+2. Match that against `forRequirements`, `forVerticals` and `forStages` in
+   `samples/index.json`.
+3. If an **approved** sample matches, attach it and use its "what to say when
+   attaching it" line, adapted to the company.
+4. If only a **template** matches, fill it and put the filled copy in the draft
+   pack as `work-sample-DRAFT.md`. Say clearly in the digest that it needs her
+   approval before the email goes.
+5. If **nothing** matches, send the pitch with no sample. This is fine. Her own
+   cold emails already work without one. Then write a short note into
+   `samples/proposed/` saying what would have fitted and why.
+
+A missing sample costs less than a wrong one, and far less than one she has not
+read going out under her name.
+
+### Reporting it
+
+In `results.json`, set `workSample.sourceId` to the sample's id from the index
+and `workSample.status` to `approved`, `draft` or `none`. Do not paste approved
+sample text into `results.json`, just reference it by id. Only a filled template
+carries a body.
 
 Also write `followupAngles`: one specific new thing for each later touch, so
 touch two and three add something instead of nudging.
@@ -235,7 +261,13 @@ where noted, but ids must match the brief exactly.
       "coverLetter": "application track",
       "resumeBullets": ["..."],
       "outreachNote": "under 60 words, for a DM",
-      "workSample": { "title": "", "body": "" },
+      "workSample": {
+        "sourceId": "id from samples/index.json",
+        "status": "approved | draft | none",
+        "title": "",
+        "framing": "one line: what to say when attaching an approved sample",
+        "body": "ONLY for a filled template. Never for an approved sample."
+      },
       "screeningAnswers": [{ "question": "", "answer": "" }],
       "followupAngles": ["...", "..."]
     }

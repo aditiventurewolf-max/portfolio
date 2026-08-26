@@ -1,0 +1,308 @@
+{
+  "version": 1,
+  "updatedAt": null,
+  "rules": {
+    "attachOnly": [
+      "approved"
+    ],
+    "neverWriteTo": [
+      "approved"
+    ],
+    "whenNoMatch": "send the pitch with no sample, then write a note into proposed/",
+    "note": "Everything ships as draft. Adi flips status to approved after reading. Until then pitches go out with no attachment, which is how her own emails already work."
+  },
+  "samples": [
+    {
+      "id": "pet-market-zerodha",
+      "kind": "portfolio",
+      "status": "draft",
+      "title": "Why Indian Startups Are Betting Big on Your Dog",
+      "file": "drafts/pet-market-zerodha.md",
+      "forRequirements": [
+        "content",
+        "brand",
+        "research",
+        "market analysis",
+        "growth"
+      ],
+      "forVerticals": [
+        "pet care",
+        "consumer",
+        "d2c",
+        "india"
+      ],
+      "forStages": [
+        "any"
+      ],
+      "provenance": "Published in The Daily Brief, Zerodha",
+      "why": "Proof she can take a market nobody has sized properly and make it legible to a general audience, in a real publication.",
+      "approvedAt": null
+    },
+    {
+      "id": "linkedin-algorithm-research",
+      "kind": "portfolio",
+      "status": "draft",
+      "title": "How the LinkedIn Algorithm Actually Works",
+      "file": "drafts/linkedin-algorithm-research.md",
+      "forRequirements": [
+        "content",
+        "growth",
+        "research",
+        "analytics",
+        "social"
+      ],
+      "forVerticals": [
+        "any",
+        "creator",
+        "saas"
+      ],
+      "forStages": [
+        "any"
+      ],
+      "provenance": "Original research across 318,842 posts plus LinkedIn's engineering blog",
+      "why": "Proof of original quantitative research, not opinion. Useful anywhere distribution is the problem.",
+      "approvedAt": null
+    },
+    {
+      "id": "delhi-ev-policy",
+      "kind": "portfolio",
+      "status": "draft",
+      "title": "Delhi's EV mandate is not wrong, it is incomplete",
+      "file": "drafts/delhi-ev-policy.md",
+      "forRequirements": [
+        "policy",
+        "strategy",
+        "content",
+        "founder's office",
+        "public affairs"
+      ],
+      "forVerticals": [
+        "mobility",
+        "gig",
+        "logistics",
+        "india",
+        "fintech"
+      ],
+      "forStages": [
+        "any"
+      ],
+      "provenance": "Her own draft, written from live operating exposure at Bounce",
+      "why": "Shows she argues from one real person and one real number, not from a position. The strongest single artifact for mobility and gig companies.",
+      "approvedAt": null
+    },
+    {
+      "id": "naxatra-repositioning",
+      "kind": "portfolio",
+      "status": "draft",
+      "title": "Naxatra Labs — Density is Destiny",
+      "file": "drafts/naxatra-repositioning.md",
+      "forRequirements": [
+        "brand",
+        "positioning",
+        "gtm",
+        "content",
+        "marketing"
+      ],
+      "forVerticals": [
+        "deeptech",
+        "hardware",
+        "ev",
+        "b2b",
+        "india"
+      ],
+      "forStages": [
+        "seed",
+        "series-a",
+        "series-b"
+      ],
+      "provenance": "Brand and content strategy teardown of an axial flux EV motor company",
+      "why": "Takes a technically correct but soulless B2B company and gives it a narrative, with three audience-specific versions.",
+      "approvedAt": null
+    },
+    {
+      "id": "agent-portfolio",
+      "kind": "portfolio",
+      "status": "draft",
+      "title": "Three working AI agents, public",
+      "file": "drafts/agent-portfolio.md",
+      "forRequirements": [
+        "ai",
+        "agents",
+        "automation",
+        "product",
+        "applied ai",
+        "founder's office"
+      ],
+      "forVerticals": [
+        "ai",
+        "devtools",
+        "saas",
+        "any"
+      ],
+      "forStages": [
+        "any"
+      ],
+      "provenance": "github.com/aditiventurewolf-max",
+      "why": "Running code, not enthusiasm. The right attachment for anyone building with LLMs.",
+      "approvedAt": null
+    },
+    {
+      "id": "market-sizing-memo",
+      "kind": "template",
+      "status": "template",
+      "title": "Market sizing memo with a defensible capture rate",
+      "file": "templates/market-sizing-memo.md",
+      "forRequirements": [
+        "strategy",
+        "market entry",
+        "expansion",
+        "bizops",
+        "founder's office"
+      ],
+      "forVerticals": [
+        "any"
+      ],
+      "forStages": [
+        "seed",
+        "series-a",
+        "series-b"
+      ],
+      "provenance": "Bounce: Rs 49 Cr/month TAM for the next city, 16% capture derived from live operating data",
+      "why": "The method is hers and it is unusual. Most sizing decks have no defensible capture rate.",
+      "needsApprovalWhenFilled": true
+    },
+    {
+      "id": "unowned-problem-memo",
+      "kind": "template",
+      "status": "template",
+      "title": "The unowned-problem memo",
+      "file": "templates/unowned-problem-memo.md",
+      "forRequirements": [
+        "founder's office",
+        "chief of staff",
+        "eir",
+        "generalist",
+        "bizops"
+      ],
+      "forVerticals": [
+        "any"
+      ],
+      "forStages": [
+        "pre-seed",
+        "seed",
+        "series-a"
+      ],
+      "provenance": "Bounce: eight concurrent workstreams, each from problem statement to live with no team and no budget",
+      "why": "It is the job, done as the application. Strongest play for founder's office roles.",
+      "needsApprovalWhenFilled": true
+    },
+    {
+      "id": "revenue-line-playbook",
+      "kind": "template",
+      "status": "template",
+      "title": "New revenue line, zero to live",
+      "file": "templates/revenue-line-playbook.md",
+      "forRequirements": [
+        "gtm",
+        "growth",
+        "revenue",
+        "partnerships",
+        "bizops",
+        "monetisation"
+      ],
+      "forVerticals": [
+        "any"
+      ],
+      "forStages": [
+        "seed",
+        "series-a",
+        "series-b"
+      ],
+      "provenance": "Bounce: rider accessories from nothing, and fleet-as-media advertising",
+      "why": "She has done this twice, from demand validation to hub-manager training. Few candidates have.",
+      "needsApprovalWhenFilled": true
+    },
+    {
+      "id": "ops-redesign-map",
+      "kind": "template",
+      "status": "template",
+      "title": "Bottleneck map and the AI-assisted rework",
+      "file": "templates/ops-redesign-map.md",
+      "forRequirements": [
+        "operations",
+        "programme",
+        "process",
+        "supply",
+        "delivery"
+      ],
+      "forVerticals": [
+        "services",
+        "marketplace",
+        "logistics",
+        "ai data"
+      ],
+      "forStages": [
+        "any"
+      ],
+      "provenance": "Scaler AI Labs: ~30% manual processing time cut, plus the QA and training systems behind it",
+      "why": "Names the bottleneck and what the rework returns, rather than promising efficiency.",
+      "needsApprovalWhenFilled": true
+    },
+    {
+      "id": "vendor-negotiation-sketch",
+      "kind": "template",
+      "status": "template",
+      "title": "Negotiated-terms sketch",
+      "file": "templates/vendor-negotiation-sketch.md",
+      "forRequirements": [
+        "partnerships",
+        "vendor",
+        "bd",
+        "procurement",
+        "insurance"
+      ],
+      "forVerticals": [
+        "insurance",
+        "fintech",
+        "embedded",
+        "marketplace"
+      ],
+      "forStages": [
+        "seed",
+        "series-a",
+        "series-b"
+      ],
+      "provenance": "Bounce: four-insurer evaluation for a 10,000-rider base, negotiated to commercials, commission structure and hub flow",
+      "why": "Shows she knows what the counterparty wants, not just what she wants.",
+      "needsApprovalWhenFilled": true
+    },
+    {
+      "id": "btl-activation-plan",
+      "kind": "template",
+      "status": "template",
+      "title": "BTL activation plan, on-ground",
+      "file": "templates/btl-activation-plan.md",
+      "forRequirements": [
+        "btl",
+        "marketing",
+        "brand",
+        "community",
+        "activation",
+        "field"
+      ],
+      "forVerticals": [
+        "consumer",
+        "d2c",
+        "mobility",
+        "retail",
+        "india"
+      ],
+      "forStages": [
+        "any"
+      ],
+      "provenance": "Bounce: hub-level accessories sell-through, rider community, rest stops, the company-wide rebrand",
+      "why": "Below-the-line is where she actually operates. Most marketing candidates only know ATL and paid.",
+      "needsApprovalWhenFilled": true
+    }
+  ]
+}

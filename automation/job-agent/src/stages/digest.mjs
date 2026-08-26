@@ -15,7 +15,7 @@ export function buildDigest({ state, report }) {
     return acc;
   }, {});
 
-  const ready = report.drafted.map((item) => {
+  const renderDraft = (item) => {
     const files = (item.draft?.files ?? []).map((f) => `\`${f}\``).join(', ');
     return [
       `- **${item.score?.value ?? '?'}** · ${item.company}${
@@ -23,7 +23,11 @@ export function buildDigest({ state, report }) {
       }`,
       `  - ${item.score?.hook ?? ''}`,
       `  - angle: ${item.draft?.angle ?? ''}`,
-      item.draft?.hasWorkSample ? '  - includes a work sample' : '',
+      item.draft?.needsSampleApproval
+        ? '  - **holds a DRAFT work sample. Read it before this goes out.**'
+        : item.draft?.sample?.status === 'approved'
+          ? `  - attach approved sample \`${item.draft.sample.sourceId}\``
+          : '  - no sample attached',
       item.contacts?.length
         ? `  - write to: ${item.contacts.map((c) => `${c.name || '?'}${c.email ? ` <${c.email}>` : ''}`).join(', ')}`
         : '',
@@ -32,7 +36,12 @@ export function buildDigest({ state, report }) {
     ]
       .filter(Boolean)
       .join('\n');
-  });
+  };
+
+  const ready = report.drafted.filter((i) => !i.draft?.needsSampleApproval).map(renderDraft);
+  const heldForApproval = report.drafted
+    .filter((i) => i.draft?.needsSampleApproval)
+    .map(renderDraft);
 
   const followups = report.touches.map(
     (t) =>
@@ -61,6 +70,7 @@ export function buildDigest({ state, report }) {
     } · ${Object.keys(state.dismissed ?? {}).length} ruled out all-time`,
     section('Found in posts, not on any job board', fromPosts),
     section('Ready to send', ready),
+    section('Drafted, but the work sample needs your approval first', heldForApproval),
     section('Follow-ups drafted', followups),
     section('Drafted earlier, still not sent', waiting),
     section('Problems', report.problems.map((p) => `- ${p}`)),
@@ -83,6 +93,9 @@ export function buildDigest({ state, report }) {
     '',
     'Everything the agent has learned about companies, people and which pitches',
     'get answered is in `automation/job-agent/data/knowledge.md`.',
+    '',
+    'Work samples live in `automation/job-agent/samples/`. Nothing is attached',
+    'unless you moved it into `samples/approved/` and set its status there.',
     '',
   ].join('\n');
 }
