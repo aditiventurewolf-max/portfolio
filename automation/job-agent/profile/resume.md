@@ -141,10 +141,32 @@ All public. Use freely, but do not present it as CV experience.
 
 - Founder's office, EIR, chief of staff, or 0-1 product / GTM / strategy.
 - Small team, early stage, where the work is not yet defined.
-- Applied AI and agents, or pet care, education, mobility, Indian consumer.
-- Remote and global preferred. Bengaluru hybrid is fine.
+- **Pet care or alternative education, by preference.** Her words: she would like
+  to work in one of those "so that I feel like it's something I want to do rather
+  than an industry I don't really care about." Everything else is second choice.
+- **Hybrid, roughly 3 days in office.** Fully remote does not suit her. Do not
+  treat remote as the prize.
+- Bangalore.
 - 12 LPA minimum.
 - Somewhere writing in public counts as part of the job.
+
+## Pet care is not a stated interest, it is a lived one
+
+Usable in any pet-care approach, because it is true and checkable:
+
+- She is a cat parent.
+- She is associated with **Bangalore Cat Squad**, a volunteer-run feline rescue
+  network started in 2014 that rehomes and rehabilitates over 2,000 animals a
+  year across roughly 50 foster homes in the city.
+- She has fostered numerous cats herself.
+- From taking those animals to vets, she has formed a specific view that the
+  gaps in Indian veterinary care are operational rather than clinical. Records
+  that do not travel with the animal, second opinions that are not really second
+  opinions, pricing nobody can predict before walking in.
+
+That last point is the strongest opening she has in this sector. It is the same
+observation that made Gaurav Ajmera start Vetic after his cat Simba needed 25 to
+30 visits across five or six vets to get one correct diagnosis.
 
 ## Hard constraints
 

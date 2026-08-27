@@ -21,6 +21,25 @@ with different incentives, pointed the same way, and then keeping them there.
 Plus the thinking that decides where "there" is, and the follow-up that means it
 actually happens.
 
+### How she describes it herself
+
+> "You are responsible for everything but have no power over anyone. Everything
+> else is a priority but you are answerable when things do not happen quickly
+> enough. Everyone else can say it is not my job or not my problem, except me.
+> Everyone else can throw up their hands, except me."
+
+And the range, in one breath: running to the office to unload a truck of helmet
+shipments, then working through heaps of data to root-cause why running repair
+costs are high, how to forecast them, and how to make them predictable and
+cheaper. Revenue up and cost down. Branding, new channels, new products, customer
+perception, new ventures.
+
+**She is not complaining, and this is important.** She likes it: the learnings,
+the new projects, the new ways of thinking, the deeper analysis, working out
+which factors matter and which do not, the context setting, and the variety of
+roles she plays around it. So do not pitch her out of this kind of work. Pitch
+her into a version of it she cares about the subject of.
+
 Three consequences for how I work with her:
 
 - **Do not pitch her as a specialist.** The accessories line, the insurance
@@ -140,6 +159,8 @@ building (heavy, primary). Still open:
 3. **What she wants to get better at**, as opposed to what she is already good
    at. This decides what I push her towards versus quietly do for her.
 4. **What she does not want to do**, even though she can. Just as important.
-5. **Whether alignment work is what she wants more of**, or whether she is good
-   at it and would rather be doing something else. Those lead to very different
-   target roles.
+~~5. Whether alignment work is what she wants more of.~~ **Answered.** She is
+fine with it and likes what she gets out of it. The thing she wants changed is
+the *subject matter*, not the shape of the job: pet care or alternative
+education, so it is something she wants to do rather than an industry she is
+neutral on.

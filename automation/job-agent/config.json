@@ -7,11 +7,12 @@
     "github": "https://github.com/aditiventurewolf-max",
     "linkedin": "",
     "openTo": [
-      "Bangalore",
-      "Remote",
-      "Hybrid"
+      "Bangalore hybrid (3 days in office, preferred)",
+      "Bangalore on-site",
+      "Hybrid elsewhere in India"
     ],
-    "workAuth": "India"
+    "workAuth": "India",
+    "workingPreference": "Hybrid, roughly 3 days in office. Fully remote does not suit her and should not be treated as the ideal."
   },
   "targets": {
     "roles": [
@@ -24,16 +25,17 @@
       "Content and brand strategy"
     ],
     "interestedIn": [
+      "pet care (she is a cat parent, fosters, and works with BCS)",
+      "alternative education",
       "AI agents and applied LLM products",
       "mobility, logistics and gig platforms",
-      "pet care",
-      "education / edtech",
       "Indian consumer and D2C",
       "early stage (pre-seed to Series B)"
     ],
     "niceToHave": [
       "founder-led, team under 60",
-      "Bengaluru or fully remote",
+      "Bangalore, hybrid around 3 days in office",
+      "a mission she actually cares about rather than an industry she is neutral on",
       "writing in public counts as part of the job"
     ],
     "dealBreakers": [
@@ -41,6 +43,7 @@
       "6-day week",
       "night shift or US-hours-only overlap",
       "routinely working past 9pm IST",
+      "fully remote with no office option",
       "pure sales quota role",
       "unpaid or equity-only",
       "below 12 LPA"
@@ -140,7 +143,11 @@
     ],
     "postingsPerRun": 8,
     "companiesPerRun": 4,
-    "minScore": 68
+    "minScore": 68,
+    "prioritySegments": [
+      "pet care",
+      "alternative education"
+    ]
   },
   "sources": {
     "companies": [
