@@ -1,34 +1,33 @@
-# Supertails — Vineet Khanna (Co-founder)
+# Supertails — Vineet Khanna (Co-founder). REWRITE v2
 
-- Verified: Bangalore HQ. $30M Series C Feb 2026 led by Venturi Partners, with
-  Fireside, Titan Capital, RPSG, Sauce.vc, DSG, Saama. Money going to vet clinic
-  expansion and faster delivery. Founders Vineet Khanna, Aman Tekriwal, Varun
-  Sadana, all ex-Licious.
-- The hook: they are a Bangalore company expanding clinics in Bangalore, and she
-  has published market research on exactly this sector.
-- Contact: NOT FOUND. No public email located, not guessed.
-- Best fit of the three on location: Bangalore HQ, hybrid plausible.
-- Work sample: the Zerodha pet market piece would be the obvious attachment once
-  she approves it. Not attached yet.
+Fixed from v1: v1 opened with his own funding round. Cut entirely.
+
+- Contact: NOT FOUND. No email guessed.
+- Best location fit of the three. Bangalore HQ.
+- Work sample: the Zerodha piece is the natural attachment once approved.
 
 ---
 
-**Subject:** The 90 percent that is still offline
+**Subject:** Most people care, they just do not know enough
 
-Vineet, you raised 30 million in February to put more clinics on the ground and
-make delivery faster. Both of those are Bangalore problems before they are
-anything else.
+Vineet,
 
-I live here. I foster cats for Bangalore Cat Squad. And I wrote the piece on
-India's pet market for Zerodha's Daily Brief: 26 million pets pre-COVID to 42
-million now, with 90 percent of sales still offline. The growth was never the
-interesting part. The interesting part is that the offline share is a trust
-problem rather than a distribution one, and clinics are how you actually fix
-that.
+Lilies kill cats. Almost nobody who owns a cat in India knows that.
 
-I am in the Founder's Office at Bounce. Eight workstreams, no team, no budget.
-Built the first rider-accessories revenue line from nothing and trained every hub
-manager on sell-through. Sized a Rs 49 Cr per month market for the next city.
+I found out the way most people do, which is late and by accident. Before that I
+spent weeks running to the vet every other day because I knew something was wrong,
+and being handled like an anxious owner. It ended with me sitting in a clinic for
+a whole day while they kept her under observation. Then they found it. Then they
+listened.
+
+Her whole history was a folder of paper I was carrying around, so every vet
+started from scratch. And I only kept pushing because I had read enough to know I
+should. Most people have not. They are not careless, they are uninformed, and
+those are two completely different problems to solve.
+
+I run the Founder's Office at Bounce. Eight workstreams, no team, no budget,
+problem to live. I wrote the Daily Brief piece on why 90 percent of Indian pet
+spending is still offline. I foster with Bangalore Cat Squad.
 
 Worth 15 minutes?
 

@@ -159,14 +159,33 @@ Usable in any pet-care approach, because it is true and checkable:
   network started in 2014 that rehomes and rehabilitates over 2,000 animals a
   year across roughly 50 foster homes in the city.
 - She has fostered numerous cats herself.
-- From taking those animals to vets, she has formed a specific view that the
-  gaps in Indian veterinary care are operational rather than clinical. Records
-  that do not travel with the animal, second opinions that are not really second
-  opinions, pricing nobody can predict before walking in.
+### The story, close to her words. Use this, not a summary of it.
 
-That last point is the strongest opening she has in this sector. It is the same
-observation that made Gaurav Ajmera start Vetic after his cat Simba needed 25 to
-30 visits across five or six vets to get one correct diagnosis.
+She was at the vet every other day for weeks. She knew something was wrong. She
+was dismissed, and handled as an anxious owner. It drove her insane. Being treated
+like a hypochondriac is not fun.
+
+She was carrying the animal's history around as physical paper, and the most
+documentation she ever got was one sheet. Every vet therefore started from zero.
+
+It ended with her going and sitting there with them, putting the cat in
+observation for an entire day, after weeks of back and forth. Then they diagnosed
+it. Then they listened to her.
+
+### What she concluded, which is the actual pitch
+
+Very few people know what is harmful to a cat. Lilies will kill one and almost
+nobody knows that. Very few know which signs are the ones that should worry them.
+
+> **Most people care. They just do not know enough.**
+
+They are not careless, they are uninformed, and those are different problems to
+solve. So the thing worth building is a complete solution around pet wellness
+*and* informing the owner, not a better clinic alone.
+
+That line is hers and it is the strongest thing she has in this sector. Lead with
+the scene, land on the line. Do not open by telling a pet-care founder that the
+vet system has gaps, because that is the thing they already know.
 
 ## Hard constraints
 

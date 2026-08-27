@@ -1,36 +1,37 @@
-# Vetic — Gaurav Ajmera (Founder)
+# Vetic — Gaurav Ajmera (Founder). REWRITE v2
 
-- Verified: $40M led by Bessemer, 65+ clinics across 11 cities, 15 24/7 emergency
-  facilities, doubling clinic capacity. Founded 2022. Ex-OYO COO India, ex-Pristyn
-  Care CBO, IIT Delhi.
-- The hook: he started Vetic because his cat Simba took 25-30 visits across five
-  or six vets to get one correct diagnosis.
-- Contact: NOT FOUND. He is on LinkedIn at /in/gauravajmera. No public email
-  located and I have not guessed one.
-- Risk: HQ is Gurugram. Bangalore hybrid may not exist. Worth asking, not assuming.
-- Work sample: none attached. Nothing in the library is approved yet.
+Fixed from v1: v1 opened by telling him his own founding story back to him.
+He knows the vet system is broken, he built a company about it. What he does not
+know is her, and specifically the informing half of the problem.
+
+- Contact: NOT FOUND. LinkedIn /in/gauravajmera. No email guessed.
+- Risk: HQ Gurugram. Bangalore hybrid may not exist.
+- Work sample: none. Nothing approved yet.
 
 ---
 
-**Subject:** Simba's 25 vets, and the operating problem underneath
+**Subject:** The day I sat in the clinic until they listened
 
-Gaurav, I read that Simba took 25 to 30 visits across five or six vets before
-anyone got the diagnosis right.
+Gaurav,
 
-I foster for Bangalore Cat Squad and I have sat in enough of those waiting rooms
-to recognise the story. What I keep running into is not clinical. It is
-operational. No record that travels with the animal. No way to tell whether a
-second opinion is actually a second opinion. Pricing nobody can predict before
-they walk in.
+I was at the vet every other day for weeks. I knew something was wrong with my
+cat. What I got back, politely, was that I was anxious.
 
-I am in the Founder's Office at Bounce. Eight workstreams end to end, no team, no
-standing budget. Built their first accessories revenue line from zero. Negotiated
-a health insurance programme across four insurers for a 10,000-rider base. Sized
-a Rs 49 Cr per month market for the next city and derived the capture rate from
-live operating data instead of guessing it.
+It ended with me sitting in the clinic for a full day while they kept her in
+observation. That is when they found it. That is also when they started listening
+to me.
 
-You are doubling clinic capacity. That is a city-by-city operating problem, and
-that is the one I do.
+Two things broke there and neither was the medicine. Her history lived in a folder
+of paper I carried around, so every vet started from zero. And I only knew to keep
+pushing because I had read enough to. Most people have not read enough. Most
+people do not know that lilies will kill a cat, or which signs are the ones that
+matter.
+
+Most people care. They just do not know enough. That reads like a product problem
+to me, not an awareness campaign.
+
+I run the Founder's Office at Bounce. Eight workstreams, no team, no budget,
+problem statement to live. I foster with Bangalore Cat Squad.
 
 Worth 15 minutes?
 

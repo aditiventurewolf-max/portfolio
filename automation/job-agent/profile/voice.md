@@ -52,6 +52,24 @@ them, buying your first broom, how life feels when it is not heavy, protecting
 your peace and your weekends, what her cat taught her about process and failure,
 executive dysfunction and becoming an executive, being late yet on time.
 
+## The rule that outranks the template: do not repeat what they already know
+
+Her correction, and the most common way a cold email dies.
+
+Do not open by telling a founder their own funding round, their own founding
+story, their own launch, or their own metrics. They know. It reads as research
+performed rather than research used, and it spends the only two sentences you
+have on nothing.
+
+Use what you learned about them to decide **what to say**, then say the thing they
+do not have: her experience, her observation, the specific scene only she was in.
+
+- Wrong: "You raised 30 million in February to expand clinics."
+- Wrong: "I read that Simba took 25 to 30 visits to get a diagnosis."
+- Right: open in her own scene, and let the relevance land on its own.
+
+The research still happens. It just stays behind the email instead of in it.
+
 ## Register 2: cold outreach
 
 Job emails, founder DMs, first contact. This is **not** the reflective voice. It

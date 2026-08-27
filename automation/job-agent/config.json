@@ -26,7 +26,7 @@
     ],
     "interestedIn": [
       "pet care (she is a cat parent, fosters, and works with BCS)",
-      "alternative education",
+      "alternative education, and mission-adjacent education companies that can pay",
       "AI agents and applied LLM products",
       "mobility, logistics and gig platforms",
       "Indian consumer and D2C",
@@ -146,7 +146,8 @@
     "minScore": 68,
     "prioritySegments": [
       "pet care",
-      "alternative education"
+      "alternative education",
+      "mission-adjacent education"
     ]
   },
   "sources": {
