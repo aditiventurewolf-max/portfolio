@@ -1,3 +1,13 @@
+# ON HOLD at her instruction, 2026-08-26
+
+Do not send. The education track is being rebuilt around Beyond School, her own
+venture concept. See `profile/beyond-school.md`. Ranking education targets by
+mission alignment was the wrong frame: the right question is what a place would
+teach her about proving parents will pay, managing money when it is tight, and
+hiring people who can execute.
+
+---
+
 # Rocket Learning — mission-adjacent education
 
 - Verified: ed-tech non-profit working on early childhood education through

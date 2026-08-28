@@ -154,8 +154,11 @@ building (heavy, primary). Still open:
 
 1. **Finished personal essays.** The Notion topic bank is long. Has she published
    any of them, and where?
-2. **Languages.** Hindi is clearly fluent. Others? Does she write in Hindi, or
-   only speak it?
+2. **Beyond School.** How live is it? Is the job search a two-year apprenticeship
+   before starting it, or has the plan changed? This decides the whole education
+   track. See `profile/beyond-school.md`.
+~~2. Languages.~~ **Answered** from her own SOP: she speaks two languages
+   fluently and has basics in a few others. She names this as a limitation.
 3. **What she wants to get better at**, as opposed to what she is already good
    at. This decides what I push her towards versus quietly do for her.
 4. **What she does not want to do**, even though she can. Just as important.
