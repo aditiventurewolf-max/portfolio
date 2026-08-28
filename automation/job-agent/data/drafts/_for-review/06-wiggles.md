@@ -29,11 +29,10 @@ You are one of the few people already building across care and products rather
 than one or the other. The part I would want to work on is the layer that tells
 an owner what to look for before anything goes wrong.
 
-I run the Founder's Office at Bounce. Eight workstreams, no team, no budget,
+I run the Founder's Office at Bounce. ten workstreams, no team, no budget,
 problem statement to live. I wrote the Daily Brief piece on why 90 percent of
 Indian pet spending is still offline. I foster with Bangalore Cat Squad.
 
 Worth 15 minutes?
 
 Aditi
-linkedin.com/in/venture-with-aditi

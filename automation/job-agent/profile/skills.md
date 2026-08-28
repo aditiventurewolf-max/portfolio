@@ -82,7 +82,7 @@ These she named herself, so they carry more weight than anything I inferred.
 | Zero-to-one revenue lines | CONFIRMED, strong | Built Bounce's first rider-accessories line from nothing: demand validation on the ground, pricing, pilot, scale to every Bangalore hub, trained the hub-manager network |
 | Market sizing with a defensible capture rate | CONFIRMED, strong | Rs 49 Cr/month TAM for Bounce's next city, 16% capture derived from live operating data, replacing an estimate leadership could not defend |
 | Vendor and partner negotiation | CONFIRMED | Four-insurer evaluation for a 10,000-rider base, negotiated to commercials, commission structure and hub operating flow. 15+ vendors at Scaler |
-| Running many workstreams with no team or budget | CONFIRMED, signature | Eight concurrent at Bounce: accessories, insurance, brand, community, rest stops, city expansion |
+| Running many workstreams with no team or budget | CONFIRMED, signature | Ten concurrent at Bounce: accessories, insurance, brand, community, rest stops, city expansion |
 | Pilot design and scale-up | CONFIRMED | Accessories and insurance both taken from pilot to live |
 | Unit economics and P&L reasoning | CONFIRMED | On the CV, and visible in the sizing and pricing work |
 | Productising an existing asset | CONFIRMED | Turned the fleet into geofenced hyperlocal advertising inventory |

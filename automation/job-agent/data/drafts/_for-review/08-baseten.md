@@ -19,7 +19,7 @@ background. That is the only reason I am writing, because I do not have the
 background.
 
 I run the Founder's Office at Bounce, an EV mobility platform with 14,000
-scooters across five cities. Eight workstreams end to end, no team, no standing
+scooters across five cities. ten workstreams end to end, no team, no standing
 budget. I built their first accessories revenue line from nothing: validated
 demand on the ground, priced it, piloted it, scaled it across every hub in
 Bangalore, then trained the hub managers who had to sell it. I negotiated a rider
@@ -35,4 +35,3 @@ Six months of full-time work, so I am early. I am writing anyway because the wor
 in that post is the work I already do.
 
 Aditi
-linkedin.com/in/venture-with-aditi

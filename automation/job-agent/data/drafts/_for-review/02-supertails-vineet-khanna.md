@@ -25,11 +25,10 @@ started from scratch. And I only kept pushing because I had read enough to know 
 should. Most people have not. They are not careless, they are uninformed, and
 those are two completely different problems to solve.
 
-I run the Founder's Office at Bounce. Eight workstreams, no team, no budget,
+I run the Founder's Office at Bounce. ten workstreams, no team, no budget,
 problem to live. I wrote the Daily Brief piece on why 90 percent of Indian pet
 spending is still offline. I foster with Bangalore Cat Squad.
 
 Worth 15 minutes?
 
 Aditi
-linkedin.com/in/venture-with-aditi

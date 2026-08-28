@@ -44,7 +44,7 @@ story, which is why this is the highest-probability message of the three.
 > Most people care. They just do not know enough. That reads like a product
 > problem to me, not an awareness campaign.
 >
-> I run the Founder's Office at Bounce. Eight workstreams, no team, no budget,
+> I run the Founder's Office at Bounce. ten workstreams, no team, no budget,
 > problem statement to live. I foster with Bangalore Cat Squad.
 >
 > Worth 15 minutes?

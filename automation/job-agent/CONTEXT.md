@@ -171,7 +171,7 @@ has eight segments, each anchored to something on the CV:
 
 | Segment | Artifact | Anchored to |
 |---|---|---|
-| Founder's office, EIR | unowned-problem memo, first 30 days | eight workstreams at Bounce, no team, no budget |
+| Founder's office, EIR | unowned-problem memo, first 30 days | ten workstreams at Bounce, no team, no budget |
 | Strategy, market entry | sizing memo with a capture rate she defends | Rs 49 Cr/month TAM, 16% capture from live data |
 | GTM, growth, partnerships | channel teardown plus one pilot design | accessories line from zero, fleet-as-media ad line |
 | Ops, programme | bottleneck map plus the AI-assisted rework | ~30% manual time cut at Scaler, 15+ vendors |

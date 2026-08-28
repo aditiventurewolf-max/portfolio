@@ -2,7 +2,7 @@
 
 **For:** founder's office, chief of staff, EIR, generalist, bizops
 **Stage:** pre-seed to Series A, team under about 60
-**Anchored to:** eight concurrent workstreams at Bounce, each from problem
+**Anchored to:** ten concurrent workstreams at Bounce, each from problem
 statement to live with no dedicated team and no standing budget
 
 A filled copy of this is a DRAFT. It never attaches without her reading it.

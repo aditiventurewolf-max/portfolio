@@ -28,7 +28,7 @@ hiring people who can execute.
 Hello,
 
 I have spent the last year in a founder's office, which mostly means owning
-things nobody else has to own. Eight workstreams, no team, no standing budget.
+things nobody else has to own. ten workstreams, no team, no standing budget.
 Some days that is unloading a truck of helmets. Some days it is going through
 repair data to work out why a cost line is unpredictable and how to forecast it.
 
@@ -49,4 +49,3 @@ I would like to work on that, on the operating side rather than the pedagogy. Is
 there a version of this where I would be useful?
 
 Aditi
-linkedin.com/in/venture-with-aditi

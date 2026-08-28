@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-28T15:44:02.842Z",
+  "updatedAt": "2026-08-28T16:26:56.350Z",
   "runs": [],
   "tracked": {
     "7e93e5be79": {
@@ -190,6 +190,56 @@
         {
           "at": "2026-08-28T09:41:31.706Z",
           "text": "Bangalore. Raised 425k seed in 2026. Expanding past 100 locations, which maps onto her retail sell-through work. Small enough that saywoof@ is read by a person."
+        }
+      ]
+    },
+    "23503a89e3": {
+      "id": "23503a89e3",
+      "track": "outreach",
+      "type": "company",
+      "source": "her linkedin feed",
+      "company": "Baseten",
+      "title": "Founding BizOps",
+      "location": "Remote, US HQ",
+      "url": "https://baseten.co",
+      "firstSeen": "2026-08-28T16:26:56.329Z",
+      "status": "sent",
+      "sentAt": "2026-08-28T16:26:56.329Z",
+      "score": {
+        "value": 88,
+        "verdict": "apply",
+        "reasons": [
+          "founding BizOps",
+          "foreign HQ hiring remote, matches the outside-in preference",
+          "they said judgment over pedigree"
+        ],
+        "redFlags": [
+          "US timezone against her no-past-9pm rule"
+        ],
+        "hook": "the work in that post is the work she already does"
+      },
+      "contacts": [
+        {
+          "name": "Connor Peters",
+          "role": "Running point on recruiting",
+          "email": "connor.peters@baseten.co",
+          "source": "published in Dannie Herzberg public post"
+        }
+      ],
+      "draft": {
+        "angle": "judgment over pedigree, plus the agent portfolio is directly relevant to inference infra",
+        "followupAngles": [
+          "Send the one-page teardown of where their docs lose a first-time user",
+          "Ask directly whether the founding BizOps seat is still open and offer to stop if not"
+        ],
+        "dir": null,
+        "files": []
+      },
+      "touches": [],
+      "notes": [
+        {
+          "at": "2026-08-28T16:26:56.329Z",
+          "text": "Sent to a real published address. Corrected before sending: ten workstreams not eight, and no LinkedIn URL in the signature."
         }
       ]
     }

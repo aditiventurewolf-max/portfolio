@@ -31,11 +31,10 @@ You have the shelf space and the trust in this country that nobody else has. The
 informing layer sitting on top of that seems like the obvious thing that has not
 been built yet.
 
-I run the Founder's Office at Bounce. Eight workstreams, no team, no budget,
+I run the Founder's Office at Bounce. ten workstreams, no team, no budget,
 problem to live, including a company-wide rebrand and a retail sell-through line
 built from zero. I foster with Bangalore Cat Squad.
 
 Worth 15 minutes?
 
 Aditi
-linkedin.com/in/venture-with-aditi

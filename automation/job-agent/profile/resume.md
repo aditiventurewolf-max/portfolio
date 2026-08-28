@@ -14,7 +14,7 @@ is real public work that is not on it.
 - Bangalore, India
 - +91 7355312861
 - aditiagrawal2026@gmail.com  (personal, use this for all outreach)
-- linkedin.com/in/venture-with-aditi
+- linkedin.com/in/venture-with-aditi  (for research only. Never put this in an email signature.)
 - github.com/aditiventurewolf-max
 
 Do not use aditi.agrawal@bounceshare.com for anything job related. That is her
@@ -23,7 +23,7 @@ current employer.
 ## Positioning, in her own words
 
 Founder's-office operator who takes ownership of problems before anyone writes a
-brief. Runs eight concurrent workstreams at an EV mobility platform: new revenue
+brief. Runs ten concurrent workstreams at an EV mobility platform: new revenue
 lines, partnerships, brand and city expansion, each carried from first principles
 to live. Moves at the speed the business needs rather than the speed the process
 allows.
@@ -36,7 +36,7 @@ allows.
 EV mobility platform for gig and delivery riders. 14,000+ scooters, 68 hubs,
 5 cities, 546,000+ registered riders.
 
-- Owns eight concurrent workstreams end to end: accessories, rider insurance,
+- Owns ten concurrent workstreams end to end: accessories, rider insurance,
   brand, community, rest stops, city expansion. Each carried from problem
   statement to launch with no dedicated team and no standing budget.
 - Built the company's first rider-accessories revenue line from nothing.

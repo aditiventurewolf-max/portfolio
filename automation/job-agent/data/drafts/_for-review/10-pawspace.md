@@ -32,11 +32,10 @@ this appointment to get to the next one. Mine is my animal. Nothing in the
 structure aligns those. A marketplace with vetted partners is the only shape that
 can fix it, and vetting is therefore the product, not a feature.
 
-I run the Founder's Office at Bounce, an EV mobility platform. Eight workstreams
+I run the Founder's Office at Bounce, an EV mobility platform. ten workstreams
 end to end, no team, no standing budget, including a partner programme negotiated
 across four insurers and a hub network I trained on a new service line.
 
 Worth 15 minutes?
 
 Aditi
-linkedin.com/in/venture-with-aditi

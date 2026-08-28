@@ -18,7 +18,7 @@ work on a Tuesday.
 
 That is the part I would want. Not the philosophy, the running of it.
 
-I am in the Founder's Office at Bounce, which means I own eight workstreams end
+I am in the Founder's Office at Bounce, which means I own ten workstreams end
 to end with no team and no standing budget. Some days that is digging through
 repair data to work out why costs are unpredictable and how to forecast them.
 Some days it is going to the office to unload a truck of helmets. The job is
@@ -29,4 +29,3 @@ how that is held together right now, and whether there is a version of this wher
 I would be useful.
 
 Aditi
-linkedin.com/in/venture-with-aditi

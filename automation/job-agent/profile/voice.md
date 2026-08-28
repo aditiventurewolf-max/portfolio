@@ -99,7 +99,9 @@ is much faster and much flatter. Her own template, from the RevenueCat email:
    close: "I handle the messy, high-stakes work that lives between product, ops,
    and GTM."
 5. **A flat, small ask.** "Would you be open to a 15-minute call?"
-6. **Sign off with just "Aditi" and the LinkedIn URL.** No "Best regards".
+6. **Sign off with just "Aditi".** Nothing else. No "Best regards", and **no
+   LinkedIn URL**: she asked for it out on 2026-08-26. Her profile is on file in
+   `resume.md` for research, it just never goes in a signature.
 
 Length: under 150 words. Numbers over adjectives, every time.
 

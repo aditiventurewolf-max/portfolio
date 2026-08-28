@@ -42,7 +42,7 @@ what it is costing them in a number she can defend. Lay out what she would do in
 the first thirty days, week by week, with the one metric that would tell them it
 worked.
 
-Anchor: eight concurrent workstreams at Bounce, every one carried from problem
+Anchor: ten concurrent workstreams at Bounce, every one carried from problem
 statement to live with no dedicated team and no standing budget. This is
 literally the job, done as the application.
 

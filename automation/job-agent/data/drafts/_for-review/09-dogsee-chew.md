@@ -31,11 +31,10 @@ forever. Wet food most of all.
 Nobody has built the version of this for India rather than importing it. That
 seems like the whole opportunity to me.
 
-I run the Founder's Office at Bounce. Eight workstreams, no team, no budget,
+I run the Founder's Office at Bounce. ten workstreams, no team, no budget,
 problem statement to live, including a retail line I built from nothing and
 scaled across every hub in Bangalore. I foster with Bangalore Cat Squad.
 
 Worth 15 minutes?
 
 Aditi
-linkedin.com/in/venture-with-aditi
