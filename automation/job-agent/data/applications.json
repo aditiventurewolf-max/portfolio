@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-28T08:58:29.266Z",
+  "updatedAt": "2026-08-28T09:41:31.724Z",
   "runs": [],
   "tracked": {
     "7e93e5be79": {
@@ -93,6 +93,99 @@
         {
           "at": "2026-08-28T08:58:29.243Z",
           "text": "Founder address is masked everywhere. Sent to support@supertails.com asking to be forwarded. Channel: email via support queue"
+        }
+      ]
+    },
+    "024f525df4": {
+      "id": "024f525df4",
+      "track": "outreach",
+      "type": "company",
+      "source": "manual:approved-by-her",
+      "company": "Vetic",
+      "title": "no posted role, direct outreach",
+      "location": "",
+      "url": "https://vetic.in",
+      "firstSeen": "2026-08-28T09:41:31.706Z",
+      "status": "sent",
+      "sentAt": "2026-08-28T09:41:31.706Z",
+      "score": {
+        "value": 90,
+        "verdict": "apply",
+        "reasons": [
+          "priority segment, approved by her"
+        ],
+        "redFlags": [],
+        "hook": "the informing layer, from a cat parent who lived the diagnostic gap"
+      },
+      "contacts": [
+        {
+          "name": "Gaurav Ajmera",
+          "role": "Founder",
+          "email": "",
+          "linkedin": "https://linkedin.com/in/gauravajmera",
+          "source": "no published address anywhere. sent via support@vetic.in with a forward request"
+        }
+      ],
+      "draft": {
+        "angle": "the informing layer, from a cat parent who lived the diagnostic gap",
+        "followupAngles": [
+          "Send the one-page list of what is actually poisonous to cats and dogs, as the first thing she would ship",
+          "Ask directly whether the informing layer belongs to anyone today, and offer to stop if it is a no"
+        ],
+        "dir": null,
+        "files": []
+      },
+      "touches": [],
+      "notes": [
+        {
+          "at": "2026-08-28T09:41:31.706Z",
+          "text": "Vetic publishes exactly one address, support@vetic.in, which doubles as their Grievance Officer contact. Careers go through a Google Form. Founder address masked on every broker site. LinkedIn is the real route to him."
+        }
+      ]
+    },
+    "0747b37f37": {
+      "id": "0747b37f37",
+      "track": "outreach",
+      "type": "company",
+      "source": "manual:approved-by-her",
+      "company": "Muttley Crew",
+      "title": "no posted role, direct outreach",
+      "location": "",
+      "url": "https://muttleycrew.in",
+      "firstSeen": "2026-08-28T09:41:31.706Z",
+      "status": "sent",
+      "sentAt": "2026-08-28T09:41:31.706Z",
+      "score": {
+        "value": 90,
+        "verdict": "apply",
+        "reasons": [
+          "priority segment, approved by her"
+        ],
+        "redFlags": [],
+        "hook": "they already work with vets and nutritionists, so informing is theirs to own"
+      },
+      "contacts": [
+        {
+          "name": "Smriti Thomas",
+          "role": "Founder",
+          "email": "saywoof@muttleycrew.in",
+          "source": "published on their contact page"
+        }
+      ],
+      "draft": {
+        "angle": "they already work with vets and nutritionists, so informing is theirs to own",
+        "followupAngles": [
+          "Send the one-page list of what is actually poisonous to cats and dogs, as the first thing she would ship",
+          "Ask directly whether the informing layer belongs to anyone today, and offer to stop if it is a no"
+        ],
+        "dir": null,
+        "files": []
+      },
+      "touches": [],
+      "notes": [
+        {
+          "at": "2026-08-28T09:41:31.706Z",
+          "text": "Bangalore. Raised 425k seed in 2026. Expanding past 100 locations, which maps onto her retail sell-through work. Small enough that saywoof@ is read by a person."
         }
       ]
     }
