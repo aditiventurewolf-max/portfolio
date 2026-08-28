@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-28T17:20:55.622Z",
+  "updatedAt": "2026-08-28T17:26:55.517Z",
   "runs": [],
   "tracked": {
     "7e93e5be79": {
@@ -426,6 +426,56 @@
         {
           "at": "2026-08-28T17:20:55.602Z",
           "text": "Managed procurement and inventory for hardware teams. Weaker on passion segment, strong on her actual skill set."
+        }
+      ]
+    },
+    "6d6f1237f3": {
+      "id": "6d6f1237f3",
+      "track": "outreach",
+      "type": "company",
+      "source": "web search, YC jobs page",
+      "company": "Weekday",
+      "title": "Founder's Office",
+      "location": "Indiranagar, Bangalore",
+      "url": "https://www.ycombinator.com/companies/weekday/jobs/cQZdv5Q-founder-s-office",
+      "firstSeen": "2026-08-28T17:26:55.516Z",
+      "status": "sent",
+      "sentAt": "2026-08-28T17:26:55.516Z",
+      "score": {
+        "value": 92,
+        "verdict": "apply",
+        "reasons": [
+          "Bangalore, Indiranagar, so the hybrid preference is satisfiable",
+          "YC backed",
+          "their listing explicitly wants a future non-tech founder"
+        ],
+        "redFlags": [
+          "12-15 LPA sits at her floor rather than above it"
+        ],
+        "hook": "their listing asks for exactly the thing she has been told to hide everywhere else"
+      },
+      "contacts": [
+        {
+          "name": "",
+          "role": "founders inbox",
+          "email": "founders@weekday.works",
+          "source": "published on their contact and privacy pages"
+        }
+      ],
+      "draft": {
+        "angle": "named the school model, because their JD asked for a future founder",
+        "followupAngles": [
+          "Send the one-page version of the school model, since they have shown they want to see it",
+          "Ask whether the 12-15 band has room, given she is comparing against a 40-55 remote offer in the pipeline"
+        ],
+        "dir": null,
+        "files": []
+      },
+      "touches": [],
+      "notes": [
+        {
+          "at": "2026-08-28T17:26:55.516Z",
+          "text": "Only company so far where Beyond School is an asset. Their JD says: You want to start up in 2 years as a non-tech founder. Comp is at her floor, so the ESOP and the fit have to carry it."
         }
       ]
     }

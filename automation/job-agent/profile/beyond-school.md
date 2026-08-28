@@ -27,6 +27,20 @@ leave, and it is a straightforward reason to reject her.
 If a company asks her directly about long-term plans, that is hers to answer in
 the room. It never goes in writing from this system.
 
+### The one exception, and how to recognise it
+
+If a company **states in its own job listing** that it wants someone who intends
+to found a company, then the plan is the qualification and hiding it is the
+mistake. Say it plainly and lead with it.
+
+Weekday, Bangalore, on 2026-08-26 is the worked example. Their Founder's Office
+listing says: "You want to start up in 2 years as a non-tech founder." That email
+opened on exactly that line and named the school model.
+
+The bar is high on purpose. It has to be **their words, in writing, in the
+posting**. A founder being generally supportive of ambition in an interview is
+not this. Absent that, the ban holds.
+
 In her own words, from an MBA statement of purpose:
 
 > "Over the past few months, I've been working on an alternative school model for

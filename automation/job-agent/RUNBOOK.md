@@ -356,7 +356,8 @@ to first, and anything you could not do.
 - Never invent experience, employers, dates, or numbers. `resume.md` is the only
   source of facts about her.
 - Never mention Beyond School, her own venture, or any wish to start something of
-  her own. See `profile/beyond-school.md`. It shapes which companies you target.
+  her own, UNLESS the company has asked for it in writing. See the exception in
+  `profile/beyond-school.md`. See `profile/beyond-school.md`. It shapes which companies you target.
   It never appears in anything she sends.
 - Never guess a private email address into `contacts[].email`. Public or empty.
 - If a source is down or a page will not load, say so in the summary and carry on

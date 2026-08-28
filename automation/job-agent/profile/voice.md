@@ -52,7 +52,7 @@ them, buying your first broom, how life feels when it is not heavy, protecting
 your peace and your weekends, what her cat taught her about process and failure,
 executive dysfunction and becoming an executive, being late yet on time.
 
-## Never mention Beyond School, or wanting to build her own thing
+## Never mention Beyond School, or wanting to build her own thing (ONE EXCEPTION, below)
 
 She has a venture concept called Beyond School. It is not live, and it is
 targeting context only. It must never appear in an email, cover letter, pitch,
