@@ -7,12 +7,12 @@
     "github": "https://github.com/aditiventurewolf-max",
     "linkedin": "",
     "openTo": [
-      "Bangalore hybrid (3 days in office, preferred)",
-      "Bangalore on-site",
-      "Hybrid elsewhere in India"
+      "Bangalore hybrid (3 days in office, still the preference)",
+      "Other Indian cities",
+      "Remote"
     ],
     "workAuth": "India",
-    "workingPreference": "Hybrid, roughly 3 days in office. Fully remote does not suit her and should not be treated as the ideal."
+    "workingPreference": "Bangalore hybrid around 3 days in office remains the preference, but she is open to other cities and to remote. Remote is no longer a dealbreaker."
   },
   "targets": {
     "roles": [
@@ -43,7 +43,6 @@
       "6-day week",
       "night shift or US-hours-only overlap",
       "routinely working past 9pm IST",
-      "fully remote with no office option",
       "pure sales quota role",
       "unpaid or equity-only",
       "below 12 LPA"
@@ -146,9 +145,10 @@
     "minScore": 68,
     "prioritySegments": [
       "pet care",
-      "alternative education",
-      "mission-adjacent education"
-    ]
+      "edtech and alternative education"
+    ],
+    "remotePreference": "For remote roles, prioritise companies headquartered outside India that hire into India. INTERPRETATION OF HER PHRASE 'outside inside type startups' AND NOT YET CONFIRMED BY HER. The reasoning is that foreign-HQ remote roles pay materially better for the same work. Confirm before this drives real volume.",
+    "alsoSurface": "Good fits outside the priority segments still get surfaced. Pet care and edtech are the preference, not a filter."
   },
   "sources": {
     "companies": [

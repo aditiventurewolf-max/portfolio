@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-28T09:41:31.724Z",
+  "updatedAt": "2026-08-28T15:44:02.842Z",
   "runs": [],
   "tracked": {
     "7e93e5be79": {
@@ -121,9 +121,9 @@
         {
           "name": "Gaurav Ajmera",
           "role": "Founder",
-          "email": "",
+          "email": "gaurav@vetic.in",
           "linkedin": "https://linkedin.com/in/gauravajmera",
-          "source": "no published address anywhere. sent via support@vetic.in with a forward request"
+          "source": "inferred from a masked broker listing, sent at her explicit instruction"
         }
       ],
       "draft": {
@@ -140,6 +140,10 @@
         {
           "at": "2026-08-28T09:41:31.706Z",
           "text": "Vetic publishes exactly one address, support@vetic.in, which doubles as their Grievance Officer contact. Careers go through a Google Form. Founder address masked on every broker site. LinkedIn is the real route to him."
+        },
+        {
+          "at": "2026-08-28T15:44:02.809Z",
+          "text": "Second send, direct to gaurav@vetic.in at her instruction. Address is inferred from the g***@vetic.in mask, so a bounce is possible. If it bounces, gaurav.ajmera@vetic.in is the other candidate."
         }
       ]
     },

@@ -36,3 +36,13 @@ For both of these, **LinkedIn is the real attempt.** Notes are ready in
 Her brief says quality over volume and do not pad the list. Four researched
 approaches in a day is a real day's work. The next move is follow-ups at day 3,
 not eight more emails tomorrow.
+
+## Update, later on 2026-08-26
+
+Five emails out. Vetic went twice: first to `support@vetic.in` with a forward
+request, then directly to `gaurav@vetic.in` at her explicit instruction, knowing
+the address is inferred from a masked broker listing. If it bounces,
+`gaurav.ajmera@vetic.in` is the other candidate.
+
+Everything now also lives in a Notion database, "Job Search Pipeline", including
+the shortlisted-but-unreachable ones so nothing gets re-hunted.
