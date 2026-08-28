@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-28T16:26:56.350Z",
+  "updatedAt": "2026-08-28T16:39:40.324Z",
   "runs": [],
   "tracked": {
     "7e93e5be79": {
@@ -240,6 +240,98 @@
         {
           "at": "2026-08-28T16:26:56.329Z",
           "text": "Sent to a real published address. Corrected before sending: ten workstreams not eight, and no LinkedIn URL in the signature."
+        }
+      ]
+    },
+    "735ba65be8": {
+      "id": "735ba65be8",
+      "track": "outreach",
+      "type": "company",
+      "source": "manual:approved-by-her",
+      "company": "PawSpace",
+      "title": "no posted role, direct outreach",
+      "location": "Bangalore",
+      "url": "",
+      "firstSeen": "2026-08-28T16:39:40.321Z",
+      "status": "sent",
+      "sentAt": "2026-08-28T16:39:40.321Z",
+      "score": {
+        "value": 85,
+        "verdict": "apply",
+        "reasons": [
+          "pet care, priority segment"
+        ],
+        "redFlags": [],
+        "hook": "vetting is the product, not a feature, because the category is a stakeholder agency problem"
+      },
+      "contacts": [
+        {
+          "name": "",
+          "role": "general inbox",
+          "email": "connect@pawspace.in",
+          "source": "published, found in raw HTML"
+        }
+      ],
+      "draft": {
+        "angle": "vetting is the product, not a feature, because the category is a stakeholder agency problem",
+        "followupAngles": [
+          "Send the one-page list of what is actually poisonous to cats and dogs",
+          "Ask directly whether this problem belongs to anyone today, and offer to stop if it is a no"
+        ],
+        "dir": null,
+        "files": []
+      },
+      "touches": [],
+      "notes": [
+        {
+          "at": "2026-08-28T16:39:40.321Z",
+          "text": "Address found by grepping the raw HTML of their contact page. WebFetch could not read the JS-rendered site."
+        }
+      ]
+    },
+    "c648102c47": {
+      "id": "c648102c47",
+      "track": "outreach",
+      "type": "company",
+      "source": "manual:approved-by-her",
+      "company": "Dogsee Chew",
+      "title": "no posted role, direct outreach",
+      "location": "Bengaluru",
+      "url": "",
+      "firstSeen": "2026-08-28T16:39:40.321Z",
+      "status": "sent",
+      "sentAt": "2026-08-28T16:39:40.321Z",
+      "score": {
+        "value": 85,
+        "verdict": "apply",
+        "reasons": [
+          "pet care, priority segment"
+        ],
+        "redFlags": [],
+        "hook": "healthy food loses the taste test, and better quality means worse prices on a product you buy forever"
+      },
+      "contacts": [
+        {
+          "name": "",
+          "role": "general inbox",
+          "email": "hello@dogseechew.com",
+          "source": "published, found in raw HTML"
+        }
+      ],
+      "draft": {
+        "angle": "healthy food loses the taste test, and better quality means worse prices on a product you buy forever",
+        "followupAngles": [
+          "Send the one-page list of what is actually poisonous to cats and dogs",
+          "Ask directly whether this problem belongs to anyone today, and offer to stop if it is a no"
+        ],
+        "dir": null,
+        "files": []
+      },
+      "touches": [],
+      "notes": [
+        {
+          "at": "2026-08-28T16:39:40.321Z",
+          "text": "Address is on the .com domain. Every earlier attempt used .in, which 404s. Worth remembering: try both TLDs before giving up on an Indian D2C brand."
         }
       ]
     }

@@ -46,3 +46,20 @@ the address is inferred from a masked broker listing. If it bounces,
 
 Everything now also lives in a Notion database, "Job Search Pipeline", including
 the shortlisted-but-unreachable ones so nothing gets re-hunted.
+
+## Seven sent, end of 2026-08-26
+
+Added since the last update: Baseten (`connor.peters@baseten.co`, published in
+the post), PawSpace (`connect@pawspace.in`), Dogsee Chew
+(`hello@dogseechew.com`).
+
+Two techniques that worked and should be reused:
+
+1. **Grep the raw HTML.** WebFetch could not read PawSpace or Dogsee because both
+   are JS-rendered. `curl | grep -oE '[email pattern]'` found the addresses
+   immediately. Do this before concluding a company publishes nothing.
+2. **Try both TLDs.** Dogsee publishes on `.com`. Every earlier attempt used
+   `.in` and 404'd, which is why it sat in the shortlist for two days. For Indian
+   D2C brands, check `.com` and `.in` before giving up.
+
+Still no published address found: Educational Initiatives, Zigly.
