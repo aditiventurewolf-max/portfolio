@@ -12,10 +12,10 @@ That rules out most of what gets called a side hustle: client service, anything
 retainer-based with a response-time expectation, tutoring at fixed evening slots.
 What survives is **async, project-shaped, and capped**.
 
-**Check the Bounce contract first.** Most Indian startup employment agreements
-carry a moonlighting or conflict-of-interest clause. Paid outside work may need
-disclosure or may be restricted outright. This is a five-minute check and it
-gates everything below.
+**Moonlighting is cleared.** She confirmed on 2026-08-26 that Bounce is fine with
+it. So the only remaining limits are her own time and the conflict rule at the
+bottom of this file: nothing in EV mobility, gig platforms or rider services,
+because that is a live conflict with her employer regardless of permission.
 
 ## The three worth doing
 
