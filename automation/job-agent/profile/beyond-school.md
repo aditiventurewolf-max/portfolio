@@ -1,10 +1,31 @@
 # Beyond School, and what the education search is actually for
 
-Found in her Notion on 2026-08-26. This changes the education track completely,
-and it is why she said to wait on Rocket Learning.
+Found in her Notion on 2026-08-26, and corrected by her the same day.
 
-**She is not looking for a job in education. She has a venture concept and she is
-looking for the apprenticeship that teaches her to build it.**
+## Read this part before anything else
+
+**Beyond School is not live. It is a concept she is serious about, and it is not
+happening right now.**
+
+**She is looking for a job that pays well.** Her correction, verbatim: "it is not
+an apprenticeship. it's a job that pays well while I learn that."
+
+So the order is: a real job, properly paid, that she is good at and wants. The
+learning is something she extracts from it, not the deal she is offering. Do not
+treat a low salary as acceptable because a role is educational, and do not aim at
+tiny companies on the grounds that she would learn more there.
+
+## Never put this in an email
+
+Beyond School is context for **targeting**, never content for **outreach**.
+
+No draft, cover letter, pitch or follow-up may mention that she wants to start
+her own school, build her own thing, or use the role to learn how to found
+something. To a hiring manager that reads as a candidate already planning to
+leave, and it is a straightforward reason to reject her.
+
+If a company asks her directly about long-term plans, that is hers to answer in
+the room. It never goes in writing from this system.
 
 In her own words, from an MBA statement of purpose:
 
@@ -73,22 +94,30 @@ education.
 
 ## What this means for targeting
 
-The education search is a **means, not an end**. The right target is somewhere
-she learns the specific things she has said she is missing: whether parents will
-actually pay, how to manage money when it gets tight, how to hire people who can
-execute, and what makes people trust a new idea.
+Pay and fit come first. Within roles that clear that bar, prefer ones where she
+would also see the things she has said she wants to understand: whether customers
+will actually pay, how money gets managed when it is tight, how people who can
+execute get hired, and what makes someone trust a new idea.
 
-So rank education targets by what they would teach her, not by mission alignment
-alone:
+Ranking, in this order:
 
-- **Best:** an early-stage education company still proving parent willingness to
-  pay, where she would sit close to the founder and see pricing, enrolment and
-  retention decisions being made.
-- **Good:** any 0-1 consumer business with a high-trust, high-consideration
-  purchase, education or not. The trust problem is the transferable one.
-- **Weak:** a large, well-funded education org where she would run one function
-  well and learn none of the above. This is why Rocket Learning was the wrong
-  first shot, however good the mission.
+- **Best:** a well-paid role at a company selling something high-trust and
+  high-consideration, where she sits close enough to the founder or the P&L to
+  watch pricing, acquisition and retention decisions get made. Education or pet
+  care makes it better. It does not have to be either.
+- **Good:** a well-paid founder's office, strategy or 0-1 role anywhere the work
+  is genuinely undefined. This is what she is good at and what she enjoys.
+- **Rule out:** anything that pays badly, whatever it would teach her.
+
+Rocket Learning is on hold for the ordinary reason rather than a strategic one:
+non-profit comp is a real question against her floor, and I had no named contact.
+Not because it would teach her too little.
+
+## Comp
+
+Her stated floor is 12 LPA. "A job that pays well" is a signal that the floor is
+not the target. Treat 12 as the hard no-go and aim meaningfully above it, and get
+her to name the number she actually wants.
 
 ## Also worth knowing, from the same pages
 

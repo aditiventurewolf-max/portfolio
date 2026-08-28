@@ -52,6 +52,16 @@ them, buying your first broom, how life feels when it is not heavy, protecting
 your peace and your weekends, what her cat taught her about process and failure,
 executive dysfunction and becoming an executive, being late yet on time.
 
+## Never mention Beyond School, or wanting to build her own thing
+
+She has a venture concept called Beyond School. It is not live, and it is
+targeting context only. It must never appear in an email, cover letter, pitch,
+follow-up or form answer. A hiring manager reads "I want to learn how to start my
+own company" as a candidate who is already leaving.
+
+She is looking for a well-paid job she is good at. That is the whole story any
+outreach tells.
+
 ## The rule that outranks the template: do not repeat what they already know
 
 Her correction, and the most common way a cold email dies.
