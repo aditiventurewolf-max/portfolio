@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-28T16:39:40.324Z",
+  "updatedAt": "2026-08-28T17:20:55.622Z",
   "runs": [],
   "tracked": {
     "7e93e5be79": {
@@ -332,6 +332,100 @@
         {
           "at": "2026-08-28T16:39:40.321Z",
           "text": "Address is on the .com domain. Every earlier attempt used .in, which 404s. Worth remembering: try both TLDs before giving up on an Indian D2C brand."
+        }
+      ]
+    },
+    "99bf5f5b3f": {
+      "id": "99bf5f5b3f",
+      "track": "outreach",
+      "type": "company",
+      "source": "signal:yc-api",
+      "company": "Decawork",
+      "title": "no posted role, direct outreach",
+      "location": "Bengaluru",
+      "url": "https://decawork.ai",
+      "firstSeen": "2026-08-28T17:20:55.602Z",
+      "status": "sent",
+      "sentAt": "2026-08-28T17:20:55.602Z",
+      "score": {
+        "value": 84,
+        "verdict": "apply",
+        "reasons": [
+          "2 people, YC S26",
+          "founder reads their own inbox at this size"
+        ],
+        "redFlags": [],
+        "hook": "she both builds agents and runs the operations team that would have to deploy one, which is a rare combination"
+      },
+      "contacts": [
+        {
+          "name": "",
+          "role": "founders inbox",
+          "email": "founders@decawork.ai",
+          "source": "published on their site"
+        }
+      ],
+      "draft": {
+        "angle": "she both builds agents and runs the operations team that would have to deploy one, which is a rare combination",
+        "followupAngles": [
+          "Send a concrete sketch of the first thing she would build or fix for them",
+          "Ask directly whether they are hiring a generalist yet, and offer to stop if not"
+        ],
+        "dir": null,
+        "files": []
+      },
+      "touches": [],
+      "notes": [
+        {
+          "at": "2026-08-28T17:20:55.602Z",
+          "text": "Agent Control Plane for IT teams. Two people, so founders@ is the founders. Strongest YC match found."
+        }
+      ]
+    },
+    "77d1cef344": {
+      "id": "77d1cef344",
+      "track": "outreach",
+      "type": "company",
+      "source": "signal:yc-api",
+      "company": "Waybill",
+      "title": "no posted role, direct outreach",
+      "location": "Gurugram",
+      "url": "https://www.waybill.to",
+      "firstSeen": "2026-08-28T17:20:55.602Z",
+      "status": "sent",
+      "sentAt": "2026-08-28T17:20:55.602Z",
+      "score": {
+        "value": 84,
+        "verdict": "apply",
+        "reasons": [
+          "5 people, YC S26",
+          "founder reads their own inbox at this size"
+        ],
+        "redFlags": [],
+        "hook": "she is their customer profile on both ends: unloaded the truck herself and managed 15+ vendors"
+      },
+      "contacts": [
+        {
+          "name": "",
+          "role": "founders inbox",
+          "email": "hello@waybill.to",
+          "source": "published on their site"
+        }
+      ],
+      "draft": {
+        "angle": "she is their customer profile on both ends: unloaded the truck herself and managed 15+ vendors",
+        "followupAngles": [
+          "Send a concrete sketch of the first thing she would build or fix for them",
+          "Ask directly whether they are hiring a generalist yet, and offer to stop if not"
+        ],
+        "dir": null,
+        "files": []
+      },
+      "touches": [],
+      "notes": [
+        {
+          "at": "2026-08-28T17:20:55.602Z",
+          "text": "Managed procurement and inventory for hardware teams. Weaker on passion segment, strong on her actual skill set."
         }
       ]
     }
