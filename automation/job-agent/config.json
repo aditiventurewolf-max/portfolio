@@ -297,6 +297,12 @@
           ]
         }
       }
+    },
+    "directories": {
+      "bangaloreStartupMap": {
+        "url": "https://bangalorestartupmap.com/",
+        "note": "One page carrying 997 Bangalore company domains. Scrape it with curl and grep for hrefs, then run the address hunt over the results. Reusable, not a one-off."
+      }
     }
   },
   "cadence": {

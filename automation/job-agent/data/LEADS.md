@@ -94,7 +94,30 @@ Bounce regardless of the moonlighting clearance.
 | Gnani.ai | hello@gnani.ai | Bengaluru voice AI. |
 | Haptik | enterprise@haptik.ai | Enterprise queue, weak channel. |
 
+## From her feed, 2026-08-26 batch two
+
+| Company | Route | Verdict |
+|---|---|---|
+| Priyagold / Surya Global Flexi Films / Brahmaverse AI | LinkedIn, posted by Deepnarayan Tripathi | **Worth it.** Founders' Office across three businesses, strategy plus ops plus growth plus AI. Noida, so relocation applies. Asks 2+ years and she has six months, so it is a stretch she should still take. |
+| Stealth B2B demand-gen, San Francisco | LinkedIn, Manraj Singh Bevli | **Ruled out.** In-person in San Francisco five days a week. Not a remote role, and not somewhere she can be. Everything else about it fits, which is the annoying part. |
+
+## From bangalorestartupmap.com
+
+997 Bangalore companies in one page, and a reusable source rather than a one-off.
+Two genuine alternative-education finds in it:
+
+| Company | Address | Note |
+|---|---|---|
+| Mesa School | info@mesaschool.co | **High fit.** New-model school. Closest thing found so far to the thing she actually wants to work on. |
+| Hippocampus | no address published | **High fit.** Rural learning centres, K-12, Bangalore. Needs a route found. |
+| Infinity Learn | support@infinitylearn.com | Medium. Large, support queue. |
+| Airtribe | support@airtribe.live | Medium. Cohort-based learning. |
+| Apna | support@apna.co | Jobs marketplace, adjacent rather than core. |
+| Bambrew | info@bambrew.in | Sustainable packaging, founder-led, Bangalore. |
+| Acviss | hello@acviss.com | Anti-counterfeit tech, Bangalore. |
+| Artelus | contactus@artelus.ai | Medical AI, Bangalore. |
+
 ---
 
-**Total: 47 companies.** 11 already approached, 28 with a verified address and not
+**Total: 57 companies.** 11 already approached, 28 with a verified address and not
 yet contacted, 8 needing a route found or a form submitted.
