@@ -72,3 +72,23 @@ Cloud sessions like the one this was set up in cannot run it. The container is
 wiped, there is no browser to log into, and the network policy blocks it. If you
 see the server fail to connect in a web session, that is expected. Everything
 else in the job agent keeps working without it.
+
+## If the login window is invisible
+
+Symptom: every tool call returns "A LinkedIn login window is open and login is
+still in progress", but there is no window anywhere on screen, and running
+`--status` in a terminal says there is no session.
+
+Cause: the server runs **headless by default**. Claude Code launches its own copy
+of it, that copy opened a login browser you cannot see, and it is now waiting for
+a sign-in that can never happen. Commands you run in a terminal start a *separate*
+instance, so they conflict with it rather than fixing it.
+
+Fix: `.mcp.json` now passes `--no-headless`, so the browser Claude Code launches
+is visible. Close Claude Code fully, reopen it, and the window will appear on the
+first LinkedIn tool call. Sign in there once and the session is saved to
+`~/.linkedin-mcp/profile/`.
+
+Once you are signed in you can drop `--no-headless` from `.mcp.json` if you would
+rather not see a browser on every call. Leaving it in is also fine, and arguably
+better, because you can see what the thing is doing on your account.
