@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-28T17:26:55.517Z",
+  "updatedAt": "2026-08-29T16:23:45.438Z",
   "runs": [],
   "tracked": {
     "7e93e5be79": {
@@ -476,6 +476,328 @@
         {
           "at": "2026-08-28T17:26:55.516Z",
           "text": "Only company so far where Beyond School is an asset. Their JD says: You want to start up in 2 years as a non-tech founder. Comp is at her floor, so the ESOP and the fit have to carry it."
+        }
+      ]
+    },
+    "7215099653": {
+      "id": "7215099653",
+      "track": "outreach",
+      "type": "company",
+      "source": "leads:address-hunt",
+      "company": "JustDogs",
+      "title": "no posted role, direct outreach",
+      "location": "Bengaluru retail chain",
+      "url": "",
+      "firstSeen": "2026-08-29T16:23:45.421Z",
+      "status": "sent",
+      "sentAt": "2026-08-29T16:23:45.421Z",
+      "score": {
+        "value": 80,
+        "verdict": "apply",
+        "reasons": [
+          "verified published address"
+        ],
+        "redFlags": [],
+        "hook": "picky eater plus retail sell-through. A named person rather than a queue."
+      },
+      "contacts": [
+        {
+          "name": "Yogesh",
+          "role": "",
+          "email": "yogesh@justdogs.in",
+          "source": "published on their site"
+        }
+      ],
+      "draft": {
+        "angle": "picky eater plus retail sell-through. A named person rather than a queue.",
+        "followupAngles": [
+          "Send the one-page list of what is actually poisonous to cats and dogs",
+          "Ask directly whether this problem belongs to anyone today, and offer to stop if it is a no"
+        ],
+        "dir": null,
+        "files": []
+      },
+      "touches": [],
+      "notes": [
+        {
+          "at": "2026-08-29T16:23:45.421Z",
+          "text": "Batch send 2026-08-26. Address verified by raw-HTML grep."
+        }
+      ]
+    },
+    "de2e380283": {
+      "id": "de2e380283",
+      "track": "outreach",
+      "type": "company",
+      "source": "leads:address-hunt",
+      "company": "Wiggles",
+      "title": "no posted role, direct outreach",
+      "location": "Pune",
+      "url": "",
+      "firstSeen": "2026-08-29T16:23:45.421Z",
+      "status": "sent",
+      "sentAt": "2026-08-29T16:23:45.421Z",
+      "score": {
+        "value": 80,
+        "verdict": "apply",
+        "reasons": [
+          "verified published address"
+        ],
+        "redFlags": [],
+        "hook": "the informing layer, since they already span care and products"
+      },
+      "contacts": [
+        {
+          "name": "",
+          "role": "",
+          "email": "support@wiggles.in",
+          "source": "published on their site"
+        }
+      ],
+      "draft": {
+        "angle": "the informing layer, since they already span care and products",
+        "followupAngles": [
+          "Send the one-page list of what is actually poisonous to cats and dogs",
+          "Ask directly whether this problem belongs to anyone today, and offer to stop if it is a no"
+        ],
+        "dir": null,
+        "files": []
+      },
+      "touches": [],
+      "notes": [
+        {
+          "at": "2026-08-29T16:23:45.421Z",
+          "text": "Batch send 2026-08-26. Address verified by raw-HTML grep."
+        }
+      ]
+    },
+    "5f7150c00e": {
+      "id": "5f7150c00e",
+      "track": "outreach",
+      "type": "company",
+      "source": "leads:address-hunt",
+      "company": "Captain Zack",
+      "title": "no posted role, direct outreach",
+      "location": "Mumbai",
+      "url": "",
+      "firstSeen": "2026-08-29T16:23:45.421Z",
+      "status": "sent",
+      "sentAt": "2026-08-29T16:23:45.421Z",
+      "score": {
+        "value": 80,
+        "verdict": "apply",
+        "reasons": [
+          "verified published address"
+        ],
+        "redFlags": [],
+        "hook": "being treated as a hypochondriac, and what repeat consults cost. Skin and coat is where owners notice first and read worst."
+      },
+      "contacts": [
+        {
+          "name": "",
+          "role": "",
+          "email": "info@captainzack.in",
+          "source": "published on their site"
+        }
+      ],
+      "draft": {
+        "angle": "being treated as a hypochondriac, and what repeat consults cost. Skin and coat is where owners notice first and read worst.",
+        "followupAngles": [
+          "Send the one-page list of what is actually poisonous to cats and dogs",
+          "Ask directly whether this problem belongs to anyone today, and offer to stop if it is a no"
+        ],
+        "dir": null,
+        "files": []
+      },
+      "touches": [],
+      "notes": [
+        {
+          "at": "2026-08-29T16:23:45.421Z",
+          "text": "Batch send 2026-08-26. Address verified by raw-HTML grep."
+        }
+      ]
+    },
+    "dc5514cd06": {
+      "id": "dc5514cd06",
+      "track": "outreach",
+      "type": "company",
+      "source": "leads:address-hunt",
+      "company": "Barkbutler",
+      "title": "no posted role, direct outreach",
+      "location": "Bengaluru",
+      "url": "",
+      "firstSeen": "2026-08-29T16:23:45.421Z",
+      "status": "sent",
+      "sentAt": "2026-08-29T16:23:45.421Z",
+      "score": {
+        "value": 80,
+        "verdict": "apply",
+        "reasons": [
+          "verified published address"
+        ],
+        "redFlags": [],
+        "hook": "the waste nobody designs for, because the category assumes a stable customer"
+      },
+      "contacts": [
+        {
+          "name": "",
+          "role": "",
+          "email": "info@barkbutler.in",
+          "source": "published on their site"
+        }
+      ],
+      "draft": {
+        "angle": "the waste nobody designs for, because the category assumes a stable customer",
+        "followupAngles": [
+          "Send the one-page list of what is actually poisonous to cats and dogs",
+          "Ask directly whether this problem belongs to anyone today, and offer to stop if it is a no"
+        ],
+        "dir": null,
+        "files": []
+      },
+      "touches": [],
+      "notes": [
+        {
+          "at": "2026-08-29T16:23:45.421Z",
+          "text": "Batch send 2026-08-26. Address verified by raw-HTML grep."
+        }
+      ]
+    },
+    "57c10403cc": {
+      "id": "57c10403cc",
+      "track": "outreach",
+      "type": "company",
+      "source": "leads:address-hunt",
+      "company": "Mesa School",
+      "title": "no posted role, direct outreach",
+      "location": "Bengaluru",
+      "url": "",
+      "firstSeen": "2026-08-29T16:23:45.421Z",
+      "status": "sent",
+      "sentAt": "2026-08-29T16:23:45.421Z",
+      "score": {
+        "value": 80,
+        "verdict": "apply",
+        "reasons": [
+          "verified published address"
+        ],
+        "redFlags": [],
+        "hook": "the students a classroom cannot reach. Named her own school work, since the fit is the point here."
+      },
+      "contacts": [
+        {
+          "name": "",
+          "role": "",
+          "email": "info@mesaschool.co",
+          "source": "published on their site"
+        }
+      ],
+      "draft": {
+        "angle": "the students a classroom cannot reach. Named her own school work, since the fit is the point here.",
+        "followupAngles": [
+          "Send the one-page list of what is actually poisonous to cats and dogs",
+          "Ask directly whether this problem belongs to anyone today, and offer to stop if it is a no"
+        ],
+        "dir": null,
+        "files": []
+      },
+      "touches": [],
+      "notes": [
+        {
+          "at": "2026-08-29T16:23:45.421Z",
+          "text": "Batch send 2026-08-26. Address verified by raw-HTML grep."
+        }
+      ]
+    },
+    "ebbb4670d0": {
+      "id": "ebbb4670d0",
+      "track": "outreach",
+      "type": "company",
+      "source": "leads:address-hunt",
+      "company": "The Whole Truth",
+      "title": "no posted role, direct outreach",
+      "location": "Mumbai",
+      "url": "",
+      "firstSeen": "2026-08-29T16:23:45.421Z",
+      "status": "sent",
+      "sentAt": "2026-08-29T16:23:45.421Z",
+      "score": {
+        "value": 80,
+        "verdict": "apply",
+        "reasons": [
+          "verified published address"
+        ],
+        "redFlags": [],
+        "hook": "the trust gap she already published on, transposed to food labels"
+      },
+      "contacts": [
+        {
+          "name": "",
+          "role": "",
+          "email": "listen@thewholetruthfoods.com",
+          "source": "published on their site"
+        }
+      ],
+      "draft": {
+        "angle": "the trust gap she already published on, transposed to food labels",
+        "followupAngles": [
+          "Send the one-page list of what is actually poisonous to cats and dogs",
+          "Ask directly whether this problem belongs to anyone today, and offer to stop if it is a no"
+        ],
+        "dir": null,
+        "files": []
+      },
+      "touches": [],
+      "notes": [
+        {
+          "at": "2026-08-29T16:23:45.421Z",
+          "text": "Batch send 2026-08-26. Address verified by raw-HTML grep."
+        }
+      ]
+    },
+    "a14268ae8a": {
+      "id": "a14268ae8a",
+      "track": "outreach",
+      "type": "company",
+      "source": "leads:address-hunt",
+      "company": "Blue Tokai",
+      "title": "no posted role, direct outreach",
+      "location": "Delhi and national",
+      "url": "",
+      "firstSeen": "2026-08-29T16:23:45.421Z",
+      "status": "sent",
+      "sentAt": "2026-08-29T16:23:45.421Z",
+      "score": {
+        "value": 80,
+        "verdict": "apply",
+        "reasons": [
+          "verified published address"
+        ],
+        "redFlags": [],
+        "hook": "sell-through and counter training, the part retail strategy usually skips"
+      },
+      "contacts": [
+        {
+          "name": "",
+          "role": "",
+          "email": "getcoffee@bluetokaicoffee.com",
+          "source": "published on their site"
+        }
+      ],
+      "draft": {
+        "angle": "sell-through and counter training, the part retail strategy usually skips",
+        "followupAngles": [
+          "Send the one-page list of what is actually poisonous to cats and dogs",
+          "Ask directly whether this problem belongs to anyone today, and offer to stop if it is a no"
+        ],
+        "dir": null,
+        "files": []
+      },
+      "touches": [],
+      "notes": [
+        {
+          "at": "2026-08-29T16:23:45.421Z",
+          "text": "Batch send 2026-08-26. Address verified by raw-HTML grep."
         }
       ]
     }
