@@ -12,7 +12,7 @@ Bounce regardless of the moonlighting clearance.
 
 ---
 
-## Already sent (11)
+## Already sent (28)
 
 | Company | Sent to | Status |
 |---|---|---|
@@ -27,31 +27,39 @@ Bounce regardless of the moonlighting clearance.
 | Waybill | hello@waybill.to | sent, YC S26 |
 | Weekday | founders@weekday.works | sent, they want a future founder |
 | ConveGenius | info@convegenius.com | sent, strong thesis fit |
+| JustDogs | yogesh@justdogs.in | sent 2026-08-29 |
+| Wiggles | support@wiggles.in | sent 2026-08-29 |
+| Captain Zack | info@captainzack.in | sent 2026-08-29 |
+| Barkbutler | info@barkbutler.in | sent 2026-08-29 |
+| Mesa School | info@mesaschool.co | sent 2026-08-29 |
+| The Whole Truth | listen@thewholetruthfoods.com | sent 2026-08-29 |
+| Blue Tokai | getcoffee@bluetokaicoffee.com | sent 2026-08-29 |
+| Bhanzu | help@bhanzu.com | sent 2026-08-30 |
+| Cuemath | customercare@cuemath.com | sent 2026-08-30 |
+| Emversity | hello@emversity.in | sent 2026-08-30 |
+| Plix | business@plixlife.com | sent 2026-08-30 |
+| Dot & Key | care@dotandkey.com | sent 2026-08-30 |
+| Sleepy Owl | help@sleepyowl.co | sent 2026-08-30 |
+| boAt | careers@imaginemarketingindia.com | sent 2026-08-30 |
+| Gnani.ai | hello@gnani.ai | sent 2026-08-30 |
+| Infinity Learn | support@infinitylearn.com | sent 2026-08-30 |
+| Mamaearth | care@mamaearth.in | sent 2026-08-30 |
 
-## Pet care, ready to send (9)
+## Pet care, ready to send (3)
 
 | Company | Address | Fit | Note |
 |---|---|---|---|
-| JustDogs | yogesh@justdogs.in | **High** | A named person, not a queue. Retail chain, so the BTL and sell-through work lands. |
-| Barkbutler | info@barkbutler.in | High | Founder-led, design-forward, small. |
-| Captain Zack | info@captainzack.in | High | Pet pharma and dermatology. The vet-informing thesis lands directly. |
-| Goofy Tails | care@goofytails.com | Medium | D2C toys and accessories. |
 | Furball Story | info@furballstory.com | Medium | Small, founder-led. |
 | Paws India | support@pawsindia.com | Medium | |
-| Wiggles | support@wiggles.in | High | Vet-at-home plus products, closest to the complete solution she describes. |
-| Drools | contact@drools.com | Medium | Market leader, so a general inbox is a long shot, but the food thesis is exactly theirs. |
 | Zigly / Petsy | support@zigly.com | Low | Corporate parent, not founder-led. |
 
-## Education, ready to send (7)
+## Education, ready to send (4)
 
 | Company | Address | Fit | Note |
 |---|---|---|---|
-| Toddle | hello@toddleapp.com | Medium | Well funded, but serves international schools, which is the opposite end from her thesis. |
-| Bhanzu | help@bhanzu.com | Medium | Maths, Bengaluru, Lightspeed backed. Support queue. |
-| Cuemath | customercare@cuemath.com | Medium | Personalised maths, Bengaluru. Support queue. |
+| Toddle | hello@toddleapp.com | Medium | Well funded, international schools. Denied on first attempt. |
 | Vedantu | vcare@vedantu.com | Low | Large, support queue. |
 | Physics Wallah | support@pw.live | Low | Very large. |
-| Emversity | hello@emversity.in | Medium | Employability-led higher ed, Bengaluru. Live roles were BD only. |
 | Adda247 | support@adda247.com | Low | |
 
 ## YC current batch, India, tiny teams (3 left)
@@ -62,20 +70,13 @@ Bounce regardless of the moonlighting clearance.
 | Ressl AI | no address found | **High** | W26, 3 people, Bengaluru, train and eval autonomous agents. Direct match to her builds. |
 | Truffle AI | no address found | **High** | W25, 2 people, Bengaluru, AWS for AI agents. |
 
-## Consumer and D2C, founder-office-friendly (10)
+## Consumer and D2C, ready to send (3)
 
 | Company | Address | Note |
 |---|---|---|
-| The Whole Truth | listen@thewholetruthfoods.com | Radical-transparency brand. Her trust-gap thesis transfers cleanly. |
-| Blue Tokai | getcoffee@bluetokaicoffee.com | Retail plus D2C, so the hub sell-through work lands. |
 | Slurrp Farm | mail@slurrpfarm.com | Kids food, founder-led. |
-| Plix | business@plixlife.com | A business address, not a support queue. |
 | Earth Rhythm | business@earthrhythm.com | A business address. |
-| Dot & Key | care@dotandkey.com | |
-| Mamaearth | care@mamaearth.in | Large. |
-| Sleepy Owl | help@sleepyowl.co | |
 | Beardo | support@beardo.in | |
-| boAt | careers@imaginemarketingindia.com | A careers address, so it is the right channel for once. |
 
 ## From her own LinkedIn feed, still open (5)
 
@@ -87,11 +88,10 @@ Bounce regardless of the moonlighting clearance.
 | Ripik.AI | LinkedIn link | Chief of staff backfill. |
 | SuperBryn | Google Form | Founder posted it. Referral bounty means a tagged intro beats a cold form. |
 
-## AI, opportunistic (2)
+## AI, ready to send (1)
 
 | Company | Address | Note |
 |---|---|---|
-| Gnani.ai | hello@gnani.ai | Bengaluru voice AI. |
 | Haptik | enterprise@haptik.ai | Enterprise queue, weak channel. |
 
 ## From her feed, 2026-08-26 batch two
@@ -101,23 +101,23 @@ Bounce regardless of the moonlighting clearance.
 | Priyagold / Surya Global Flexi Films / Brahmaverse AI | LinkedIn, posted by Deepnarayan Tripathi | **Worth it.** Founders' Office across three businesses, strategy plus ops plus growth plus AI. Noida, so relocation applies. Asks 2+ years and she has six months, so it is a stretch she should still take. |
 | Stealth B2B demand-gen, San Francisco | LinkedIn, Manraj Singh Bevli | **Ruled out.** In-person in San Francisco five days a week. Not a remote role, and not somewhere she can be. Everything else about it fits, which is the annoying part. |
 
-## From bangalorestartupmap.com
+## From bangalorestartupmap.com, ready to send (5)
 
 997 Bangalore companies in one page, and a reusable source rather than a one-off.
-Two genuine alternative-education finds in it:
 
 | Company | Address | Note |
 |---|---|---|
-| Mesa School | info@mesaschool.co | **High fit.** New-model school. Closest thing found so far to the thing she actually wants to work on. |
 | Hippocampus | no address published | **High fit.** Rural learning centres, K-12, Bangalore. Needs a route found. |
-| Infinity Learn | support@infinitylearn.com | Medium. Large, support queue. |
 | Airtribe | support@airtribe.live | Medium. Cohort-based learning. |
 | Apna | support@apna.co | Jobs marketplace, adjacent rather than core. |
 | Bambrew | info@bambrew.in | Sustainable packaging, founder-led, Bangalore. |
 | Acviss | hello@acviss.com | Anti-counterfeit tech, Bangalore. |
-| Artelus | contactus@artelus.ai | Medical AI, Bangalore. |
 
 ---
 
-**Total: 57 companies.** 11 already approached, 28 with a verified address and not
+**Total: 57 companies.** 28 already approached, 12 with a verified address and not
 yet contacted, 8 needing a route found or a form submitted.
+
+## Goofy Tails and Drools sent (2026-08-30)
+
+Used Ballu (her cat) by name at her request.

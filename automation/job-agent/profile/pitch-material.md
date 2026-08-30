@@ -3,7 +3,7 @@
 Raw material for cold approaches, given by her on 2026-08-26. Use the scenes and
 the conclusions. Do not summarise them into abstractions, that is what kills them.
 
-Her cat is called **Shiva**.
+She has two cats: **Shiva** and **Ballu**. Use either, both are real.
 
 ---
 
