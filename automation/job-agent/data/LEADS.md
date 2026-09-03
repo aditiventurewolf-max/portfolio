@@ -121,3 +121,24 @@ yet contacted, 8 needing a route found or a form submitted.
 ## Goofy Tails and Drools sent (2026-08-30)
 
 Used Ballu (her cat) by name at her request.
+
+## Batch three, 2026-09-03: new leads found via YC hiring page + web search
+
+Shifted fully to named-person or founder addresses where possible, company-specific hooks built from actual product research rather than resume bullets.
+
+| Company | Sent to | Note |
+|---|---|---|
+| Raven (YC S22) | priyansh@raven.dev | Named co-founder. AI assistants for manufacturing ops, 4 people, Bengaluru. Best fit found this round: she both builds agents and runs physical ops. |
+| xPay (YC W24) | hello@xpaycheckout.com | 3 people, Bengaluru. Cross-border billing/tax for SaaS. Hook: reconciliation across 100+ jurisdictions is unowned ops load at this size. |
+| PGAGI / Toingg | contact@toingg.com | Addressed to founder Vivekjyoti Bhowmik by name. Bootstrapped, Bengaluru, memory-driven voice/text agents. |
+| Avacasa | hello@avacasa.com | Actively posted a Founder's Office role. Used the business inbox, not care@avacasa.life (deliberately skipped as a support queue). |
+
+**Denied by her:** CodeRound AI (info@coderound.io) — not sent, not retried.
+
+**Checked, no usable address found:** Rivia.AI (JS-rendered site, no email in static HTML or bundle), FrontPage YC S21 (could not identify a live domain), PGAGI direct (pgagi.in has no published email; used their Toingg product site instead).
+
+**Ruled out:** Enerjazz (EV/battery-swap, mobility conflict).
+
+## Reply check, 2026-09-03
+
+Searched Gmail for all sent mail in the last 7 days (~40 messages). Zero replies so far on any thread.
