@@ -1,0 +1,1094 @@
+{
+  "version": 2,
+  "updatedAt": "2026-09-03T00:00:00.000Z",
+  "runs": [],
+  "tracked": {
+    "7e93e5be79": {
+      "id": "7e93e5be79",
+      "track": "outreach",
+      "type": "company",
+      "source": "manual:approved-by-her",
+      "company": "Heads Up For Tails",
+      "title": "no posted role, direct outreach",
+      "location": "",
+      "url": "https://headsupfortails.com",
+      "firstSeen": "2026-08-28T08:58:29.243Z",
+      "status": "sent",
+      "sentAt": "2026-08-28T08:58:29.243Z",
+      "score": {
+        "value": 90,
+        "verdict": "apply",
+        "reasons": [
+          "priority segment, approved by her"
+        ],
+        "redFlags": [],
+        "hook": "the informing layer on top of their shelf space and trust"
+      },
+      "contacts": [
+        {
+          "name": "Rashi Narang",
+          "role": "Founder",
+          "email": "rashi@headsupfortails.com",
+          "source": "broker-sourced, unverified"
+        }
+      ],
+      "draft": {
+        "angle": "the informing layer on top of their shelf space and trust",
+        "followupAngles": [
+          "Send the one-page list of what is actually poisonous to cats, as the thing she would ship first",
+          "Ask directly whether the informing layer sits with anyone today, and offer to stop if it is a no"
+        ],
+        "dir": null,
+        "files": []
+      },
+      "touches": [],
+      "notes": [
+        {
+          "at": "2026-08-28T08:58:29.243Z",
+          "text": "Sent to a broker-sourced address. Watch for a bounce. Channel: email"
+        }
+      ]
+    },
+    "08e076df40": {
+      "id": "08e076df40",
+      "track": "outreach",
+      "type": "company",
+      "source": "manual:approved-by-her",
+      "company": "Supertails",
+      "title": "no posted role, direct outreach",
+      "location": "",
+      "url": "https://supertails.com",
+      "firstSeen": "2026-08-28T08:58:29.243Z",
+      "status": "sent",
+      "sentAt": "2026-08-28T08:58:29.243Z",
+      "score": {
+        "value": 90,
+        "verdict": "apply",
+        "reasons": [
+          "priority segment, approved by her"
+        ],
+        "redFlags": [],
+        "hook": "most people care, they just do not know enough"
+      },
+      "contacts": [
+        {
+          "name": "Vineet Khanna",
+          "role": "Co-founder",
+          "email": "",
+          "linkedin": "https://linkedin.com/in/vineetkhanna1985",
+          "source": "no published address, sent via support@ with a forward request"
+        }
+      ],
+      "draft": {
+        "angle": "most people care, they just do not know enough",
+        "followupAngles": [
+          "Send the one-page list of what is actually poisonous to cats, as the thing she would ship first",
+          "Ask directly whether the informing layer sits with anyone today, and offer to stop if it is a no"
+        ],
+        "dir": null,
+        "files": []
+      },
+      "touches": [],
+      "notes": [
+        {
+          "at": "2026-08-28T08:58:29.243Z",
+          "text": "Founder address is masked everywhere. Sent to support@supertails.com asking to be forwarded. Channel: email via support queue"
+        }
+      ]
+    },
+    "024f525df4": {
+      "id": "024f525df4",
+      "track": "outreach",
+      "type": "company",
+      "source": "manual:approved-by-her",
+      "company": "Vetic",
+      "title": "no posted role, direct outreach",
+      "location": "",
+      "url": "https://vetic.in",
+      "firstSeen": "2026-08-28T09:41:31.706Z",
+      "status": "sent",
+      "sentAt": "2026-08-28T09:41:31.706Z",
+      "score": {
+        "value": 90,
+        "verdict": "apply",
+        "reasons": [
+          "priority segment, approved by her"
+        ],
+        "redFlags": [],
+        "hook": "the informing layer, from a cat parent who lived the diagnostic gap"
+      },
+      "contacts": [
+        {
+          "name": "Gaurav Ajmera",
+          "role": "Founder",
+          "email": "gaurav@vetic.in",
+          "linkedin": "https://linkedin.com/in/gauravajmera",
+          "source": "inferred from a masked broker listing, sent at her explicit instruction"
+        }
+      ],
+      "draft": {
+        "angle": "the informing layer, from a cat parent who lived the diagnostic gap",
+        "followupAngles": [
+          "Send the one-page list of what is actually poisonous to cats and dogs, as the first thing she would ship",
+          "Ask directly whether the informing layer belongs to anyone today, and offer to stop if it is a no"
+        ],
+        "dir": null,
+        "files": []
+      },
+      "touches": [],
+      "notes": [
+        {
+          "at": "2026-08-28T09:41:31.706Z",
+          "text": "Vetic publishes exactly one address, support@vetic.in, which doubles as their Grievance Officer contact. Careers go through a Google Form. Founder address masked on every broker site. LinkedIn is the real route to him."
+        },
+        {
+          "at": "2026-08-28T15:44:02.809Z",
+          "text": "Second send, direct to gaurav@vetic.in at her instruction. Address is inferred from the g***@vetic.in mask, so a bounce is possible. If it bounces, gaurav.ajmera@vetic.in is the other candidate."
+        }
+      ]
+    },
+    "0747b37f37": {
+      "id": "0747b37f37",
+      "track": "outreach",
+      "type": "company",
+      "source": "manual:approved-by-her",
+      "company": "Muttley Crew",
+      "title": "no posted role, direct outreach",
+      "location": "",
+      "url": "https://muttleycrew.in",
+      "firstSeen": "2026-08-28T09:41:31.706Z",
+      "status": "sent",
+      "sentAt": "2026-08-28T09:41:31.706Z",
+      "score": {
+        "value": 90,
+        "verdict": "apply",
+        "reasons": [
+          "priority segment, approved by her"
+        ],
+        "redFlags": [],
+        "hook": "they already work with vets and nutritionists, so informing is theirs to own"
+      },
+      "contacts": [
+        {
+          "name": "Smriti Thomas",
+          "role": "Founder",
+          "email": "saywoof@muttleycrew.in",
+          "source": "published on their contact page"
+        }
+      ],
+      "draft": {
+        "angle": "they already work with vets and nutritionists, so informing is theirs to own",
+        "followupAngles": [
+          "Send the one-page list of what is actually poisonous to cats and dogs, as the first thing she would ship",
+          "Ask directly whether the informing layer belongs to anyone today, and offer to stop if it is a no"
+        ],
+        "dir": null,
+        "files": []
+      },
+      "touches": [],
+      "notes": [
+        {
+          "at": "2026-08-28T09:41:31.706Z",
+          "text": "Bangalore. Raised 425k seed in 2026. Expanding past 100 locations, which maps onto her retail sell-through work. Small enough that saywoof@ is read by a person."
+        }
+      ]
+    },
+    "23503a89e3": {
+      "id": "23503a89e3",
+      "track": "outreach",
+      "type": "company",
+      "source": "her linkedin feed",
+      "company": "Baseten",
+      "title": "Founding BizOps",
+      "location": "Remote, US HQ",
+      "url": "https://baseten.co",
+      "firstSeen": "2026-08-28T16:26:56.329Z",
+      "status": "sent",
+      "sentAt": "2026-08-28T16:26:56.329Z",
+      "score": {
+        "value": 88,
+        "verdict": "apply",
+        "reasons": [
+          "founding BizOps",
+          "foreign HQ hiring remote, matches the outside-in preference",
+          "they said judgment over pedigree"
+        ],
+        "redFlags": [
+          "US timezone against her no-past-9pm rule"
+        ],
+        "hook": "the work in that post is the work she already does"
+      },
+      "contacts": [
+        {
+          "name": "Connor Peters",
+          "role": "Running point on recruiting",
+          "email": "connor.peters@baseten.co",
+          "source": "published in Dannie Herzberg public post"
+        }
+      ],
+      "draft": {
+        "angle": "judgment over pedigree, plus the agent portfolio is directly relevant to inference infra",
+        "followupAngles": [
+          "Send the one-page teardown of where their docs lose a first-time user",
+          "Ask directly whether the founding BizOps seat is still open and offer to stop if not"
+        ],
+        "dir": null,
+        "files": []
+      },
+      "touches": [],
+      "notes": [
+        {
+          "at": "2026-08-28T16:26:56.329Z",
+          "text": "Sent to a real published address. Corrected before sending: ten workstreams not eight, and no LinkedIn URL in the signature."
+        }
+      ]
+    },
+    "735ba65be8": {
+      "id": "735ba65be8",
+      "track": "outreach",
+      "type": "company",
+      "source": "manual:approved-by-her",
+      "company": "PawSpace",
+      "title": "no posted role, direct outreach",
+      "location": "Bangalore",
+      "url": "",
+      "firstSeen": "2026-08-28T16:39:40.321Z",
+      "status": "sent",
+      "sentAt": "2026-08-28T16:39:40.321Z",
+      "score": {
+        "value": 85,
+        "verdict": "apply",
+        "reasons": [
+          "pet care, priority segment"
+        ],
+        "redFlags": [],
+        "hook": "vetting is the product, not a feature, because the category is a stakeholder agency problem"
+      },
+      "contacts": [
+        {
+          "name": "",
+          "role": "general inbox",
+          "email": "connect@pawspace.in",
+          "source": "published, found in raw HTML"
+        }
+      ],
+      "draft": {
+        "angle": "vetting is the product, not a feature, because the category is a stakeholder agency problem",
+        "followupAngles": [
+          "Send the one-page list of what is actually poisonous to cats and dogs",
+          "Ask directly whether this problem belongs to anyone today, and offer to stop if it is a no"
+        ],
+        "dir": null,
+        "files": []
+      },
+      "touches": [],
+      "notes": [
+        {
+          "at": "2026-08-28T16:39:40.321Z",
+          "text": "Address found by grepping the raw HTML of their contact page. WebFetch could not read the JS-rendered site."
+        }
+      ]
+    },
+    "c648102c47": {
+      "id": "c648102c47",
+      "track": "outreach",
+      "type": "company",
+      "source": "manual:approved-by-her",
+      "company": "Dogsee Chew",
+      "title": "no posted role, direct outreach",
+      "location": "Bengaluru",
+      "url": "",
+      "firstSeen": "2026-08-28T16:39:40.321Z",
+      "status": "sent",
+      "sentAt": "2026-08-28T16:39:40.321Z",
+      "score": {
+        "value": 85,
+        "verdict": "apply",
+        "reasons": [
+          "pet care, priority segment"
+        ],
+        "redFlags": [],
+        "hook": "healthy food loses the taste test, and better quality means worse prices on a product you buy forever"
+      },
+      "contacts": [
+        {
+          "name": "",
+          "role": "general inbox",
+          "email": "hello@dogseechew.com",
+          "source": "published, found in raw HTML"
+        }
+      ],
+      "draft": {
+        "angle": "healthy food loses the taste test, and better quality means worse prices on a product you buy forever",
+        "followupAngles": [
+          "Send the one-page list of what is actually poisonous to cats and dogs",
+          "Ask directly whether this problem belongs to anyone today, and offer to stop if it is a no"
+        ],
+        "dir": null,
+        "files": []
+      },
+      "touches": [],
+      "notes": [
+        {
+          "at": "2026-08-28T16:39:40.321Z",
+          "text": "Address is on the .com domain. Every earlier attempt used .in, which 404s. Worth remembering: try both TLDs before giving up on an Indian D2C brand."
+        }
+      ]
+    },
+    "99bf5f5b3f": {
+      "id": "99bf5f5b3f",
+      "track": "outreach",
+      "type": "company",
+      "source": "signal:yc-api",
+      "company": "Decawork",
+      "title": "no posted role, direct outreach",
+      "location": "Bengaluru",
+      "url": "https://decawork.ai",
+      "firstSeen": "2026-08-28T17:20:55.602Z",
+      "status": "sent",
+      "sentAt": "2026-08-28T17:20:55.602Z",
+      "score": {
+        "value": 84,
+        "verdict": "apply",
+        "reasons": [
+          "2 people, YC S26",
+          "founder reads their own inbox at this size"
+        ],
+        "redFlags": [],
+        "hook": "she both builds agents and runs the operations team that would have to deploy one, which is a rare combination"
+      },
+      "contacts": [
+        {
+          "name": "",
+          "role": "founders inbox",
+          "email": "founders@decawork.ai",
+          "source": "published on their site"
+        }
+      ],
+      "draft": {
+        "angle": "she both builds agents and runs the operations team that would have to deploy one, which is a rare combination",
+        "followupAngles": [
+          "Send a concrete sketch of the first thing she would build or fix for them",
+          "Ask directly whether they are hiring a generalist yet, and offer to stop if not"
+        ],
+        "dir": null,
+        "files": []
+      },
+      "touches": [],
+      "notes": [
+        {
+          "at": "2026-08-28T17:20:55.602Z",
+          "text": "Agent Control Plane for IT teams. Two people, so founders@ is the founders. Strongest YC match found."
+        }
+      ]
+    },
+    "77d1cef344": {
+      "id": "77d1cef344",
+      "track": "outreach",
+      "type": "company",
+      "source": "signal:yc-api",
+      "company": "Waybill",
+      "title": "no posted role, direct outreach",
+      "location": "Gurugram",
+      "url": "https://www.waybill.to",
+      "firstSeen": "2026-08-28T17:20:55.602Z",
+      "status": "sent",
+      "sentAt": "2026-08-28T17:20:55.602Z",
+      "score": {
+        "value": 84,
+        "verdict": "apply",
+        "reasons": [
+          "5 people, YC S26",
+          "founder reads their own inbox at this size"
+        ],
+        "redFlags": [],
+        "hook": "she is their customer profile on both ends: unloaded the truck herself and managed 15+ vendors"
+      },
+      "contacts": [
+        {
+          "name": "",
+          "role": "founders inbox",
+          "email": "hello@waybill.to",
+          "source": "published on their site"
+        }
+      ],
+      "draft": {
+        "angle": "she is their customer profile on both ends: unloaded the truck herself and managed 15+ vendors",
+        "followupAngles": [
+          "Send a concrete sketch of the first thing she would build or fix for them",
+          "Ask directly whether they are hiring a generalist yet, and offer to stop if not"
+        ],
+        "dir": null,
+        "files": []
+      },
+      "touches": [],
+      "notes": [
+        {
+          "at": "2026-08-28T17:20:55.602Z",
+          "text": "Managed procurement and inventory for hardware teams. Weaker on passion segment, strong on her actual skill set."
+        }
+      ]
+    },
+    "6d6f1237f3": {
+      "id": "6d6f1237f3",
+      "track": "outreach",
+      "type": "company",
+      "source": "web search, YC jobs page",
+      "company": "Weekday",
+      "title": "Founder's Office",
+      "location": "Indiranagar, Bangalore",
+      "url": "https://www.ycombinator.com/companies/weekday/jobs/cQZdv5Q-founder-s-office",
+      "firstSeen": "2026-08-28T17:26:55.516Z",
+      "status": "sent",
+      "sentAt": "2026-08-28T17:26:55.516Z",
+      "score": {
+        "value": 92,
+        "verdict": "apply",
+        "reasons": [
+          "Bangalore, Indiranagar, so the hybrid preference is satisfiable",
+          "YC backed",
+          "their listing explicitly wants a future non-tech founder"
+        ],
+        "redFlags": [
+          "12-15 LPA sits at her floor rather than above it"
+        ],
+        "hook": "their listing asks for exactly the thing she has been told to hide everywhere else"
+      },
+      "contacts": [
+        {
+          "name": "",
+          "role": "founders inbox",
+          "email": "founders@weekday.works",
+          "source": "published on their contact and privacy pages"
+        }
+      ],
+      "draft": {
+        "angle": "named the school model, because their JD asked for a future founder",
+        "followupAngles": [
+          "Send the one-page version of the school model, since they have shown they want to see it",
+          "Ask whether the 12-15 band has room, given she is comparing against a 40-55 remote offer in the pipeline"
+        ],
+        "dir": null,
+        "files": []
+      },
+      "touches": [],
+      "notes": [
+        {
+          "at": "2026-08-28T17:26:55.516Z",
+          "text": "Only company so far where Beyond School is an asset. Their JD says: You want to start up in 2 years as a non-tech founder. Comp is at her floor, so the ESOP and the fit have to carry it."
+        }
+      ]
+    },
+    "7215099653": {
+      "id": "7215099653",
+      "track": "outreach",
+      "type": "company",
+      "source": "leads:address-hunt",
+      "company": "JustDogs",
+      "title": "no posted role, direct outreach",
+      "location": "Bengaluru retail chain",
+      "url": "",
+      "firstSeen": "2026-08-29T16:23:45.421Z",
+      "status": "sent",
+      "sentAt": "2026-08-29T16:23:45.421Z",
+      "score": {
+        "value": 80,
+        "verdict": "apply",
+        "reasons": [
+          "verified published address"
+        ],
+        "redFlags": [],
+        "hook": "picky eater plus retail sell-through. A named person rather than a queue."
+      },
+      "contacts": [
+        {
+          "name": "Yogesh",
+          "role": "",
+          "email": "yogesh@justdogs.in",
+          "source": "published on their site"
+        }
+      ],
+      "draft": {
+        "angle": "picky eater plus retail sell-through. A named person rather than a queue.",
+        "followupAngles": [
+          "Send the one-page list of what is actually poisonous to cats and dogs",
+          "Ask directly whether this problem belongs to anyone today, and offer to stop if it is a no"
+        ],
+        "dir": null,
+        "files": []
+      },
+      "touches": [],
+      "notes": [
+        {
+          "at": "2026-08-29T16:23:45.421Z",
+          "text": "Batch send 2026-08-26. Address verified by raw-HTML grep."
+        }
+      ]
+    },
+    "de2e380283": {
+      "id": "de2e380283",
+      "track": "outreach",
+      "type": "company",
+      "source": "leads:address-hunt",
+      "company": "Wiggles",
+      "title": "no posted role, direct outreach",
+      "location": "Pune",
+      "url": "",
+      "firstSeen": "2026-08-29T16:23:45.421Z",
+      "status": "sent",
+      "sentAt": "2026-08-29T16:23:45.421Z",
+      "score": {
+        "value": 80,
+        "verdict": "apply",
+        "reasons": [
+          "verified published address"
+        ],
+        "redFlags": [],
+        "hook": "the informing layer, since they already span care and products"
+      },
+      "contacts": [
+        {
+          "name": "",
+          "role": "",
+          "email": "support@wiggles.in",
+          "source": "published on their site"
+        }
+      ],
+      "draft": {
+        "angle": "the informing layer, since they already span care and products",
+        "followupAngles": [
+          "Send the one-page list of what is actually poisonous to cats and dogs",
+          "Ask directly whether this problem belongs to anyone today, and offer to stop if it is a no"
+        ],
+        "dir": null,
+        "files": []
+      },
+      "touches": [],
+      "notes": [
+        {
+          "at": "2026-08-29T16:23:45.421Z",
+          "text": "Batch send 2026-08-26. Address verified by raw-HTML grep."
+        }
+      ]
+    },
+    "5f7150c00e": {
+      "id": "5f7150c00e",
+      "track": "outreach",
+      "type": "company",
+      "source": "leads:address-hunt",
+      "company": "Captain Zack",
+      "title": "no posted role, direct outreach",
+      "location": "Mumbai",
+      "url": "",
+      "firstSeen": "2026-08-29T16:23:45.421Z",
+      "status": "sent",
+      "sentAt": "2026-08-29T16:23:45.421Z",
+      "score": {
+        "value": 80,
+        "verdict": "apply",
+        "reasons": [
+          "verified published address"
+        ],
+        "redFlags": [],
+        "hook": "being treated as a hypochondriac, and what repeat consults cost. Skin and coat is where owners notice first and read worst."
+      },
+      "contacts": [
+        {
+          "name": "",
+          "role": "",
+          "email": "info@captainzack.in",
+          "source": "published on their site"
+        }
+      ],
+      "draft": {
+        "angle": "being treated as a hypochondriac, and what repeat consults cost. Skin and coat is where owners notice first and read worst.",
+        "followupAngles": [
+          "Send the one-page list of what is actually poisonous to cats and dogs",
+          "Ask directly whether this problem belongs to anyone today, and offer to stop if it is a no"
+        ],
+        "dir": null,
+        "files": []
+      },
+      "touches": [],
+      "notes": [
+        {
+          "at": "2026-08-29T16:23:45.421Z",
+          "text": "Batch send 2026-08-26. Address verified by raw-HTML grep."
+        }
+      ]
+    },
+    "dc5514cd06": {
+      "id": "dc5514cd06",
+      "track": "outreach",
+      "type": "company",
+      "source": "leads:address-hunt",
+      "company": "Barkbutler",
+      "title": "no posted role, direct outreach",
+      "location": "Bengaluru",
+      "url": "",
+      "firstSeen": "2026-08-29T16:23:45.421Z",
+      "status": "sent",
+      "sentAt": "2026-08-29T16:23:45.421Z",
+      "score": {
+        "value": 80,
+        "verdict": "apply",
+        "reasons": [
+          "verified published address"
+        ],
+        "redFlags": [],
+        "hook": "the waste nobody designs for, because the category assumes a stable customer"
+      },
+      "contacts": [
+        {
+          "name": "",
+          "role": "",
+          "email": "info@barkbutler.in",
+          "source": "published on their site"
+        }
+      ],
+      "draft": {
+        "angle": "the waste nobody designs for, because the category assumes a stable customer",
+        "followupAngles": [
+          "Send the one-page list of what is actually poisonous to cats and dogs",
+          "Ask directly whether this problem belongs to anyone today, and offer to stop if it is a no"
+        ],
+        "dir": null,
+        "files": []
+      },
+      "touches": [],
+      "notes": [
+        {
+          "at": "2026-08-29T16:23:45.421Z",
+          "text": "Batch send 2026-08-26. Address verified by raw-HTML grep."
+        }
+      ]
+    },
+    "57c10403cc": {
+      "id": "57c10403cc",
+      "track": "outreach",
+      "type": "company",
+      "source": "leads:address-hunt",
+      "company": "Mesa School",
+      "title": "no posted role, direct outreach",
+      "location": "Bengaluru",
+      "url": "",
+      "firstSeen": "2026-08-29T16:23:45.421Z",
+      "status": "sent",
+      "sentAt": "2026-08-29T16:23:45.421Z",
+      "score": {
+        "value": 80,
+        "verdict": "apply",
+        "reasons": [
+          "verified published address"
+        ],
+        "redFlags": [],
+        "hook": "the students a classroom cannot reach. Named her own school work, since the fit is the point here."
+      },
+      "contacts": [
+        {
+          "name": "",
+          "role": "",
+          "email": "info@mesaschool.co",
+          "source": "published on their site"
+        }
+      ],
+      "draft": {
+        "angle": "the students a classroom cannot reach. Named her own school work, since the fit is the point here.",
+        "followupAngles": [
+          "Send the one-page list of what is actually poisonous to cats and dogs",
+          "Ask directly whether this problem belongs to anyone today, and offer to stop if it is a no"
+        ],
+        "dir": null,
+        "files": []
+      },
+      "touches": [],
+      "notes": [
+        {
+          "at": "2026-08-29T16:23:45.421Z",
+          "text": "Batch send 2026-08-26. Address verified by raw-HTML grep."
+        }
+      ]
+    },
+    "ebbb4670d0": {
+      "id": "ebbb4670d0",
+      "track": "outreach",
+      "type": "company",
+      "source": "leads:address-hunt",
+      "company": "The Whole Truth",
+      "title": "no posted role, direct outreach",
+      "location": "Mumbai",
+      "url": "",
+      "firstSeen": "2026-08-29T16:23:45.421Z",
+      "status": "sent",
+      "sentAt": "2026-08-29T16:23:45.421Z",
+      "score": {
+        "value": 80,
+        "verdict": "apply",
+        "reasons": [
+          "verified published address"
+        ],
+        "redFlags": [],
+        "hook": "the trust gap she already published on, transposed to food labels"
+      },
+      "contacts": [
+        {
+          "name": "",
+          "role": "",
+          "email": "listen@thewholetruthfoods.com",
+          "source": "published on their site"
+        }
+      ],
+      "draft": {
+        "angle": "the trust gap she already published on, transposed to food labels",
+        "followupAngles": [
+          "Send the one-page list of what is actually poisonous to cats and dogs",
+          "Ask directly whether this problem belongs to anyone today, and offer to stop if it is a no"
+        ],
+        "dir": null,
+        "files": []
+      },
+      "touches": [],
+      "notes": [
+        {
+          "at": "2026-08-29T16:23:45.421Z",
+          "text": "Batch send 2026-08-26. Address verified by raw-HTML grep."
+        }
+      ]
+    },
+    "a14268ae8a": {
+      "id": "a14268ae8a",
+      "track": "outreach",
+      "type": "company",
+      "source": "leads:address-hunt",
+      "company": "Blue Tokai",
+      "title": "no posted role, direct outreach",
+      "location": "Delhi and national",
+      "url": "",
+      "firstSeen": "2026-08-29T16:23:45.421Z",
+      "status": "sent",
+      "sentAt": "2026-08-29T16:23:45.421Z",
+      "score": {
+        "value": 80,
+        "verdict": "apply",
+        "reasons": [
+          "verified published address"
+        ],
+        "redFlags": [],
+        "hook": "sell-through and counter training, the part retail strategy usually skips"
+      },
+      "contacts": [
+        {
+          "name": "",
+          "role": "",
+          "email": "getcoffee@bluetokaicoffee.com",
+          "source": "published on their site"
+        }
+      ],
+      "draft": {
+        "angle": "sell-through and counter training, the part retail strategy usually skips",
+        "followupAngles": [
+          "Send the one-page list of what is actually poisonous to cats and dogs",
+          "Ask directly whether this problem belongs to anyone today, and offer to stop if it is a no"
+        ],
+        "dir": null,
+        "files": []
+      },
+      "touches": [],
+      "notes": [
+        {
+          "at": "2026-08-29T16:23:45.421Z",
+          "text": "Batch send 2026-08-26. Address verified by raw-HTML grep."
+        }
+      ]
+    },
+    "b1a2c3d401": {
+      "id": "b1a2c3d401",
+      "track": "outreach",
+      "type": "company",
+      "source": "leads:address-hunt",
+      "company": "Bhanzu",
+      "title": "no posted role, direct outreach",
+      "location": "Bengaluru",
+      "url": "",
+      "firstSeen": "2026-08-30T10:30:00.000Z",
+      "status": "sent",
+      "sentAt": "2026-08-30T10:30:00.000Z",
+      "score": { "value": 75, "verdict": "apply", "reasons": ["education segment"], "redFlags": ["support queue"], "hook": "personalising K-12" },
+      "contacts": [{ "name": "", "role": "", "email": "help@bhanzu.com", "source": "published on their site" }],
+      "draft": { "angle": "personalising K-12 is the need of the hour", "followupAngles": [], "dir": null, "files": [] },
+      "touches": [],
+      "notes": [{ "at": "2026-08-30T10:30:00.000Z", "text": "Batch send 2026-08-30. Support queue." }]
+    },
+    "b1a2c3d402": {
+      "id": "b1a2c3d402",
+      "track": "outreach",
+      "type": "company",
+      "source": "leads:address-hunt",
+      "company": "Cuemath",
+      "title": "no posted role, direct outreach",
+      "location": "Bengaluru",
+      "url": "",
+      "firstSeen": "2026-08-30T10:30:00.000Z",
+      "status": "sent",
+      "sentAt": "2026-08-30T10:30:00.000Z",
+      "score": { "value": 72, "verdict": "apply", "reasons": ["education segment, personalised maths"], "redFlags": ["support queue"], "hook": "making personalised learning land at scale" },
+      "contacts": [{ "name": "", "role": "", "email": "customercare@cuemath.com", "source": "published on their site" }],
+      "draft": { "angle": "making personalised learning land at scale", "followupAngles": [], "dir": null, "files": [] },
+      "touches": [],
+      "notes": [{ "at": "2026-08-30T10:30:00.000Z", "text": "Batch send 2026-08-30. Support queue." }]
+    },
+    "b1a2c3d403": {
+      "id": "b1a2c3d403",
+      "track": "outreach",
+      "type": "company",
+      "source": "leads:address-hunt",
+      "company": "Emversity",
+      "title": "no posted role, direct outreach",
+      "location": "Bengaluru",
+      "url": "",
+      "firstSeen": "2026-08-30T10:30:00.000Z",
+      "status": "sent",
+      "sentAt": "2026-08-30T10:30:00.000Z",
+      "score": { "value": 74, "verdict": "apply", "reasons": ["education, employability-led"], "redFlags": [], "hook": "employability-led education" },
+      "contacts": [{ "name": "", "role": "", "email": "hello@emversity.in", "source": "published on their site" }],
+      "draft": { "angle": "employability-led education from someone who runs ops at scale", "followupAngles": [], "dir": null, "files": [] },
+      "touches": [],
+      "notes": [{ "at": "2026-08-30T10:30:00.000Z", "text": "Batch send 2026-08-30." }]
+    },
+    "b1a2c3d404": {
+      "id": "b1a2c3d404",
+      "track": "outreach",
+      "type": "company",
+      "source": "leads:address-hunt",
+      "company": "Plix",
+      "title": "no posted role, direct outreach",
+      "location": "Mumbai",
+      "url": "",
+      "firstSeen": "2026-08-30T10:30:00.000Z",
+      "status": "sent",
+      "sentAt": "2026-08-30T10:30:00.000Z",
+      "score": { "value": 72, "verdict": "apply", "reasons": ["D2C, business address not support"], "redFlags": [], "hook": "zero-to-one revenue lines" },
+      "contacts": [{ "name": "", "role": "", "email": "business@plixlife.com", "source": "published on their site" }],
+      "draft": { "angle": "zero-to-one revenue lines and the work nobody briefs", "followupAngles": [], "dir": null, "files": [] },
+      "touches": [],
+      "notes": [{ "at": "2026-08-30T10:30:00.000Z", "text": "Batch send 2026-08-30. Business address, not support." }]
+    },
+    "b1a2c3d405": {
+      "id": "b1a2c3d405",
+      "track": "outreach",
+      "type": "company",
+      "source": "leads:address-hunt",
+      "company": "Dot & Key",
+      "title": "no posted role, direct outreach",
+      "location": "Kolkata",
+      "url": "",
+      "firstSeen": "2026-08-30T10:30:00.000Z",
+      "status": "sent",
+      "sentAt": "2026-08-30T10:30:00.000Z",
+      "score": { "value": 70, "verdict": "apply", "reasons": ["D2C consumer brand"], "redFlags": ["care@ queue"], "hook": "founder's office operator" },
+      "contacts": [{ "name": "", "role": "", "email": "care@dotandkey.com", "source": "published on their site" }],
+      "draft": { "angle": "founder's office operator moving into consumer", "followupAngles": [], "dir": null, "files": [] },
+      "touches": [],
+      "notes": [{ "at": "2026-08-30T10:30:00.000Z", "text": "Batch send 2026-08-30." }]
+    },
+    "b1a2c3d406": {
+      "id": "b1a2c3d406",
+      "track": "outreach",
+      "type": "company",
+      "source": "leads:address-hunt",
+      "company": "Sleepy Owl",
+      "title": "no posted role, direct outreach",
+      "location": "Delhi",
+      "url": "",
+      "firstSeen": "2026-08-30T10:30:00.000Z",
+      "status": "sent",
+      "sentAt": "2026-08-30T10:30:00.000Z",
+      "score": { "value": 70, "verdict": "apply", "reasons": ["D2C, retail plus online"], "redFlags": ["help@ queue"], "hook": "retail sell-through" },
+      "contacts": [{ "name": "", "role": "", "email": "help@sleepyowl.co", "source": "published on their site" }],
+      "draft": { "angle": "retail sell-through is the part strategy usually skips", "followupAngles": [], "dir": null, "files": [] },
+      "touches": [],
+      "notes": [{ "at": "2026-08-30T10:30:00.000Z", "text": "Batch send 2026-08-30." }]
+    },
+    "b1a2c3d407": {
+      "id": "b1a2c3d407",
+      "track": "outreach",
+      "type": "company",
+      "source": "leads:address-hunt",
+      "company": "boAt",
+      "title": "no posted role, direct outreach",
+      "location": "Delhi",
+      "url": "",
+      "firstSeen": "2026-08-30T10:30:00.000Z",
+      "status": "sent",
+      "sentAt": "2026-08-30T10:30:00.000Z",
+      "score": { "value": 70, "verdict": "apply", "reasons": ["careers@ address, right channel"], "redFlags": ["large company"], "hook": "ten concurrent workstreams" },
+      "contacts": [{ "name": "", "role": "", "email": "careers@imaginemarketingindia.com", "source": "published careers address" }],
+      "draft": { "angle": "founder's office operator, ten concurrent workstreams", "followupAngles": [], "dir": null, "files": [] },
+      "touches": [],
+      "notes": [{ "at": "2026-08-30T10:30:00.000Z", "text": "Batch send 2026-08-30. Careers address." }]
+    },
+    "b1a2c3d408": {
+      "id": "b1a2c3d408",
+      "track": "outreach",
+      "type": "company",
+      "source": "leads:address-hunt",
+      "company": "Gnani.ai",
+      "title": "no posted role, direct outreach",
+      "location": "Bengaluru",
+      "url": "",
+      "firstSeen": "2026-08-30T10:30:00.000Z",
+      "status": "sent",
+      "sentAt": "2026-08-30T10:30:00.000Z",
+      "score": { "value": 74, "verdict": "apply", "reasons": ["AI, Bangalore, agent builder match"], "redFlags": [], "hook": "agent builder looking for AI" },
+      "contacts": [{ "name": "", "role": "", "email": "hello@gnani.ai", "source": "published on their site" }],
+      "draft": { "angle": "agent builder looking for founder's office work in AI", "followupAngles": [], "dir": null, "files": [] },
+      "touches": [],
+      "notes": [{ "at": "2026-08-30T10:30:00.000Z", "text": "Batch send 2026-08-30." }]
+    },
+    "b1a2c3d409": {
+      "id": "b1a2c3d409",
+      "track": "outreach",
+      "type": "company",
+      "source": "leads:address-hunt",
+      "company": "Infinity Learn",
+      "title": "no posted role, direct outreach",
+      "location": "Hyderabad",
+      "url": "",
+      "firstSeen": "2026-08-30T10:30:00.000Z",
+      "status": "sent",
+      "sentAt": "2026-08-30T10:30:00.000Z",
+      "score": { "value": 68, "verdict": "apply", "reasons": ["education segment"], "redFlags": ["support queue, large"], "hook": "K-12 personalisation" },
+      "contacts": [{ "name": "", "role": "", "email": "support@infinitylearn.com", "source": "published on their site" }],
+      "draft": { "angle": "K-12 personalisation and the students nobody reaches", "followupAngles": [], "dir": null, "files": [] },
+      "touches": [],
+      "notes": [{ "at": "2026-08-30T10:30:00.000Z", "text": "Batch send 2026-08-30. Support queue." }]
+    },
+    "b1a2c3d410": {
+      "id": "b1a2c3d410",
+      "track": "outreach",
+      "type": "company",
+      "source": "leads:address-hunt",
+      "company": "Mamaearth",
+      "title": "no posted role, direct outreach",
+      "location": "Gurugram",
+      "url": "",
+      "firstSeen": "2026-08-30T10:30:00.000Z",
+      "status": "sent",
+      "sentAt": "2026-08-30T10:30:00.000Z",
+      "score": { "value": 65, "verdict": "apply", "reasons": ["large D2C consumer brand"], "redFlags": ["care@ queue, large"], "hook": "consumer brand, sell-through" },
+      "contacts": [{ "name": "", "role": "", "email": "care@mamaearth.in", "source": "published on their site" }],
+      "draft": { "angle": "founder's office operator, consumer brand experience", "followupAngles": [], "dir": null, "files": [] },
+      "touches": [],
+      "notes": [{ "at": "2026-08-30T10:30:00.000Z", "text": "Batch send 2026-08-30. Large company, long shot." }]
+    },
+    "b1a2c3d411": {
+      "id": "b1a2c3d411",
+      "track": "outreach",
+      "type": "company",
+      "source": "leads:address-hunt",
+      "company": "Goofy Tails",
+      "title": "no posted role, direct outreach",
+      "location": "India",
+      "url": "",
+      "firstSeen": "2026-08-30T10:35:00.000Z",
+      "status": "sent",
+      "sentAt": "2026-08-30T10:35:00.000Z",
+      "score": { "value": 75, "verdict": "apply", "reasons": ["pet care, priority segment"], "redFlags": ["care@ queue"], "hook": "Ballu is a picky eater and that is a product problem" },
+      "contacts": [{ "name": "", "role": "", "email": "care@goofytails.com", "source": "published on their site" }],
+      "draft": { "angle": "picky eater, the taste vs health tradeoff", "followupAngles": [], "dir": null, "files": [] },
+      "touches": [],
+      "notes": [{ "at": "2026-08-30T10:35:00.000Z", "text": "Batch send 2026-08-30. Used Ballu (her cat) by name." }]
+    },
+    "b1a2c3d412": {
+      "id": "b1a2c3d412",
+      "track": "outreach",
+      "type": "company",
+      "source": "leads:address-hunt",
+      "company": "Drools",
+      "title": "no posted role, direct outreach",
+      "location": "Hyderabad",
+      "url": "",
+      "firstSeen": "2026-08-30T10:35:00.000Z",
+      "status": "sent",
+      "sentAt": "2026-08-30T10:35:00.000Z",
+      "score": { "value": 72, "verdict": "apply", "reasons": ["pet care, market leader in food"], "redFlags": ["general inbox, large"], "hook": "healthy food that a cat will actually eat" },
+      "contacts": [{ "name": "", "role": "", "email": "contact@drools.com", "source": "published on their site" }],
+      "draft": { "angle": "picky eater, the taste vs health tradeoff, built for Indian market", "followupAngles": [], "dir": null, "files": [] },
+      "touches": [],
+      "notes": [{ "at": "2026-08-30T10:35:00.000Z", "text": "Batch send 2026-08-30. Used Ballu (her cat) by name." }]
+    },
+    "c9a1f2e001": {
+      "id": "c9a1f2e001",
+      "track": "outreach",
+      "type": "company",
+      "source": "signal:yc-jobs-india-hiring",
+      "company": "Raven (YC S22)",
+      "title": "no posted role, direct outreach",
+      "location": "Bengaluru",
+      "url": "https://raven.dev",
+      "firstSeen": "2026-09-03T00:00:00.000Z",
+      "status": "sent",
+      "sentAt": "2026-09-03T00:00:00.000Z",
+      "score": { "value": 86, "verdict": "apply", "reasons": ["4 people, YC-backed", "AI agents for manufacturing ops, direct match to her agent-building skill", "named founder, published address"], "redFlags": [], "hook": "adoption on the factory floor is the real engineering problem, not the model" },
+      "contacts": [{ "name": "Priyansh Srivastava", "role": "Co-founder", "email": "priyansh@raven.dev", "source": "published on raven.dev" }],
+      "draft": { "angle": "demo vs factory floor adoption gap; she both builds agents and runs physical ops at scale", "followupAngles": ["Ask directly whether they need someone who can bridge agent design and operator trust"], "dir": null, "files": [] },
+      "touches": [],
+      "notes": [{ "at": "2026-09-03T00:00:00.000Z", "text": "Strong fit: AI assistants for manufacturing plants, small team, named founder email verified by raw-HTML grep of raven.dev." }]
+    },
+    "c9a1f2e002": {
+      "id": "c9a1f2e002",
+      "track": "outreach",
+      "type": "company",
+      "source": "signal:yc-jobs-india-hiring",
+      "company": "xPay (YC W24)",
+      "title": "no posted role, direct outreach",
+      "location": "Bengaluru",
+      "url": "https://xpaycheckout.com",
+      "firstSeen": "2026-09-03T00:00:00.000Z",
+      "status": "sent",
+      "sentAt": "2026-09-03T00:00:00.000Z",
+      "score": { "value": 78, "verdict": "apply", "reasons": ["3 people, YC-backed", "ops-heavy compliance/reconciliation problem"], "redFlags": ["general hello@ inbox, not a named person"], "hook": "reconciliation across 100+ jurisdictions is an ops problem, not a payments problem" },
+      "contacts": [{ "name": "", "role": "general inbox", "email": "hello@xpaycheckout.com", "source": "published, found in raw HTML" }],
+      "draft": { "angle": "the unglamorous ops load of cross-border billing compliance is unowned at this size", "followupAngles": [], "dir": null, "files": [] },
+      "touches": [],
+      "notes": [{ "at": "2026-09-03T00:00:00.000Z", "text": "First send failed on a Gmail service error, retried with a sharper company-specific hook after research into their actual product mechanics." }]
+    },
+    "c9a1f2e003": {
+      "id": "c9a1f2e003",
+      "track": "outreach",
+      "type": "company",
+      "source": "web-search",
+      "company": "PGAGI / Toingg",
+      "title": "no posted role, direct outreach",
+      "location": "Bengaluru, Electronic City",
+      "url": "https://toingg.com",
+      "firstSeen": "2026-09-03T00:00:00.000Z",
+      "status": "sent",
+      "sentAt": "2026-09-03T00:00:00.000Z",
+      "score": { "value": 76, "verdict": "apply", "reasons": ["AI voice/text agents, named founder", "bootstrapped, Bangalore"], "redFlags": ["general contact@ inbox but addressed to named founder"], "hook": "trust and rollout for agents that talk to customers directly, not just the model" },
+      "contacts": [{ "name": "Vivekjyoti Bhowmik", "role": "Founder", "email": "contact@toingg.com", "source": "founder identified via web search, email published on toingg.com" }],
+      "draft": { "angle": "operational trust-building for voice agents, from someone who both builds and deploys agents into distrustful environments", "followupAngles": [], "dir": null, "files": [] },
+      "touches": [],
+      "notes": [{ "at": "2026-09-03T00:00:00.000Z", "text": "PGAGI's own site has no email; toingg.com (their product) does. Addressed to Vivekjyoti by name." }]
+    },
+    "c9a1f2e004": {
+      "id": "c9a1f2e004",
+      "track": "outreach",
+      "type": "company",
+      "source": "web-search",
+      "company": "Avacasa",
+      "title": "no posted role, direct outreach",
+      "location": "Bengaluru",
+      "url": "https://avacasa.life",
+      "firstSeen": "2026-09-03T00:00:00.000Z",
+      "status": "sent",
+      "sentAt": "2026-09-03T00:00:00.000Z",
+      "score": { "value": 65, "verdict": "apply", "reasons": ["actively posted Founder's Office role", "trust/ops problem fits her profile"], "redFlags": ["hello@ business inbox, not a named person", "care@avacasa.life exists but is a support queue, deliberately not used"], "hook": "distributed trust problem in managed real estate, same shape as pet care vetting" },
+      "contacts": [{ "name": "", "role": "business inbox", "email": "hello@avacasa.com", "source": "published in raw HTML, distinct from care@avacasa.life which was avoided as a support queue" }],
+      "draft": { "angle": "trust in distant, unsupervised assets; she has run distributed multi-city ops before", "followupAngles": [], "dir": null, "files": [] },
+      "touches": [],
+      "notes": [{ "at": "2026-09-03T00:00:00.000Z", "text": "Actively hiring Founder's Office role per Wellfound listing. Sent to business address, not the care@ support queue." }]
+    }
+  },
+  "dismissed": {}
+}
