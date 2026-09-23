@@ -1,0 +1,4 @@
+node_modules/
+
+# Per-run scratch. prep writes it, apply consumes and deletes it.
+data/work/

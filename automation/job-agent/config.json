@@ -1,0 +1,334 @@
+{
+  "profile": {
+    "name": "Aditi Agarwal",
+    "email": "aditi.agarwal@bounceshare.com",
+    "location": "Bangalore, India",
+    "portfolio": "https://github.com/aditiventurewolf-max/portfolio",
+    "github": "https://github.com/aditiventurewolf-max",
+    "linkedin": "",
+    "openTo": [
+      "Bangalore hybrid (still the preference)",
+      "Any Indian city, relocation is fine",
+      "Remote"
+    ],
+    "workAuth": "India",
+    "workingPreference": "Bangalore hybrid around 3 days is the preference, not a requirement. Relocation to another city is fine, confirmed 2026-08-26. Remote is fine too. For remote, prefer companies headquartered outside India that hire into India, confirmed by her."
+  },
+  "targets": {
+    "roles": [
+      "Founder's office / EIR / chief of staff",
+      "Strategy, market entry, business operations",
+      "GTM, growth, partnerships",
+      "Product manager (0-1, AI products)",
+      "Operations / programme management",
+      "Business analyst / analytics",
+      "Content and brand strategy"
+    ],
+    "interestedIn": [
+      "pet care (she is a cat parent, fosters, and works with BCS)",
+      "alternative education, and mission-adjacent education companies that can pay",
+      "AI agents and applied LLM products",
+      "mobility, logistics and gig platforms",
+      "Indian consumer and D2C",
+      "early stage (pre-seed to Series B)"
+    ],
+    "niceToHave": [
+      "founder-led, team under 60",
+      "Bangalore, hybrid around 3 days in office",
+      "a mission she actually cares about rather than an industry she is neutral on",
+      "writing in public counts as part of the job"
+    ],
+    "dealBreakers": [
+      "requires 3+ years experience",
+      "6-day week",
+      "night shift or US-hours-only overlap",
+      "routinely working past 9pm IST",
+      "pure sales quota role",
+      "unpaid or equity-only",
+      "below 12 LPA"
+    ],
+    "includeTitleKeywords": [
+      "product",
+      "growth",
+      "content",
+      "brand",
+      "marketing",
+      "communications",
+      "strategy",
+      "strategist",
+      "writer",
+      "editorial",
+      "community",
+      "social",
+      "ai",
+      "ml",
+      "llm",
+      "agent",
+      "agents",
+      "automation",
+      "prompt",
+      "applied ai",
+      "analyst",
+      "analytics",
+      "research",
+      "insights",
+      "operations",
+      "ops",
+      "program",
+      "project",
+      "partnerships",
+      "business",
+      "founder",
+      "chief of staff",
+      "associate",
+      "generalist",
+      "graduate",
+      "trainee",
+      "apprentice",
+      "intern",
+      "junior",
+      "entry level",
+      "founder's office",
+      "eir",
+      "entrepreneur in residence",
+      "bizops",
+      "business operations",
+      "market entry",
+      "expansion",
+      "category",
+      "revenue",
+      "gtm",
+      "consultant"
+    ],
+    "excludeTitleKeywords": [
+      "senior",
+      "staff",
+      "principal",
+      "director",
+      "vp",
+      "head of",
+      "lead",
+      "engineering manager",
+      "sales manager",
+      "account manager",
+      "account development",
+      "campaign manager",
+      "partner sales",
+      "supply manager",
+      "cluster manager",
+      "counsel",
+      "recruiter",
+      "sales",
+      "account executive",
+      "bdr",
+      "sdr",
+      "customer success",
+      "support engineer",
+      "solutions architect",
+      "architect",
+      "solutions engineer",
+      "solutions consultant",
+      "enablement",
+      "silicon",
+      "data center",
+      "warehouse",
+      "driver",
+      "vice president",
+      "content reviewer",
+      "business development representative",
+      "talent researcher",
+      "talent acquisition",
+      "sourcer"
+    ],
+    "postingsPerRun": 8,
+    "companiesPerRun": 4,
+    "minScore": 68,
+    "prioritySegments": [
+      "pet care",
+      "edtech and alternative education"
+    ],
+    "remotePreference": "For remote roles, prioritise companies headquartered outside India that hire into India. CONFIRMED BY HER on 2026-08-26. They pay materially better for the same work. Still check the timezone expectation against the no-past-9pm-IST rule.",
+    "alsoSurface": "Good fits outside the priority segments still get surfaced. Pet care and edtech are the preference, not a filter."
+  },
+  "sources": {
+    "companies": [
+      "anthropic",
+      "postman",
+      "groww",
+      "razorpaysoftwareprivatelimited",
+      "sarvam",
+      "atlan",
+      "cred",
+      "meesho",
+      "swiggy",
+      "unacademy",
+      "emversity"
+    ],
+    "feeds": {
+      "remotive": {
+        "enabled": true,
+        "searches": [
+          "product manager",
+          "content strategist",
+          "ai automation"
+        ],
+        "limit": 40
+      },
+      "hnHiring": {
+        "enabled": true,
+        "keywords": [
+          "india",
+          "remote",
+          "bangalore",
+          "ai",
+          "agent"
+        ],
+        "maxComments": 300
+      }
+    },
+    "signals": {
+      "launchHn": {
+        "enabled": true,
+        "maxStories": 60
+      },
+      "ycBatches": {
+        "enabled": true,
+        "batches": [
+          "S26",
+          "W26"
+        ],
+        "maxTeamSize": 30
+      }
+    },
+    "inbox": {
+      "enabled": true
+    },
+    "socialSearch": {
+      "enabled": true,
+      "maxQueries": 14,
+      "phrases": [
+        "we're hiring",
+        "hiring our first",
+        "looking for our first",
+        "join us as"
+      ],
+      "modifiers": [
+        "AI agents startup India",
+        "product Bangalore",
+        "chief of staff startup"
+      ],
+      "platforms": {
+        "linkedin": {
+          "enabled": true,
+          "scope": "site:linkedin.com/posts",
+          "lookingFor": "a person posting that they are hiring, not a LinkedIn Jobs listing. The poster is the contact.",
+          "phrases": [
+            "we're hiring",
+            "hiring our first",
+            "looking for our first",
+            "join us as",
+            "DM me if you"
+          ],
+          "modifiers": [
+            "AI startup Bangalore",
+            "founder's office India",
+            "product manager early stage India",
+            "content strategist startup India"
+          ]
+        },
+        "x": {
+          "enabled": true,
+          "scope": "site:x.com OR site:twitter.com",
+          "lookingFor": "a founder's tweet or thread about hiring, or about a problem she could solve for them",
+          "phrases": [
+            "hiring our first",
+            "we're hiring",
+            "looking for someone to own"
+          ],
+          "modifiers": [
+            "AI agents",
+            "startup India",
+            "chief of staff",
+            "growth early stage"
+          ]
+        },
+        "instagram": {
+          "enabled": true,
+          "scope": "site:instagram.com",
+          "lookingFor": "hiring posts from consumer brands, especially pet care and education, where the founder runs the account. Low yield, worth one or two queries.",
+          "phrases": [
+            "we're hiring",
+            "join our team"
+          ],
+          "modifiers": [
+            "pet care startup India",
+            "edtech Bangalore",
+            "D2C brand Bangalore hiring"
+          ]
+        },
+        "yc": {
+          "enabled": true,
+          "scope": "site:workatastartup.com",
+          "lookingFor": "YC company job pages. The YC API has no jobs endpoint, but these pages are indexed, so search is the only way in.",
+          "phrases": [
+            "product",
+            "growth",
+            "content",
+            "chief of staff",
+            "operations"
+          ],
+          "modifiers": [
+            "India remote",
+            "new grad"
+          ]
+        },
+        "web": {
+          "enabled": true,
+          "scope": "",
+          "lookingFor": "founder blogs, newsletters and Substack posts announcing a first hire",
+          "phrases": [
+            "our first product hire",
+            "hiring a generalist",
+            "first business hire"
+          ],
+          "modifiers": [
+            "startup 2026",
+            "seed stage India"
+          ]
+        }
+      }
+    },
+    "directories": {
+      "bangaloreStartupMap": {
+        "url": "https://bangalorestartupmap.com/",
+        "note": "One page carrying 997 Bangalore company domains. Scrape it with curl and grep for hrefs, then run the address hunt over the results. Reusable, not a one-off."
+      }
+    }
+  },
+  "cadence": {
+    "application": {
+      "days": [
+        4,
+        11,
+        21
+      ],
+      "maxTouches": 3
+    },
+    "outreach": {
+      "days": [
+        3,
+        6,
+        10,
+        14
+      ],
+      "maxTouches": 4
+    },
+    "stopOnStatus": [
+      "replied",
+      "interviewing",
+      "offer",
+      "rejected",
+      "closed"
+    ]
+  }
+}

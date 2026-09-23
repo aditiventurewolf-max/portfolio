@@ -20,10 +20,10 @@ const PROJECTS = [
     link: 'https://github.com/aditiventurewolf-max/market-report',
   },
   {
-    num: '04', tags: ['End-to-End', 'Agentic Pipeline'],
+    num: '04', tags: ['Scheduled Agent', 'Runs in the Cloud'],
     title: 'Job Application Agent',
-    desc: 'Fully autonomous: finds jobs, tailors resumes, writes cover letters, applies. Your time is better spent on the actual interview.',
-    link: 'https://docs.google.com/spreadsheets/d/1kVvHZDIxZ3zLydLzep6v8wKBdygIVumH1ecJD4fMzrI/edit?pli=1&gid=1171427330#gid=1171427330',
+    desc: 'Finds roles across ATS APIs and job boards, scores them against a real profile, and drafts the application and the follow-up cadence. Runs itself on a schedule. No laptop involved.',
+    link: 'https://github.com/aditiventurewolf-max/portfolio/tree/main/automation/job-agent',
   },
 ];
 
