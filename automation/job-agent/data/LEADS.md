@@ -58,7 +58,7 @@ Bounce regardless of the moonlighting clearance.
 | Company | Address | Fit | Note |
 |---|---|---|---|
 | Toddle | hello@toddleapp.com | Medium | Well funded, international schools. Denied on first attempt. |
-| Vedantu | vcare@vedantu.com | Low | Large, support queue. |
+| ~~Vedantu~~ | ~~vcare@vedantu.com~~ | — | **Already contacted** (anand.prakash@vedantu.com, May 2026, found in full sent-mail audit). Do not recontact. |
 | Physics Wallah | support@pw.live | Low | Very large. |
 | Adda247 | support@adda247.com | Low | |
 
@@ -131,7 +131,7 @@ Shifted fully to named-person or founder addresses where possible, company-speci
 | Raven (YC S22) | priyansh@raven.dev | Named co-founder. AI assistants for manufacturing ops, 4 people, Bengaluru. Best fit found this round: she both builds agents and runs physical ops. |
 | xPay (YC W24) | hello@xpaycheckout.com | 3 people, Bengaluru. Cross-border billing/tax for SaaS. Hook: reconciliation across 100+ jurisdictions is unowned ops load at this size. |
 | PGAGI / Toingg | contact@toingg.com | Addressed to founder Vivekjyoti Bhowmik by name. Bootstrapped, Bengaluru, memory-driven voice/text agents. |
-| Avacasa | hello@avacasa.com | Actively posted a Founder's Office role. Used the business inbox, not care@avacasa.life (deliberately skipped as a support queue). |
+| ~~Avacasa~~ | ~~hello@avacasa.com~~ | **Bounced** — domain avacasa.com doesn't resolve. Real domain is avacasa.life, which only publishes care@avacasa.life (a support queue). No non-queue address found. Dead lead, not retried. |
 
 **Denied by her:** CodeRound AI (info@coderound.io) — not sent, not retried.
 
@@ -142,3 +142,21 @@ Shifted fully to named-person or founder addresses where possible, company-speci
 ## Reply check, 2026-09-03
 
 Searched Gmail for all sent mail in the last 7 days (~40 messages). Zero replies so far on any thread.
+
+## Send-permission gate found, 2026-09-11 through 2026-09-23
+
+Every `mcp__Gmail__send_message` call fired from the unattended weekday routine
+has come back "Denied by user" — nobody is present to approve a send when the
+routine fires at 08:13 IST. Search, read, and git push work fine unattended;
+only sending is gated. Two drafts that were ready to go (Emversity resend to
+the corrected address, and a new lead, Moe Puppy) are written out in full at
+`data/pending-sends/2026-09-23-batch.md` instead of being lost. See that file
+for what to do about it. Zero real replies found across the whole gap either.
+
+Also: a full `in:sent` Gmail audit on 2026-09-11 found ~15 companies contacted
+in earlier rounds that were never logged here (Datapret, Maxim AI, Koshex,
+Scoot, Angoor.ai, aivideo.com, Gobanyan, Personal.ai, Zenskar, Mynaksh,
+Cityfurnish, RevenueCat, Retell AI, Clinikally, plus Vedantu and Weekday from
+a May 2026 round — Vedantu's entry above is now corrected). Worth a proper
+consolidation pass so this file is a complete dedup source, not just this
+cycle's.
