@@ -26,6 +26,7 @@ export default function Nav() {
         <ul className="nav-links">
           <li><a href="#work" onClick={scrollTo('work')}>Work</a></li>
           <li><a href="#automation" onClick={scrollTo('automation')}>Automation</a></li>
+          <li><a href="/learnings">Learnings</a></li>
           <li><a href="#about" onClick={scrollTo('about')}>About</a></li>
           <li><a href="#contact" onClick={scrollTo('contact')}>Contact</a></li>
         </ul>
