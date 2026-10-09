@@ -1,5 +1,4 @@
-// Content for /learnings. Bounce Shop numbers are from Metabase (9 Oct 2026); repair numbers are
-// from the RRR management review (7 Oct 2026) and RSA tracker. Keep each field to one sentence.
+// Content for /learnings. Numbers match resume v4 (9 Oct 2026). Keep each field to one sentence.
 
 export const intro =
   'Founder\'s-office operator at Bounce. I take a messy problem, find the number that actually explains it, ship a fix, and write down what I got wrong. Below: what I did, what moved, and the one lesson I kept from each.';
@@ -10,14 +9,14 @@ export const groups = [
     items: [
       {
         title: 'In-app Shop for delivery riders',
-        did: 'Built the rider-accessories line from zero: tested willingness to pay at hubs, picked vendors, piloted mobile holders and helmets, then took it in-app across 4 cities.',
+        did: 'Built the rider-accessories line from zero: tested willingness to pay at hubs, trained hub managers, sold 152 mobile stands across 8 Bangalore hubs offline, then took it in-app across 4 cities.',
         result: '516 paid orders, ₹1.4L GMV, 463 riders in 7 weeks; mobile holders drive 76% of revenue. Zerodha partnership: 57,600 leads in 4 weeks.',
         learned: 'Riders didn\'t reject helmets, they rejected helmets that didn\'t fit the bike. A "no" is often a fit problem, and that insight pushed the Shop to stay lean on owned stock and earn from partners instead.',
       },
       {
         title: 'Repair quality (RRR) program',
-        did: 'Co-owned the repeat-repair program: QC checklist redesign, a pre-handover quality check, and weekly root-cause reviews.',
-        result: 'Okhla pre-handover QC cut 7-day repeats from 11.0 to 4.9 per 100 bikes; roadside closure 155 → 109 min; CSAT 76% → 80% best week.',
+        did: 'Co-owned the repeat-repair program in Design Ops: set up the weekly city-level review with city heads, moved QC before job-card closure, and pushed a 45-min roadside-delay alarm into the ops app.',
+        result: 'Repeat repairs 15.75% → 10%, 7-day defects 17% → 12%, roadside closure 155 → 60 min, repair CSAT 76% → 85%.',
         learned: 'Checks that are mandated but never verified do nothing. A 27-point checklist that took 15 minutes got skipped; the short, verified check is what moved the number.',
       },
       {
