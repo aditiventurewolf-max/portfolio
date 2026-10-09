@@ -1,13 +1,15 @@
 import { useState, useEffect } from 'react';
+import { MotionConfig } from 'motion/react';
 import Nav from './components/Nav.jsx';
 import Hero from './components/Hero.jsx';
-import Work from './components/Work.jsx';
-import Modal from './components/Modal.jsx';
-import Automation from './components/Automation.jsx';
+import Stats from './components/Stats.jsx';
+import Proof from './components/Proof.jsx';
+import Agents from './components/Agents.jsx';
+import Writing from './components/Writing.jsx';
 import About from './components/About.jsx';
 import Contact from './components/Contact.jsx';
 import Footer from './components/Footer.jsx';
-import SideIndicator from './components/SideIndicator.jsx';
+import Modal from './components/Modal.jsx';
 
 export default function App() {
   const [modalKey, setModalKey] = useState(null);
@@ -23,16 +25,19 @@ export default function App() {
   }, [modalKey]);
 
   return (
-    <>
+    <MotionConfig reducedMotion="user">
       <Nav />
-      <Hero />
-      <Work onOpen={setModalKey} />
-      <Automation />
-      <About />
-      <Contact />
+      <main>
+        <Hero />
+        <Stats />
+        <Proof />
+        <Agents />
+        <Writing onOpen={setModalKey} />
+        <About />
+        <Contact />
+      </main>
       <Footer />
-      <SideIndicator />
       <Modal pieceKey={modalKey} onClose={() => setModalKey(null)} />
-    </>
+    </MotionConfig>
   );
 }
