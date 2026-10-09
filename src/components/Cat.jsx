@@ -1,14 +1,17 @@
 import { useState } from 'react';
 import { AnimatePresence, motion } from 'motion/react';
+import { Volume2, VolumeX } from 'lucide-react';
 import { pets } from '../data/site.js';
+import { playFor } from '../lib/purr.js';
 
 // Easter egg: pet the cats. Each pet pops a heart, wiggles the cat and cycles what it says.
-function Pet({ pet }) {
+function Pet({ pet, sound }) {
   const [count, setCount] = useState(0);
   const [hearts, setHearts] = useState([]);
 
   const onPet = () => {
     setCount(c => c + 1);
+    if (sound) playFor(pet.id);
     const id = Date.now() + Math.random();
     setHearts(h => [...h, { id, x: Math.random() * 60 - 30 }]);
     setTimeout(() => setHearts(h => h.filter(x => x.id !== id)), 900);
@@ -69,10 +72,28 @@ function Pet({ pet }) {
   );
 }
 
+const readSound = () => {
+  try { return localStorage.getItem('cat-sound') !== 'off'; } catch { return true; }
+};
+
 export default function Cat() {
+  const [sound, setSound] = useState(readSound);
+
+  const toggle = () => {
+    setSound(on => {
+      try { localStorage.setItem('cat-sound', on ? 'off' : 'on'); } catch { /* private mode */ }
+      return !on;
+    });
+  };
+
   return (
-    <div className="cat-zone">
-      {pets.map(p => <Pet key={p.name} pet={p} />)}
+    <div className="cat-wrap">
+      <button className="btn sound-btn" onClick={toggle} aria-pressed={sound}>
+        {sound ? <Volume2 size={18} /> : <VolumeX size={18} />} Purrs {sound ? 'on' : 'off'}
+      </button>
+      <div className="cat-zone">
+        {pets.map(p => <Pet key={p.id} pet={p} sound={sound} />)}
+      </div>
     </div>
   );
 }

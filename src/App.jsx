@@ -3,6 +3,7 @@ import { MotionConfig } from 'motion/react';
 import Nav from './components/Nav.jsx';
 import Hero from './components/Hero.jsx';
 import Stats from './components/Stats.jsx';
+import Timeline from './components/Timeline.jsx';
 import Proof from './components/Proof.jsx';
 import Agents from './components/Agents.jsx';
 import Writing from './components/Writing.jsx';
@@ -30,6 +31,7 @@ export default function App() {
       <main>
         <Hero />
         <Stats />
+        <Timeline />
         <Proof />
         <Agents />
         <Writing onOpen={setModalKey} />

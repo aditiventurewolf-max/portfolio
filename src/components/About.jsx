@@ -25,7 +25,7 @@ export default function About() {
         <div className="about-copy">
           <span className="label">About</span>
           <h2 className="h-section" style={{ marginTop: 12 }}>Jack of all trades.<br /><span className="tag-box bg-red">Master of some.</span></h2>
-          <p>IIM Ranchi IPM (ranked <strong>#1 in my cohort</strong> in year one). Now in the Founder's Office at Bounce, where I own the messy middle: rider products, repair quality, partnerships, and whatever is on fire this week.</p>
+          <p>IIM Ranchi IPM (ranked <strong>#1 in my cohort</strong>). Now in the Founder's Office at Bounce, where I own the messy middle: rider products, repair quality, partnerships, and whatever is on fire this week.</p>
           <p>I like problems that look like ops but are really about people. Lately I've been building AI tools so I can spend my time on the parts that need thinking.</p>
           <div className="guarantee">
             <strong>The Domino's deal:</strong> if I don't fit the role and the team in a week, you get your money back.

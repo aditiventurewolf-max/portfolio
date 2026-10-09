@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { motion } from 'motion/react';
 import { RotateCw } from 'lucide-react';
-import { groups } from '../data/learnings.js';
+import { groups, resultOf } from '../data/learnings.js';
 
 const FRONT = ['bg-white', 'bg-white', 'bg-white', 'bg-white', 'bg-white'];
 const HEAD = ['bg-yellow', 'bg-violet', 'bg-red', 'bg-yellow', 'bg-violet'];
@@ -46,7 +46,7 @@ function FlipCard({ c, i }) {
           <div className="flip-body">
             <h3>{c.title}</h3>
             <p>{c.did}</p>
-            <p className="flip-result">{c.result}</p>
+            <p className="flip-result">{resultOf(c)}</p>
             <span className="flip-foot"><RotateCw size={16} strokeWidth={3} /> Tap for the lesson</span>
           </div>
         </div>

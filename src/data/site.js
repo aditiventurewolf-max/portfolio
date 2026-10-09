@@ -5,13 +5,14 @@ export const contact = {
   linkedin: 'https://linkedin.com/in/venture-with-aditi',
   github: 'https://github.com/aditiventurewolf-max',
   blog: 'https://iimranchi.ac.in/its-okay-to-not-be-okay/',
+  resume: 'mailto:aditiagrawal2026@gmail.com?subject=Resume%20request&body=Hi%20Aditi%2C%20could%20you%20send%20over%20your%20resume%3F',
 };
 
 export const marquee = [
   'Founder\'s Office @ Bounce',
-  '₹1.4L GMV in 7 weeks',
+  '500+ orders in 7 weeks',
   'IIM Ranchi',
-  '57,600 partner leads',
+  '50K+ partner leads',
   'Builds AI agents for fun',
   'Certified cat person',
   'Bangalore',
@@ -19,17 +20,17 @@ export const marquee = [
 
 // Draggable stickers in the hero. x/y are % positions inside the sticker board.
 export const stickers = [
-  { id: 'gmv',   text: '₹1.4L GMV',        sub: 'in 7 weeks',     color: 'yellow', x: 5,  y: 7,  rotate: -6 },
-  { id: 'leads', text: '57,600',           sub: 'partner leads',  color: 'violet', x: 58, y: 5,  rotate: 5 },
-  { id: 'rsa',   text: '155 → 60',         sub: 'min to close',   color: 'red',    x: 6,  y: 37, rotate: -3 },
-  { id: 'csat',  text: 'CSAT 76 → 85',     sub: 'repair',         color: 'white',  x: 50, y: 37, rotate: 6 },
-  { id: 'iim',   text: 'IIM RANCHI',       sub: '#1 in cohort, yr 1', color: 'yellow', x: 5, y: 68, rotate: 4 },
+  { id: 'gmv',   text: '500+ orders',      sub: 'in 7 weeks',     color: 'yellow', x: 5,  y: 7,  rotate: -6 },
+  { id: 'leads', text: '50K+',             sub: 'partner leads',  color: 'violet', x: 58, y: 5,  rotate: 5 },
+  { id: 'rsa',   text: '2.5× faster',      sub: 'roadside fixes',   color: 'red',    x: 6,  y: 37, rotate: -3 },
+  { id: 'csat',  text: 'CSAT +9 pts',      sub: 'repairs',         color: 'white',  x: 50, y: 37, rotate: 6 },
+  { id: 'iim',   text: 'IIM RANCHI',       sub: '#1 in cohort', color: 'yellow', x: 5, y: 68, rotate: 4 },
   { id: 'cat',   text: '🐱',               sub: 'drag me',        color: 'violet', x: 64, y: 64, rotate: -10, round: true },
 ];
 
 export const stats = [
-  { value: 516,   label: 'paid Shop orders in 7 weeks', prefix: '', suffix: '' },
-  { value: 57600, label: 'partner leads in 4 weeks', prefix: '', suffix: '' },
+  { value: 500,   label: 'paid Shop orders in 7 weeks', prefix: '', suffix: '+' },
+  { value: 50,    label: 'partner leads in a month', prefix: '', suffix: 'K+' },
   { value: 200,   label: 'rider calls, every one coded', prefix: '', suffix: '+' },
   { value: 5000,  label: 'scooters rebranded', prefix: '', suffix: '+' },
 ];
@@ -78,7 +79,7 @@ export const writing = [
     desc: 'Repositioned an axial-flux motor startup from component maker to performance architect.',
   },
   {
-    key: 'skincare', category: 'research', color: 'white',
+    key: 'skincare', category: 'research', color: 'red',
     tag: 'UX audit · Skincare',
     title: 'Personalising Skincare: brand & UX audit',
     desc: 'Where the site loses customers, and a journey redesign that delivers the "personal touch" it promises.',
@@ -99,10 +100,19 @@ export const writing = [
 
 export const writingFilters = ['all', 'writing', 'research', 'strategy'];
 
+export const timeline = [
+  { when: 'Now',     org: 'Bounce',            role: "Founder's Office",          note: 'EV scooters for gig delivery riders', color: 'yellow' },
+  { when: 'Before',  org: 'Scaler AI Labs',    role: "Director's Office",         note: 'Strategy, growth & ops for AI training data', color: 'violet' },
+  { when: 'Field',   org: 'Uttam & Rasabera',  role: 'Business consultant',      note: 'Agri-processing SME, Ranchi', color: 'red' },
+  { when: 'Intern',  org: 'Glocal Advisory',   role: 'Advisory intern',          note: 'Company evaluations, grant funding', color: 'white' },
+  { when: '2023–26', org: 'IIM Ranchi',        role: 'IPM (BBA)',                note: '#1 in cohort', color: 'yellow' },
+];
+
 export const chips = ['🐱🐈‍⬛ Cat mom ×2', '⏰ Alarm enthusiast', '🥬 Anti-spinach', '📚 IIM Ranchi', '🛵 EV nerd'];
 
 export const pets = [
   {
+    id: 'mrB',
     name: 'Mr B',
     emoji: '🐱',
     heart: '❤️',
@@ -117,6 +127,7 @@ export const pets = [
     ],
   },
   {
+    id: 'missP',
     name: 'Miss P (tiny rescue)',
     emoji: '🐈‍⬛',
     heart: '🖤',

@@ -28,7 +28,7 @@ export default function Hero() {
           </h1>
 
           <motion.p className="hero-sub" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.5 }}>
-            I'm Aditi. I took Bounce's rider Shop from zero to <strong>₹1.4L GMV in 7 weeks</strong>, rebuilt how repairs get checked, and I build AI agents for fun.
+            I'm Aditi. I took Bounce's rider Shop from zero to <strong>500+ paid orders in 7 weeks</strong>, rebuilt how repairs get checked, and I build AI agents for fun.
           </motion.p>
 
           <motion.div className="hero-ctas" initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.6 }}>
@@ -46,7 +46,7 @@ export default function Hero() {
         >
           <div className="star-badge">
             <Star className="star spin-slow" fill="var(--yellow)" />
-            <span>Open to<br />work</span>
+            <span>Always<br />building</span>
           </div>
 
           {stickers.map((s, i) => (

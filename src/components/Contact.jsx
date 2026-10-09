@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { AnimatePresence, motion } from 'motion/react';
-import { Copy, Linkedin, FileText, Github } from 'lucide-react';
+import { Copy, Linkedin, FileText, Github, Mail } from 'lucide-react';
 import { contact } from '../data/site.js';
 
 export default function Contact() {
@@ -32,7 +32,8 @@ export default function Contact() {
         </AnimatePresence>
 
         <div className="contact-row">
-          <button className="btn primary" onClick={copy}><Copy size={18} /> Copy email</button>
+          <a className="btn primary" href={contact.resume}><Mail size={18} /> Get my resume</a>
+          <button className="btn" onClick={copy}><Copy size={18} /> Copy email</button>
           <a className="btn" href={contact.linkedin} target="_blank" rel="noopener noreferrer"><Linkedin size={18} /> LinkedIn</a>
           <a className="btn" href={contact.github} target="_blank" rel="noopener noreferrer"><Github size={18} /> GitHub</a>
           <a className="btn" href="/learnings"><FileText size={18} /> 1-page summary</a>

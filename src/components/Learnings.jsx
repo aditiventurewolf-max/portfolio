@@ -1,4 +1,4 @@
-import { intro, groups } from '../data/learnings.js';
+import { intro, groups, resultOf } from '../data/learnings.js';
 
 export default function Learnings() {
   return (
@@ -24,7 +24,7 @@ export default function Learnings() {
               <article key={item.title} className="lp-card">
                 <h3>{item.title}</h3>
                 <p className="lp-did">{item.did}</p>
-                <p className="lp-result">{item.result}</p>
+                <p className="lp-result">{resultOf(item)}</p>
                 <p className="lp-learned"><span>Learned</span>{item.learned}</p>
               </article>
             ))}

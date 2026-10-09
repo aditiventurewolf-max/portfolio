@@ -351,6 +351,7 @@ button { font: inherit; color: inherit; background: none; border: 0; cursor: poi
 
 /* ---------- modal */
 .modal { position: fixed; inset: 0; z-index: 100; display: grid; place-items: center; padding: 24px; }
+.writing-grid .wcard { background-image: none; }
 .modal-backdrop { position: absolute; inset: 0; background-color: var(--yellow); background-image: var(--halftone); background-size: 20px 20px; }
 .modal-box {
   position: relative;
@@ -443,13 +444,13 @@ button { font: inherit; color: inherit; background: none; border: 0; cursor: poi
   .nav-burger { display: inline-flex; }
   .hero-inner { grid-template-columns: 1fr; padding-top: 40px; padding-bottom: 72px; }
   .board { aspect-ratio: 1 / 1; margin-right: 8px; }
-  .star-badge { width: 104px; height: 104px; right: -6px; top: -28px; }
+  .star-badge { width: 96px; height: 96px; right: 14px; top: -30px; }
   .star-badge span { font-size: 11px; }
   .hero-ctas .btn { width: 100%; }
   .section { padding: 80px 0; }
   .proof-grid, .agents-grid, .writing-grid, .about-grid { grid-template-columns: 1fr; }
   .about-grid { gap: 56px; }
-  .polaroid { margin: 0 auto; max-width: 320px; }
+  .polaroid { margin: 0 auto; max-width: min(280px, calc(100vw - 72px)); }
   .stamp { width: 116px; height: 116px; right: -14px; top: -30px; font-size: 12px; }
   .contact-row .btn { width: 100%; }
   .modal-box { padding: 28px 20px 32px; }
@@ -475,3 +476,74 @@ button { font: inherit; color: inherit; background: none; border: 0; cursor: poi
 .cat-pet { display: flex; align-items: flex-end; gap: 18px; }
 .cat-btn.small { width: 88px; height: 88px; font-size: 44px; background: var(--yellow); }
 .cat-name { display: block; font-size: 12px; letter-spacing: .14em; text-transform: uppercase; margin-bottom: 4px; }
+
+/* ---------- timeline */
+.timeline { border-bottom: 8px solid var(--ink); padding: 48px 0 56px; }
+.timeline-title { color: var(--yellow); margin-bottom: 28px; }
+.timeline-row {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 20px;
+  position: relative;
+}
+.timeline-row::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  border-top: 4px dashed var(--white);
+  z-index: 0;
+}
+.tl-card {
+  position: relative;
+  z-index: 1;
+  color: var(--ink);
+  border: var(--b);
+  box-shadow: 8px 8px 0 0 var(--white);
+  padding: 14px 16px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.tl-when {
+  align-self: flex-start;
+  background: var(--ink);
+  color: var(--yellow);
+  font-size: 12px;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  padding: 2px 8px;
+  margin-bottom: 6px;
+}
+.tl-card b { font-weight: 900; font-size: 22px; line-height: 1; letter-spacing: -.02em; text-transform: uppercase; }
+.tl-role { font-size: 15px; }
+.tl-card small { font-size: 13px; font-weight: 500; }
+
+@media (max-width: 1024px) {
+  .timeline-row { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .timeline-row::before { display: none; }
+}
+@media (max-width: 600px) {
+  .timeline-row { grid-template-columns: 1fr; gap: 16px; }
+  .tl-card { box-shadow: 6px 6px 0 0 var(--white); }
+}
+
+/* ---------- resume buttons */
+.nav-resume { background: var(--yellow); min-height: 48px; margin-right: 12px; }
+.nav-actions { display: flex; align-items: center; }
+@media (max-width: 860px) { .nav-actions .btn { display: none; } }
+
+/* ---------- purr toggle */
+.cat-wrap { margin-top: 40px; }
+.cat-wrap .cat-zone { margin-top: 20px; }
+.sound-btn { min-height: 44px; padding: 0 14px; font-size: 13px; background: var(--white); }
+.sound-btn[aria-pressed="true"] { background: var(--violet); }
+
+/* phone: stack each cat above its speech bubble so long lines never run off-screen */
+@media (max-width: 520px) {
+  .cat-pet { flex-direction: column; align-items: flex-start; gap: 12px; }
+  .cat-bubble { margin-bottom: 0; max-width: 100%; }
+  .cat-bubble::after { left: 24px; bottom: auto; top: -20px; border-right-color: transparent; border-bottom-color: var(--ink); border-right-width: 8px; border-bottom-width: 12px; }
+}

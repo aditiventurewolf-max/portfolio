@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { AnimatePresence, motion } from 'motion/react';
-import { Menu, X, ArrowUpRight } from 'lucide-react';
-import { marquee } from '../data/site.js';
+import { Menu, X, ArrowUpRight, Mail } from 'lucide-react';
+import { marquee, contact } from '../data/site.js';
 
 const LINKS = [
   { href: '#proof', label: 'Proof' },
@@ -29,7 +29,10 @@ export default function Nav() {
             {LINKS.map(l => <li key={l.href}><a href={l.href}>{l.label}</a></li>)}
             <li><a href="/learnings">1-Pager</a></li>
           </ul>
-          <a href="#contact" className="btn nav-cta">Hire me <ArrowUpRight size={18} /></a>
+          <div className="nav-actions">
+            <a href={contact.resume} className="btn nav-resume">Get resume <Mail size={18} /></a>
+            <a href="#contact" className="btn nav-cta">Hire me <ArrowUpRight size={18} /></a>
+          </div>
           <button
             className="nav-burger"
             aria-label={open ? 'Close menu' : 'Open menu'}
@@ -50,7 +53,7 @@ export default function Nav() {
               transition={{ duration: 0.2, ease: 'easeOut' }}
               style={{ overflow: 'hidden' }}
             >
-              {[...LINKS, { href: '/learnings', label: '1-Pager' }, { href: '#contact', label: 'Hire me' }].map(l => (
+              {[...LINKS, { href: '/learnings', label: '1-Pager' }, { href: contact.resume, label: "Get resume" }, { href: '#contact', label: 'Hire me' }].map(l => (
                 <a key={l.href} href={l.href} className="btn" onClick={() => setOpen(false)}>{l.label}</a>
               ))}
             </motion.div>

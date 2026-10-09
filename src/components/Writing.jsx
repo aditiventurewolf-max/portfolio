@@ -10,7 +10,7 @@ export default function Writing({ onOpen }) {
   const shown = writing.filter(w => active === 'all' || w.category === active);
 
   return (
-    <section id="writing" className="section bg-violet tex-halftone">
+    <section id="writing" className="section bg-cream tex-halftone">
       <span className="section-num" aria-hidden="true">03</span>
       <div className="wrap">
         <div className="section-head">
