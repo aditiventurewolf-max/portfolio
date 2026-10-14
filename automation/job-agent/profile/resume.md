@@ -144,8 +144,12 @@ All public. Use freely, but do not present it as CV experience.
 - **Pet care or alternative education, by preference.** Her words: she would like
   to work in one of those "so that I feel like it's something I want to do rather
   than an industry I don't really care about." Everything else is second choice.
-- **Hybrid, roughly 3 days in office.** Fully remote does not suit her. Do not
-  treat remote as the prize.
+- ~~**Hybrid, roughly 3 days in office.** Fully remote does not suit her. Do not
+  treat remote as the prize.~~ **Changed, October 2026.** Her words: work from
+  home is "an extremely feasible intention" now. Fully remote is wanted,
+  ideally paid in dollars, and she is okay with odd hours for that. Bangalore
+  hybrid is still fine. Marketing, growth and data-plus-strategy roles are in
+  scope too, as long as they are not narrow specialist jobs.
 - Bangalore.
 - 12 LPA minimum.
 - Somewhere writing in public counts as part of the job.
@@ -191,7 +195,9 @@ vet system has gaps, because that is the thing they already know.
 
 - Work-life balance is not negotiable. No 6-day weeks, no night shifts, no
   timezone overlap that means routinely working past ~9pm IST. She left that
-  lane deliberately.
+  lane deliberately. **Relaxed October 2026 for remote roles paid in dollars:**
+  she said she is okay with odd working hours for those. Still check with her
+  before pitching anything that is permanently overnight.
 - No pure sales quota roles. No unpaid or equity-only.
 - Roughly five months of full-time experience. Roles asking for 3+ years are
   reaches, and drafts should not pretend otherwise.
