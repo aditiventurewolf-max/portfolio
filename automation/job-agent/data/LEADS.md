@@ -160,3 +160,29 @@ Cityfurnish, RevenueCat, Retell AI, Clinikally, plus Vedantu and Weekday from
 a May 2026 round — Vedantu's entry above is now corrected). Worth a proper
 consolidation pass so this file is a complete dedup source, not just this
 cycle's.
+
+## Remote role leads surfaced to her in chat, Oct 2026 (she applies herself, none emailed)
+
+Criteria she set: remote from India, ideally paid in dollars, odd hours fine for
+that, 0-4 years, ops / strategy / growth / marketing / data mix, nothing narrowly
+specialist. These are dedupe entries so later sweeps do not report them again.
+Status of each application is hers to say.
+
+- Round 1: HUD (TPM open; Customer Operations Lead rejected her), Firework (Chief
+  of Staff), micro1, Terac (expired 14 Oct), Turing, Huzzle, Tether (Marketing
+  Project Manager, 3+ yrs). Top-five set: WarpBuild, Drivetrain, Unetra, GitLab,
+  BrowserStack.
+- Round 2: xAI (Team Lead, Human Data Ops), Turnitin (AI Specialist RevOps),
+  Peakflo (Delivery Manager), Relari, Gloglo, Avora, Freebuff, Openbenchmarks,
+  TD SYNNEX.
+- Round 3, 14 Oct: Coresight Research (AIC Operations Lead, India-based, INR),
+  B12 (Marketing Manager, long shot, asks 3 yrs), Tether (Junior Project Manager,
+  Keet P2P, posted 9 Oct), Lucia Protocol (Product Marketing Associate, HN post
+  of 7 Sep, apply by email to the address in the post), Tech Job Finder (Growth
+  Hacker, $50/hr, HN post of 2 Oct, long shot), QuantumLoopAI (Junior BA / Project
+  Coordinator, India remote, UK hours, backup).
+- Checked and ruled out: Harvey, Databricks, Grüns, OKX, MGID, Twilio (years),
+  Ohm (on-site), Welo (gone), Fueled (now US-only), Covera Health (needs US
+  Medicare background), SigNoz (closed), Clera (on-site), Sieve (cold-calling),
+  Novakid (senior), Railway (senior), Comograph (equity only), Search Atlas
+  (3+ yrs technical PM), Fresh Prints (night shift, about $900-1,200 a month).
