@@ -186,3 +186,12 @@ Status of each application is hers to say.
   Medicare background), SigNoz (closed), Clera (on-site), Sieve (cold-calling),
   Novakid (senior), Railway (senior), Comograph (equity only), Search Atlas
   (3+ yrs technical PM), Fresh Prints (night shift, about $900-1,200 a month).
+- Round 4, 19 Oct (Monday sweep, nothing emailed, Gmail still on the work account):
+  Techsource / Tiny (Operations Manager, Data & Automation, worldwide remote,
+  asks 2-5+ yrs, stretch, unverified on employer board, posted 18 Oct), Mighty
+  Networks (Community Manager, $40-60K USD, live on Greenhouse, country
+  eligibility not stated). Looked at and skipped: PriceLabs Marketing Analyst
+  Lifecycle (India-only, 3-5 yrs), WebEngage Growth Associate (INR, CS flavoured),
+  AdTech Holding Regional Marketing Manager (needs China media network), Jivpad
+  Growth Marketing Manager (performance specialist), Bridges for Enterprise
+  (unpaid volunteer).
