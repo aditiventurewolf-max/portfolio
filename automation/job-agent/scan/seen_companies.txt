@@ -1,0 +1,112 @@
+# Companies already contacted, surfaced to Aditi, or ruled out. One per line.
+# remote_leads.py skips these. Add to it whenever a sweep surfaces a company.
+AdTech Holding
+aivideo.com
+Angoor.ai
+Avacasa
+Avora
+B12
+Barkbutler
+Baseten
+Bhanzu
+Blue Tokai
+boAt
+BrowserStack
+Captain Zack
+CarbonStrong
+Cityfurnish
+Clera
+Clinikally
+CodeRound AI
+Comograph
+Coresight Research
+Covera Health
+Cuemath
+Databricks
+Datapret
+Decawork
+Dogsee Chew
+Dot & Key
+Drivetrain
+Drools
+Emversity
+Firework
+Freebuff
+Fresh Prints
+Fueled
+GitLab
+Gloglo
+Gnani.ai
+Gobanyan
+Goofy Tails
+Grüns
+Harvey
+Heads Up For Tails
+HUD
+Huzzle
+Infinity Learn
+Jivpad
+JustDogs
+Koshex
+Lucia Protocol
+Mamaearth
+Maxim AI
+Medulance
+Mercor
+Mesa School
+MGID
+micro1
+Mighty Networks
+Moe Puppy
+Muttley Crew
+Mynaksh
+Novakid
+Ohm
+OKX
+Openbenchmarks
+Otavo.ai
+PawSpace
+Peakflo
+Personal.ai
+PGAGI
+Plix
+PriceLabs
+Priyagold
+QuantumLoopAI
+Railway
+Raven
+Relari
+Retell AI
+RevenueCat
+Ripik.AI
+Scoot
+Search Atlas
+Sieve
+SigNoz
+Sleepy Owl
+SuperBryn
+Supertails
+TD SYNNEX
+Tech Job Finder
+Techsource
+Terac
+Tether
+The Whole Truth
+Tiny
+Turing
+Turnitin
+Twilio
+Unetra
+Vedantu
+Vetic
+WarpBuild
+Waybill
+WebEngage
+Weekday
+Welo
+Wiggles
+xAI
+xPay
+Zenskar
+Liminal
+Berry Virtual
