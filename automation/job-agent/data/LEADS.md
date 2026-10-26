@@ -195,3 +195,12 @@ Status of each application is hers to say.
   AdTech Holding Regional Marketing Manager (needs China media network), Jivpad
   Growth Marketing Manager (performance specialist), Bridges for Enterprise
   (unpaid volunteer).
+- Round 5, 26 Oct (Monday sweep, nothing emailed, Gmail still on the work account):
+  Liminal (Advisory Associate, India remote, live on their Rippling board, 23 Oct),
+  Berry Virtual (AI Implementation Manager, USD, stretch), SafetyWing (Platform
+  Business Partner, UTC+0 to +6, partnership role built on insurance, stretch),
+  BetterFutureLabs (growth marketing, $70-100K USD). Skipped: Elevation Capital
+  portfolio role (3-7 yrs), Discovered Founder's Associate ($12-20K, finance admin),
+  Kayzen (adtech buying), Multiplier (part-time admin). Job-search tracker sheet was
+  created by mistake in her Bounce work Drive on 23 Oct, awaiting her call to trash
+  it. The CSV copy is data/job-search-tracker.csv.
