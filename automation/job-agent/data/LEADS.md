@@ -204,3 +204,11 @@ Status of each application is hers to say.
   Kayzen (adtech buying), Multiplier (part-time admin). Job-search tracker sheet was
   created by mistake in her Bounce work Drive on 23 Oct, awaiting her call to trash
   it. The CSV copy is data/job-search-tracker.csv.
+- Round 6, 2 Nov (Monday sweep, nothing emailed, Gmail still on the work account):
+  Contour Education (Customer Operations Automation Lead, India remote, edtech, years
+  not required, posted 1 Nov, best fit this round), Intelogos (AI GTM Lead,
+  contractor $2.5-3.5K a month, proof-of-work application), Springworks
+  (Partnerships Manager, backup). Skipped: Contour Business Operations Associate (3-5
+  yrs), Parallel design studio (specialist), Zeal Group (5-8 yrs), Binance and Glint
+  (crypto growth specialists), Wing Assistant (US hours, 2+ yrs customer success),
+  Flywire (partnerships, location unclear).
