@@ -1,0 +1,12 @@
+{
+  "name": "side-quests",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Side Quests website: static site with a tiny Node server for hosts like Railway.",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
