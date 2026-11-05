@@ -28,4 +28,8 @@ python3 -m http.server 8080
 ```
 
 ## Deploy
-Static deploy on Vercel with no build command. `vercel.json` sets clean URLs and security headers.
+It is a plain static site, so it runs anywhere.
+
+**Vercel:** import the repo, set Root Directory to `side-quests`, Framework Preset "Other", no build command. `vercel.json` sets clean URLs and security headers.
+
+**Railway:** New Project, Deploy from GitHub repo, then in the service settings set Root Directory to `side-quests` and generate a public domain. `railway.json` and `server.js` (a tiny zero-dependency Node server with clean URLs, a 404 page, gzip and the same security headers) are picked up automatically. The server also writes an absolute `og:image` URL from the request host so link previews work on WhatsApp.
