@@ -212,3 +212,9 @@ Status of each application is hers to say.
   yrs), Parallel design studio (specialist), Zeal Group (5-8 yrs), Binance and Glint
   (crypto growth specialists), Wing Assistant (US hours, 2+ yrs customer success),
   Flywire (partnerships, location unclear).
+- Round 7, 9 Nov (Monday sweep, nothing emailed, Gmail still on the work account):
+  Adalat AI (YC F26, Product Analyst Data & Analytics, remote India, Rs 15-25L). Same
+  company's Associate CTO's Office role is an engineer-operator job that wants a
+  software engineer, so skipped. Also skipped: Peek Vision (time zone window UTC-1 to
+  +5 excludes India), Kintsugi (low pay), Scalanova (Rs 4-5L), plus the usual
+  senior and specialist roles.
