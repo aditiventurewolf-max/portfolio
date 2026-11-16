@@ -218,3 +218,10 @@ Status of each application is hers to say.
   software engineer, so skipped. Also skipped: Peek Vision (time zone window UTC-1 to
   +5 excludes India), Kintsugi (low pay), Scalanova (Rs 4-5L), plus the usual
   senior and specialist roles.
+- Round 8, 16 Nov (Monday sweep, nothing emailed, Gmail still on the work account):
+  Nothing worth applying to this week. Read and skipped: Ume Intelligence (Founders'
+  Office Business Operations Manager, asks 3-6 yrs, overlap 8:30 pm to 12:30 am IST,
+  back-office heavy), Together Light (Marketing Data Analyst & Project Coordinator is
+  an assistant-style role, the Marketing Generalist is a senior paid-ads job),
+  Meliore Foundation (CEO Office Associate is travel and admin), Boosta (payments
+  specialist), Omnistrate (3+ yrs marketing ops), Thynk (RevOps).
