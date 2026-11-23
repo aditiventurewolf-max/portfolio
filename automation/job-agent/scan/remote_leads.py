@@ -14,6 +14,10 @@ The filter keeps roles that are remote, open to India (or worldwide), at most
 listed in seen_companies.txt. Output is a short table for a human to read. It
 sends nothing and writes nothing outside the files you name.
 
+NOTE: the yc step makes about 1,500 requests to ycombinator.com. After a few runs in
+a short time the site starts refusing most of them (23 Nov: 1,248 of about 1,500 failed).
+Run it once a week at most. If the summary line shows many failures, wait a day.
+
 Always confirm a listing is live on the employer's own board before telling
 Aditi about it. Himalayas pages return 403 to curl, so check the company's ATS
 (Greenhouse, Ashby, Lever, Recruitee) instead.

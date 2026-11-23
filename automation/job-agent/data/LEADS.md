@@ -225,3 +225,10 @@ Status of each application is hers to say.
   an assistant-style role, the Marketing Generalist is a senior paid-ads job),
   Meliore Foundation (CEO Office Associate is travel and admin), Boosta (payments
   specialist), Omnistrate (3+ yrs marketing ops), Thynk (RevOps).
+- Round 9, 23 Nov (Monday sweep, nothing emailed, Gmail still on the work account):
+  uPhone eSIM (Marketing Executive, $27.6-34.8K USD, remote anywhere, best this week),
+  Sprinto (Program Manager Customer Experience, stretch at 2-5 yrs). The YC half of the
+  sweep was rate-limited by ycombinator.com (770 of about 1,500 failed, then 1,248 on a
+  retry), so YC coverage was partial this week. Skipped: Syd Life AI (asks a hard-science
+  degree), Global Development Incubator (3-6 yrs), Skio and Welocalize (customer success
+  and junior coordinator), RemoteJobsOne (aggregator reposts with US pay ranges).
